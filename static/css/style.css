@@ -337,3 +337,48 @@ button.submit-button {
     font-size: 14px;
     margin-bottom: -15px;
 }
+
+/* input fields */
+.input-field.col label {
+    left: .75rem;
+    color: white;
+}
+input#password {
+    color: #fafafa;
+}
+
+input#username {
+    color: #fafafa;
+}
+
+input#profile_about {
+    color: #fafafa;
+}
+
+input#profile_name {
+    color: #fafafa;
+}
+
+input#profile_age {
+    color: #fafafa;
+}
+
+input#profile_city {
+    color: #fafafa;
+}
+
+input#profile_likes {
+    color: #fafafa;
+}
+
+input#profile_dislikes {
+    color: #fafafa;
+}
+
+input#facebook {
+    color: #fafafa;
+}
+
+input#instagram {
+    color: #fafafa;
+}
