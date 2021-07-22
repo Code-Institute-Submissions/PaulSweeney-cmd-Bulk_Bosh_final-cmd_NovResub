@@ -121,3 +121,14 @@ p.registered-text.center-align {
     font-size: 22px;
     font-weight: 800;
 }
+
+/* ------------------------------------ About Page */
+button.submit-button {
+    color: #ffff00b8;
+    font-size: 30px;
+    padding-top: 4px;
+    background: rgba(255,255,255,.1);
+    border-radius: 10px;
+    box-shadow: 0 5px 5px rgba(0,0,0,.2);
+    padding: 13px;
+}
