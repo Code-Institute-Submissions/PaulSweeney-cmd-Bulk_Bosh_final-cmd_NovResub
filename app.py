@@ -212,7 +212,7 @@ def edit_meal(meal_id):
             "cooking_time": request.form.get("cooking_time"),
             "servings": request.form.get("servings")
         }
-        print(meal_ingredients)
+
         mongo.db.meals.update({"_id": ObjectId(meal_id)}, update)
         flash("Your meal has been updated, thanks for sharing!")
         return redirect(url_for("get_meals"))
@@ -228,6 +228,14 @@ def delete_meal(meal_id):
     mongo.db.meals.remove({"_id": ObjectId(meal_id)})
     flash("Meal deleted")
     return redirect(url_for("get_meals"))
+
+
+# ------------------------------------------------- logout
+@app.route("/logout")
+def logout():
+    flash("Goodbye")
+    session.pop("user")
+    return redirect(url_for("login"))
 
 
 
