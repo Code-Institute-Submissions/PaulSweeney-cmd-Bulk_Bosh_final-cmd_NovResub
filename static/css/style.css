@@ -23,3 +23,10 @@ body {
 .grey.darken-4 {
     background-color: #0e0e0e !important;
 }
+a.brand-logo.left {
+    color: #ffff00b8;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 41px;
+}
