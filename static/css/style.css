@@ -1,0 +1,19 @@
+body {
+    background: url(/static/images/cooking-two.jpg);
+    color: white;
+    font-family: 'Barlow', sans-serif;
+    font-size: 17px;
+    background-size: cover;
+    background-color: black;
+}
+
+.container {
+    width: auto;
+}
+.content-container {
+    background-color: #070707a8;
+
+    border-radius: 11px;
+    margin: 30px;
+    padding: 50px;
+}
