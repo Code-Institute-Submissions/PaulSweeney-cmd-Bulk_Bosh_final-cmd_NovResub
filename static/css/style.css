@@ -383,7 +383,7 @@ input#instagram {
     color: #fafafa;
 }
 
-/* social link icons */
+/* icons */
 i.far.fa-question-circle.prefix {
     color: #2c6adc;
 }
@@ -417,6 +417,10 @@ i.far.fa-user {
 }
 
 i.fas.fa-key {
+    color: #2c6adc;
+}
+
+i.fas.fa-camera-retro.prefix {
     color: #2c6adc;
 }
 
@@ -491,6 +495,11 @@ hr.profile-hr {
     margin-top: 0px;
 }
 
+i.far.fa-heart {
+    color: #2c6adc;
+    font-size: 43px;
+}
+
 /* social links */
 i.fab.fa-instagram {
     color: #fafafa;
@@ -502,16 +511,6 @@ i.fab.fa-facebook-square.center {
     margin-left: 70px;
     color: #fafafa;
     font-size: 29px;
-}
-
-i.far.fa-heart {
-    color: #2c6adc;
-    font-size: 43px;
-}
-
-i.far.fa-thumbs-down {
-    color: #2c6adc;
-    font-size: 43px;
 }
 
 /* ------------------------------------ Add recipes Page */
