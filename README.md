@@ -108,3 +108,50 @@ Future site goals:
 - Creator profile App route issue discussed and rectified with Sean from Tutor Support at [Code Institute](https://codeinstitute.net//)
 - I would like to thank my Mentor Nishant Kumar for his valuable insight in to the improvements needed for UX 
 - Preloaded recipes were sourced from [BodyBuilding.com](https://www.bodybuilding.com)
+
+#  Bugs & Fixes
+#  Imagery and Presentation:
+
+## Bug/Issue: 
+### Icons & text wouldn't center on full screen view
+
+![Am I Responsive?](static/images/icon_position.png)
+## Resolved/Remaining?
+### - Resolved: div class="col m4 s12" to re-position them.
+#
+## Bug/Issue: 
+### Meals template in the recipes.html file not rendering after new meal is added in the add_recipe template.
+
+![Am I Responsive?](static/images/recipe-card.png)
+## Resolved/Remaining?
+### - Resolved: Removed for loop in add_meal function - code commented out.
+#
+
+## Bug/Issue: 
+### Recipe cards not positioning horizontally next to each other, tried altering grid sizes and applying container outside the for loop in the recipes.html file.
+
+![Am I Responsive?](static/images/recipe-div.png)
+## Resolved/Remaining?
+### - Resolved: Moved the row div above the for loop and below the endfor in the recipes.html file to allow cards to sit horizontally.
+#
+### Bug/Issue: New users profile information isn't being displayed when the profile page renders
+![Am I Responsive?](static/images/profile-info.png)
+
+## Resolved/Remaining?
+### - Resolved: The original idea was to extract the new profile information from a seperate collection to the user collection, which only had the username and password. I combined the profile info fields in with the register fields in the register function. this allowed an updated collection and for me to get info using jinja templating.
+#
+# Data:
+
+## Bug/Issue
+### - Data sent to MongoDB from the add recipe form not being displayed.
+
+## Resolved/Remaining?
+
+### - Resolved: Re-structured the python app route for adding a meal, had to declare the ingredients to a new variable and append to another variable with the value of an empty list, this allowed the cloned html ingredients form to pass the data back to mongo db and then render to the recipe card on the recipe page.
+#
+
+## Bug/Issue
+### -  Meal creator profile not rendering when user clicks on their username
+## Resolved/Remaining?
+### - Resolved: Syntaxt incoerrect in the app route, tried targeting user Id instead of username.
+#
