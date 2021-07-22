@@ -153,10 +153,21 @@ p {
 
 /* ------------------------------------ Recipe Card Page */
 .card .card-image {
-    position: relative;
-   
+    position: relative; 
 }
 
 .card.meal-card:hover{
     border: 2px solid black;  
- }
+}
+
+h1.menu-header {
+    font-size: 55px;
+}
+
+hr.menu-header-hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #414348;
+    margin-top: 3px;
+}
