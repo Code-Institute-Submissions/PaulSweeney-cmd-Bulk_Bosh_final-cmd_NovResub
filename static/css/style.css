@@ -490,3 +490,26 @@ hr.profile-hr {
     border-top: 1px solid #2c6adc;
     margin-top: 0px;
 }
+
+/* social links */
+i.fab.fa-instagram {
+    color: #fafafa;
+    margin-left: 5px;
+    font-size: 29px;
+}
+
+i.fab.fa-facebook-square.center {
+    margin-left: 70px;
+    color: #fafafa;
+    font-size: 29px;
+}
+
+i.far.fa-heart {
+    color: #2c6adc;
+    font-size: 43px;
+}
+
+i.far.fa-thumbs-down {
+    color: #2c6adc;
+    font-size: 43px;
+}
