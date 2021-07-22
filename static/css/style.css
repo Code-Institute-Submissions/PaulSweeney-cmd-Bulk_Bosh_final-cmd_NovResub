@@ -457,3 +457,14 @@ p.profile-name {
 p.profile-age {
     margin-bottom: 3px;
 }
+
+p.about {
+    margin-bottom: -15px;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+p.email {
+    font-weight: 600;
+    font-size: 35px;
+}
