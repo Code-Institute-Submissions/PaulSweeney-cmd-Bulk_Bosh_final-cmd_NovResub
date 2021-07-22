@@ -447,3 +447,13 @@ img.profile-image.rounded-circle {
     margin-top: 105px;
     justify-content: center;
 }
+
+/* user info */
+p.profile-name {
+    padding-bottom: -9px;
+    margin-bottom: -34px;
+}
+
+p.profile-age {
+    margin-bottom: 3px;
+}
