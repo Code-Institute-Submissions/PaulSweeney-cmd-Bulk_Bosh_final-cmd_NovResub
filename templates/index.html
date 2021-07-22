@@ -17,3 +17,46 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" type="text/css">
     <title>Bulk Bosh</title>
 </head>
+<body>
+    <header>
+        <!----------------------------------------------------------------------------------main navbar -->
+        <div class="container-fluid"></div>
+        <nav>
+            <div class="nav-wrapper #0e0e0e grey darken-4">
+                <a href="" class="brand-logo left">Bulk_Bosh</a>
+                <a href="" data-target="mobile-demo" class="sidenav-trigger"><i class="fas fa-bars"></i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="{{ url_for('base') }}">Home</a></li>
+                    {% if session.user %}
+                        <li><a href="{{ url_for('profile', username=session['user']) }}">Profile</a></li>
+                        <li><a href="{{ url_for('add_meal')}}">Add Meal</a></li>
+                        <li><a href="{{ url_for('get_meals') }}">Meals</a></li>
+                        <li><a href="{{ url_for('logout') }}">Logout</a></li>
+                        {% else %}
+                            <li><a href="{{ url_for('about') }}">Who We Are</a></li>
+                            <li><a href="{{ url_for('get_meals') }}">Meals</a></li>
+                            <li><a href="{{ url_for('login') }}">Login</a></li>
+                            <li><a href="{{ url_for('register_user') }}">Register</a></li>
+                    {% endif %}
+                </ul>
+            </div>
+        </nav>
+    </div>
+        <!----------------------------------------------------------------------------------sidenav -->
+    <ul class="sidenav #0e0e0e grey darken-4" id="mobile-demo">
+        <div>
+            <a href="{{ url_for('base') }}"><img src="static/images/logo.png" class="logo-image"></a>
+        </div>
+        {% if session.user %}
+            <li><a href="{{ url_for('profile', username=session['user']) }}">Profile</a></li>
+            <li><a href="{{ url_for('add_meal')}}">Add Meal</a></li>
+            <li><a href="{{ url_for('get_meals') }}">Your Meals</a></li>
+            <li><a href="{{ url_for('logout') }}">Logout</a></li>
+        {% else %}
+            <li><a href="{{ url_for('about') }}">Who We Are</a></li>
+            <li><a href="{{ url_for('get_meals') }}">Meals</a></li>
+            <li><a href="{{ url_for('login') }}">Login</a></li>
+            <li><a href="{{ url_for('register_user') }}">Register</a></li>
+        {% endif %}
+    </ul>
+    </header>
