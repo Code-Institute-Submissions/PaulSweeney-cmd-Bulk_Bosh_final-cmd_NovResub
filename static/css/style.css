@@ -171,3 +171,36 @@ hr.menu-header-hr {
     border-top: 1px solid #414348;
     margin-top: 3px;
 }
+
+/* recipe cards */
+.row.meal-row {
+    margin-top: 100px;
+}
+
+.card.meal-card {
+    background-color: transparent;
+}
+
+span.card-meal-title {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.meal-overview {
+    font-family: 'Barlow', sans-serif;
+    font-size: 24px;
+}
+
+hr.meal-title-divider {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #414348;
+}
+
+/* user hyperlink styling */
+a.created-by {
+    font-size: 26px;
+    font-weight: 600;
+    color: #2c6adc;
+}
