@@ -4,7 +4,7 @@
 #
 
 
-[![Am I Responsive?](/static/images/logo.png)](https://paulsweeney-cmd.github.io/Bulk_Bosh_2.0-cmd/)
+[![Am I Responsive?](/static/images/logo.png)](https://bulk-bosh-final-cmd.herokuapp.com/home)
 # UX
 
 ![Am I Responsive?](/static/images/am-i-responsive.png)
@@ -42,7 +42,22 @@ Future site goals:
 - Incorporate sponsorship from supplement companies to promote their products
 - Link up the app to a fitness app
 - Share their recipes on social media and incorp[orate reaction buttons to each recipe
-#
+
+------------------------------------------------------------------------------------------------
+## WIREFRAMES:
+### Register & About pages
+![Am I Responsive?](/static/images/iPad-one.jpg)
+### Login, Profile, Add Meal, Meals & Home
+![Am I Responsive?](/static/images/iPad-two.jpg)
+### About, Profile, Side Nav & Meals
+![Am I Responsive?](/static/images/iPhone-one.jpg)
+### Login, Home & Register
+![Am I Responsive?](/static/images/desktop-view.jpg)
+
+------------------------------------------------------------------------------------------------
+## Desk-top View
+![Am I Responsive?](/static/images/iPad-one.jpg)
+
 ## STRATEGY:
 - The goal is for the site is to allow users to self promote and connect through their love of healthy food for a healthy lifestyle. Simple and straight forward social networking for a person that likes to cut the hassle and have an app with clear navigation, good food and new connections.
 #
@@ -155,3 +170,121 @@ Future site goals:
 ## Resolved/Remaining?
 ### - Resolved: Syntaxt incoerrect in the app route, tried targeting user Id instead of username.
 #
+
+# Deployment:
+
+### -  To view the live version go to [My Page](https://github.com/PaulSweeney-cmd/Bulk_Bosh_final-cmd)
+### -  Click on the Bulk_Bosh logo at the top of the page
+![Am I Responsive?](static/images/BULK.png)
+
+## Run Local:
+
+- Log in to GitHub
+- Go to [My Page](https://github.com/PaulSweeney-cmd/Bulk_Bosh_final-cmd)
+- Find my Repositories
+- Select CODE button
+
+![Am I Responsive?](static/images/select-code.png)
+
+- Copy the URL and open your chosen IDE
+- Open up a command terminal and paste in the URL you coped
+- Make sure you enter git clone before you paste the URL and press enter
+------------------------------------------------------------------------------------------------
+## MongoDB
+
+Log in to your MongoDB account and create a new cluster and a new Database
+then go back to GitHub, create an env.py file in your workspace
+Store your variables as follows:
+ 
+ - os.environ.setdefault("IP", "0.0.0.0")
+ - os.environ.setdefault("PORT", "5000")
+ - os.environ.setdefault("SECRET_KEY", "some-value")
+ - os.environ.setdefault("MONGO_URI", "some-value")
+ - os.environ.setdefault("MONGO_DBNAME", "some-value")
+
+### You can customise your password or use RandomKeygen.com
+------------------------------------------------------------------------------------------------
+
+- Go back to MongoDB and select collections from the tabs above your cluster
+- Click CONNECT underneath your cluster name
+- Select "Connect your application" making sure you choose Python as your driver and 3.6 or later for the version
+- Copy the connection string below that
+- Make sure you update the Password and Database name in that string with your own, DO NOT USE THE CREDENTIALS YOU LOG IN WITH!
+- If you're unsure of what your passowrd is then go to Database Access on the left
+- Click the edit button on the right to get your password
+------------------------------------------------------------------------------------------------
+- Go back to your workspace and create a .gitignore file by typing touch .gitignore
+- The reason for this is so GitHub doesnt share sensitive data, this file should include the following:
+- env.py
+- __pycache__/
+
+- Type git status to make sure the env.py file isn't being tracked, you can see the results in the terminal. If it is then go back in to your file and make sure it's saved properly.
+- If everything checks out you can type pythone app.py to run your app.
+------------------------------------------------------------------------------------------------
+## Creating and Deploying an app with Heroku
+
+### In GitHub:
+
+- Create a requirements.txt file type the following into your terminal: pip3 freeze --local > requirements.txt
+- Create a Procfile by typing the following: echo web: python3 app.py > Procfile
+- Add and commit both files
+
+### In Heroku:
+
+- Create an account and create a new app by clicking NEW in the top right hand corcer of the screen
+- Choose the best region closest to you
+- Click Create App
+#
+- Click on the deploy tab and then navigate to the GitHub button and select
+- Scroll down to Reveal Config Vars and select
+- Enter the environment variables and their values you entered in to your env.py file in GitHub
+- Once you have completed those fields click on Automatic Deploys and select the Deploy Branch button, this will then connect to GitHub and a code window will open up below and start to build your app
+- Once it has finished select View and you'll be abkle to see any codce you wrote to test your repository.
+
+
+HAPPY CODING!
+
+# HTML CHECKER
+------------------------------------------------------------------------------------------------
+### - About Page
+![Am I Responsive?](static/images/about.png)
+### - Add Recipe
+![Am I Responsive?](static/images/add-recipe.png)
+### - Creator-profile
+![Am I Responsive?](static/images/creator-profil.png)
+### Edit Recipe
+![Am I Responsive?](static/images/edit-recipe.png)
+### - Home Page
+![Am I Responsive?](static/images/home.png)
+### - Index.html
+![Am I Responsive?](static/images/index.png)
+### - Login
+![Am I Responsive?](static/images/login.png)
+### Meal Page
+![Am I Responsive?](static/images/meal-page.png)
+### - Profile
+![Am I Responsive?](static/images/profile.png)
+### - Recipes
+![Am I Responsive?](static/images/recipes.png)
+### - Register
+![Am I Responsive?](static/images/register.png)
+------------------------------------------------------------------------------------------------
+# CSS Validator
+![Am I Responsive?](static/images/css-validate.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
