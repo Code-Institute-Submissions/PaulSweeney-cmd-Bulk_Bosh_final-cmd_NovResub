@@ -468,3 +468,25 @@ p.email {
     font-weight: 600;
     font-size: 35px;
 }
+
+.profile-info {
+    color: #fafafa;
+    font-size: 25px;
+}
+
+.row.contact-info {
+    margin-top: 63px;
+}
+
+strong {
+    font-weight: 100;
+    font-size: 24px;
+}
+
+hr.profile-hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #2c6adc;
+    margin-top: 0px;
+}
