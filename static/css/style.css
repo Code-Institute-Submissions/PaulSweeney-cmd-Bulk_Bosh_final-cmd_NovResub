@@ -313,3 +313,27 @@ h3.register-header.center-align {
 h3.social-link-header {
     font-size: 34px;
 }
+
+/* register form */
+.card-panel {
+    padding: 24px;
+    margin: .5rem 0 1rem 0;
+    border-radius: 2px;
+    background-color: transparent;
+}
+
+button.submit-button {
+    color: #ffff00b8;
+    font-size: 30px;
+    padding-top: 4px;
+    background: rgba(255,255,255,.1);
+    border-radius: 10px;
+    box-shadow: 0 5px 5px rgba(0,0,0,.2);
+    padding: 13px;
+}
+
+.password-guide {
+    margin-left: 42px;
+    font-size: 14px;
+    margin-bottom: -15px;
+}
