@@ -212,7 +212,6 @@ a.btn-large.edit-button {
     font-size: 20px;
     font-family: 'barlow';
     border-radius: 7px;
-    box-shadow: rgba(0,0,0,.2);
     margin: 10px;
     background: transparent;
     border: 1px solid #2c6adc;
@@ -225,7 +224,6 @@ a.btn-large.delete-button {
     font-size: 20px;
     font-family: 'barlow';
     border-radius: 7px;
-    box-shadow: rgba(0,0,0,.2);
     margin: 10px;
     background: transparent;
     border: 1px solid #f43d20;
@@ -238,7 +236,6 @@ a.btn-large.view-button {
     font-size: 20px;
     font-family: 'barlow';
     border-radius: 7px;
-    box-shadow: rgba(0,0,0,.2);
     margin: 10px;
     background: transparent;
     border: 1px solid #ffff00b8;
@@ -282,13 +279,11 @@ hr {
 }
 
 i.far.fa-hourglass {
-    font-weight: 22px;
     font-size: 26px;
     margin-right: 6px;
 }
 
 i.fas.fa-utensils {
-    font-size: 26px;
     margin-right: 7px;
     margin-left: 5px;
 }
@@ -454,8 +449,8 @@ img.profile-image.rounded-circle {
 
 /* user info */
 p.profile-name {
-    padding-bottom: -9px;
-    margin-bottom: -34px;
+    padding-bottom: 0px;
+    
 }
 
 p.profile-age {

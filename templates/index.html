@@ -19,7 +19,7 @@
 </head>
 <body>
     <header>
-        <!----------------------------------------------------------------------------------main navbar -->
+        <!-- main navbar -->
         <div class="container-fluid">
         <nav>
             <div class="nav-wrapper #0e0e0e grey darken-4">
@@ -42,7 +42,7 @@
             </div>
         </nav>
     </div>
-        <!----------------------------------------------------------------------------------sidenav -->
+    <!-- side-->
     <ul class="sidenav #0e0e0e grey darken-4" id="mobile-demo">
         <div>
             <a href="{{ url_for('home') }}"><img src="static/images/logo.png" class="logo-image"></a>
@@ -61,7 +61,7 @@
     </ul>
     </header>
     <section>
-        <!----------------------------------------------------------------------------------flash message -->
+        <!-- flash message -->
        {% with messages = get_flashed_messages() %}
            {% if messages %}
                {% for message in messages %}
@@ -72,7 +72,7 @@
            {% endif %}
        {% endwith %}
    </section>
-    <!----------------------------------------------------------------------------------content -->
+   <!-- content -->
    <div class="container">
        {% block content %}
        {% endblock %}
