@@ -140,3 +140,13 @@ a.register-button-text {
 a.login-button-text {
     color: #2c6adc;
 }
+
+p.registered-text.center-align {
+    font-size: 22px;
+    font-weight: 800;
+}
+
+p {
+    font-family: 'Barlow', sans-serif;
+    font-size: 30px;
+}
