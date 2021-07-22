@@ -382,3 +382,40 @@ input#facebook {
 input#instagram {
     color: #fafafa;
 }
+
+/* social link icons */
+i.far.fa-question-circle.prefix {
+    color: #2c6adc;
+}
+
+i.fab.fa-facebook-square.prefix {
+    color: #2c6adc;
+}
+
+i.fab.fa-instagram-square.prefix {
+    color: #2c6adc;
+}
+
+i.far.fa-thumbs-up.prefix {
+    color: #2c6adc;
+}
+
+i.far.fa-thumbs-down.prefix {
+    color: #2c6adc;
+}
+
+i.far.fa-envelope.prefix {
+    color: #2c6adc;
+}
+
+i.fas.fa-user-edit.prefix {
+    color: #2c6adc;
+}
+
+i.far.fa-user {
+    color: #2c6adc;
+}
+
+i.fas.fa-key {
+    color: #2c6adc;
+}
