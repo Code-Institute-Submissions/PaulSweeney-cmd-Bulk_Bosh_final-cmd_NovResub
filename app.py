@@ -68,7 +68,7 @@ def meal_detail(meal_id):
 # ---------------------------------- route to meal creator profile
 @app.route("/creator_profile/<username>")
 def creator_profile(username):
-    # requesting the database to display the user attahced username in meal card
+    # requesting the database to display selected user
     creator = mongo.db.users.find_one({"username": username})
     return render_template("creator_profile.html", creator=creator)
 
@@ -237,6 +237,8 @@ def logout():
     session.pop("user")
     return redirect(url_for("login"))
 
+
+# -------------------------------------------------
 
 
 if __name__ == "__main__":
