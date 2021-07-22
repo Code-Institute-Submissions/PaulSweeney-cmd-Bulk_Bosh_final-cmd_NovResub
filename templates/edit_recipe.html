@@ -21,3 +21,23 @@
                     <label for="meal_description">Tell Us About It</label>
                 </div>
             </div>
+            <!-- ingredients fields -->
+            <h3 class="register-header">Ingredients</h3>
+            <div id="ingredients-form">
+                <div class="row">
+                    {% for ingredient in meal.meal_ingredients %}
+                    <div class="input-field col s12">
+                        <input name="ingredient_name" minlength="5" maxlength="100"
+                            value="{{ ingredient.ingredient_name }}" type="text" placeholder="Name">
+                    </div>
+                    <div class="input-field col s12">
+                        <input name="ingredient_quantity" minlength="1" maxlength="5"
+                            value="{{ ingredient.ingredient_quantity }}" type="text" placeholder="Quantity">
+                    </div>
+                    <div class="input-field col s12">
+                        <input name="ingredient_unit" minlength="1" maxlength="15"
+                            value="{{ ingredient.ingredient_unit }}" type="text" placeholder="Measurement">
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
