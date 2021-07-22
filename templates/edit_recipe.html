@@ -94,3 +94,25 @@
                          Add More Ingredients<i class="fas fa-plus-square right"></i>
                      </a>
                  </div>
+                 <!-- cancel button -->
+                <div class="input-field col s12 center-align">
+                    <div class="row">
+                        <a href="{{ url_for('get_meals') }}" class="btn-large teal darken-1 text-shadow">
+                            Cancel Update<i class="fas fa-ban right"></i>
+                        </a>
+                    </div>
+                </div>
+                <!-- add meal button -->
+                <div class="row">
+                    <div class="col s12 center-align">
+                        <button type="submit" class="btn-large teal darken-1 text-shadow">
+                            Update <i class="fas fa-check right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+{% endblock %}
