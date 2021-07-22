@@ -150,3 +150,13 @@ p {
     font-family: 'Barlow', sans-serif;
     font-size: 30px;
 }
+
+/* ------------------------------------ Recipe Card Page */
+.card .card-image {
+    position: relative;
+   
+}
+
+.card.meal-card:hover{
+    border: 2px solid black;  
+ }
