@@ -55,6 +55,7 @@ img.logo-image {
     height: 200px;
     width: 200px;
 }
+
 /* ------------------------------------ Home Page */
 h3.home-header.center-align {
     color: #fafafa;
@@ -64,4 +65,26 @@ h3.home-header.center-align {
 p {
     font-family: 'Barlow', sans-serif;
     font-size: 30px;
+}
+
+/* font icons */
+
+.fa, .fas {
+    font-weight: 900;
+    font-size: 20px;
+}
+
+i.fas.fa-user {
+    font-size: 60px;
+    color: #2c6adc;
+}
+
+i.fas.fa-book {
+    font-size: 60px;
+    color: #2c6adc;
+}
+
+i.fas.fa-arrow-alt-circle-up {
+    font-size: 60px;
+    color: #2c6adc;
 }
