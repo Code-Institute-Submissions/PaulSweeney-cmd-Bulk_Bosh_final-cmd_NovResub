@@ -15,7 +15,7 @@ body {
     margin: 30px;
     padding: 50px;
 }
-/* ------------------------------------ NavBar */
+/* ------------------------------------ nav bar */
 .nav-wrapper.\#0e0e0e.grey.darken-4 {
     width: 100%;
 }
@@ -29,6 +29,13 @@ a.brand-logo.left {
     font-weight: bold;
     margin-left: 41px;
 }
+nav ul a {
+    font-family: 'Big Shoulders Display', cursive;
+    color: #fafafa;
+    font-size: 33px;
+    letter-spacing: 1px;
+}
+/* ------------------------------------ side nav */
 .sidenav li>a {
     color: #fafafa;
     display: block;
@@ -40,12 +47,6 @@ a.brand-logo.left {
     font-size: 35px;
     letter-spacing: 2px;
 }
-nav ul a {
-    font-family: 'Big Shoulders Display', cursive;
-    color: #fafafa;
-    font-size: 33px;
-    letter-spacing: 1px;
-}
 i.fas.fa-bars {
     color: #ffff00b8;
 }
@@ -53,4 +54,14 @@ i.fas.fa-bars {
 img.logo-image {
     height: 200px;
     width: 200px;
+}
+/* ------------------------------------ Home Page */
+h3.home-header.center-align {
+    color: #fafafa;
+    font-family: 'Barlow', sans-serif;
+    font-size: 50px;
+}
+p {
+    font-family: 'Barlow', sans-serif;
+    font-size: 30px;
 }
