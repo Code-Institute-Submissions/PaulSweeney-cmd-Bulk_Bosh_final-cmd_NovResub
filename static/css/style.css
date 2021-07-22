@@ -528,3 +528,13 @@ button.add-meal-button {
     padding: 13px;
     color: #fafafa;
 }
+
+a#ing-btn {
+    font-size: 15px;
+    padding-top: 4px;
+    background: rgba(255,255,255,.1);
+    border-radius: 10px;
+    box-shadow: 0 5px 5px rgb(0,0,0,.2);
+    padding: 13px;
+    color: #fafafa;
+}
