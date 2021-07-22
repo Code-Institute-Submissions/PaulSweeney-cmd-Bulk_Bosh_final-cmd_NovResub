@@ -539,8 +539,10 @@ a#ing-btn {
     color: #fafafa;
 }
 
-input[type="text"] {
-    color: #fafafa;
+.input-field.col label {
+    left: .75rem;
+    color: white;
+    font-size: 16px;
 }
 
 .calorie-value {
