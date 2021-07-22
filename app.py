@@ -50,6 +50,8 @@ def about():
 @app.route("/get_meals")
 def get_meals():
     site_meals = mongo.db.meals.find()
+    # returns the page with all meals in the database
+    return render_template("recipes.html", site_meals=site_meals)
 
 
 # ---------------------------------- route to page with the full recipe on
@@ -64,10 +66,6 @@ def meal_detail(meal_id):
 
 
 
-
-
-
-    return render_template("recipes.html", site_meals=site_meals)
 if __name__ == "__main__":
     app.run(host=os.environ.get("IP"),
             port=int(os.environ.get("PORT")),
