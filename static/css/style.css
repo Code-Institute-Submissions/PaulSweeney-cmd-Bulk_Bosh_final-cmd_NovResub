@@ -538,3 +538,68 @@ a#ing-btn {
     padding: 13px;
     color: #fafafa;
 }
+
+input[type="text"] {
+    color: #fafafa;
+}
+
+.calorie-value {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 82px;
+    text-align: center;
+    color: #fafafa;
+}
+
+.carbs-value {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 82px;
+    text-align: center;
+    color: #fafafa;
+}
+
+.protein-value {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 82px;
+    text-align: center;
+    color: #fafafa;
+}
+
+.time-value {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 82px;
+    text-align: center;
+    color: #fafafa;
+}
+
+.eat-value {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 82px;
+    text-align: center;
+    color: #fafafa;
+    background-color: black;
+}
+
+.container-fluid.nutrition-container {
+    display: flex;
+    align-items: baseline;
+}
