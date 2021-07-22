@@ -46,9 +46,17 @@ def about():
     return render_template("about.html")
 
 
+# ------------------------------------------------- meal card page
+@app.route("/get_meals")
+def get_meals():
+    site_meals = mongo.db.meals.find()
 
 
 
+
+    
+
+    return render_template("recipes.html", site_meals=site_meals)
 if __name__ == "__main__":
     app.run(host=os.environ.get("IP"),
             port=int(os.environ.get("PORT")),
