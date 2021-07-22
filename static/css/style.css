@@ -292,3 +292,24 @@ i.fas.fa-utensils {
     margin-right: 7px;
     margin-left: 5px;
 }
+
+p.cook-prep {
+    font-family: 'Barlow', sans-serif;
+    font-size: 24px;
+}
+
+.meal-pic {
+    max-width: 100%;
+    height: auto;
+}
+
+/* ------------------------------------ Register Page */
+h3.register-header.center-align {
+    color: #fafafa;
+    font-family: 'Barlow', sans-serif;
+    font-size: 50px;
+}
+
+h3.social-link-header {
+    font-size: 34px;
+}
