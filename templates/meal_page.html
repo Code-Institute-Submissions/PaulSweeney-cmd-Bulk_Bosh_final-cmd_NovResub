@@ -6,3 +6,11 @@
         <div class="col-s12 image-div">
             <img src="{{ each_meal.url }}" class="meal-pic" height="700" width="600">
         </div>
+         <!-- meal details -->
+         <div class="profile-info-container col-6">
+             <div class="row">
+                 <h3 class="view-header">{{ each_meal.meal_name }}</h3>
+                 <p class="cook-prep">
+                     <i class="far fa-hourglass"></i>{{ each_meal.cooking_time }}
+                     <i class="fas fa-utensils"></i>{{ each_meal.servings }}
+                 </p>
