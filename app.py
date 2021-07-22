@@ -140,6 +140,41 @@ def login():
     return render_template("login.html")
 
 
+# ------------------------------------------------- add meal
+@app.route("/add_meal", methods=["GET", "POST"])
+def add_meal():
+    if request.method == "POST":
+        meal_ingredients = []
+        ingredient_name_list = request.form.getlist("ingredient_name")
+        ingredient_quantity_list = request.form.getlist("ingredient_quantity")
+        ingredient_unit_list = request.form.getlist("ingredient_unit")
+        for i in range(len(ingredient_name_list)):
+            ingredient = {
+                "ingredient_name": ingredient_name_list[i],
+                "ingredient_quantity": ingredient_quantity_list[i],
+                "ingredient_unit": ingredient_unit_list[i]
+            }
+            meal_ingredients.append(ingredient)
+        new_meal = {
+            "meal_name": request.form.get("meal_name"),
+            "meal_description": request.form.get("meal_description"),
+            "meal_ingredients": meal_ingredients,
+            "meal_instructions": request.form.get("meal_instructions"),
+            "added_by": session["user"],
+            "calories": request.form.get("calories"),
+            "carbs": request.form.get("carbs"),
+            "protein": request.form.get("protein"),
+            "cooking_time": request.form.get("cooking_time"),
+            "servings": request.form.get("steps"),
+            "url": request.form.get("url")
+        }
+        mongo.db.meals.insert_one(new_meal)
+        flash("Updated! Thanks for sharing")
+        return redirect(url_for("get_meals"))
+
+    return render_template("add_recipe.html")
+
+
 
 
 if __name__ == "__main__":
