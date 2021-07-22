@@ -5,7 +5,15 @@
     <div class="row">
         <!-- users profile image container -->
         <div class="col-s12 image-div">
-            <img src="" class="profile-image rounded-circle center-align" height="500"
-                width="500">
+            <img src="" class="profile-image rounded-circle center-align" height="500" width="500">
+        </div>
+    </div>
+    <!-- users profile info -->
+    <div class="profile-info-container col-6">
+        <div class="row">
+            <h3 class="profile-name-header">{{ username.username }}</h3>
+            <p class="profile-name"><strong>{{ username.profile_name }}</strong></p>
+            <p class="profile-age"><strong>{{ username.profile_age }}</strong> //
+                <strong>{{ username.profile_city }}</strong></p>
         </div>
     </div>
