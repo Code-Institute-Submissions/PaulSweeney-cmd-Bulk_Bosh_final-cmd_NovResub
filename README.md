@@ -52,11 +52,11 @@ Future site goals:
 ### About, Profile, Side Nav & Meals
 ![Am I Responsive?](/static/images/iPhone-one.jpg)
 ### Login, Home & Register
-![Am I Responsive?](/static/images/desktop-view.jpg)
+![Am I Responsive?](/static/images/iPhone-twoejpg)
 
 ------------------------------------------------------------------------------------------------
 ## Desk-top View
-![Am I Responsive?](/static/images/iPad-one.jpg)
+![Am I Responsive?](/static/images/desktop-view.jpg)
 
 ## STRATEGY:
 - The goal is for the site is to allow users to self promote and connect through their love of healthy food for a healthy lifestyle. Simple and straight forward social networking for a person that likes to cut the hassle and have an app with clear navigation, good food and new connections.
@@ -123,6 +123,8 @@ Future site goals:
 - Creator profile App route issue discussed and rectified with Sean from Tutor Support at [Code Institute](https://codeinstitute.net//)
 - I would like to thank my Mentor Nishant Kumar for his valuable insight in to the improvements needed for UX 
 - Preloaded recipes were sourced from [BodyBuilding.com](https://www.bodybuilding.com)
+- Python functionality sourced from Task Manager walkthrough  with Tim Nelson as well as the same functionality code extended for adding recipes and editing recipes discussed with code institute and written by myself.
+- Python code for linking profile to meal cards written by myself.
 
 #  Bugs & Fixes
 #  Imagery and Presentation:
