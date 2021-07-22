@@ -5,3 +5,10 @@
     <h1 class="menu-header">Menu
         <hr class="menu-header-hr">
     </h1>
+    <div class="row meal-row">
+        {% for meal in site_meals %}
+        <div class="col s12 m6">
+            <div class="card meal-card">
+                <div class="card-image">
+                    <img src="{{ meal.url }}">
+                </div>
