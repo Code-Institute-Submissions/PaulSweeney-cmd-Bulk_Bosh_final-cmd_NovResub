@@ -6,12 +6,57 @@
         <div class="col-s12 image-div">
             <img src="{{ each_meal.url }}" class="meal-pic" height="700" width="600">
         </div>
-         <!-- meal details -->
-         <div class="profile-info-container col-6">
-             <div class="row">
-                 <h3 class="view-header">{{ each_meal.meal_name }}</h3>
-                 <p class="cook-prep">
-                     <i class="far fa-hourglass"></i>{{ each_meal.cooking_time }}
-                     <i class="fas fa-utensils"></i>{{ each_meal.servings }}
-                 </p>
-                 <p class="view-description">{{ each_meal.meal_description }}
+        <!-- meal details -->
+        <div class="profile-info-container col-6">
+            <div class="row">
+                <h3 class="view-header">{{ each_meal.meal_name }}</h3>
+                <p class="cook-prep">
+                    <i class="far fa-hourglass"></i>{{ each_meal.cooking_time }}
+                    <i class="fas fa-utensils"></i>{{ each_meal.servings }}
+                </p>
+                <p class="view-description">{{ each_meal.meal_description }}
+                    <!-- nutrition -->
+                    <div class="container-fluid nutrition-container">
+                        <div class="calorie-value">
+                            <div class="nutrition-info">
+                                {{ each_meal.calories }}
+                            </div>
+                        </div>
+                        Calories
+                        <div class="carbs-value">
+                            <div class="nutrition-info">
+                                {{ each_meal.carbs }}
+                            </div>
+                        </div>
+                        carbs
+                        <div class="protein-value">
+                            <div class="nutrition-info">
+                                {{ each_meal.protein }}
+                            </div>
+                        </div>
+                        Protein
+                        <div class="col s12">
+                        </div>
+                    </div>
+                </p>
+                <hr>
+                <!-- ingredients -->
+                <h2 class="view-header">Ingredients:</h2>
+                    {% for ingredient in each_meal.meal_ingredients %}
+                    <div class="ingredients-list">
+                        {{ ingredient.ingredient_quantity }}
+                        {{ ingredient.ingredient_unit }}
+                        {{ ingredient.ingredient_name }}
+                    </div>
+                    {% endfor %}
+                    <!-- directions -->
+                    <h2 class="view-instructions">Directions:</h2>
+                {{ each_meal.meal_instructions }}</p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+{% endblock %}
