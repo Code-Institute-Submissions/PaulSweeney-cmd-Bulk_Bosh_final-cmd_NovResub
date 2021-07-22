@@ -280,3 +280,15 @@ hr {
     margin-right: 7px;
     margin-left: 7px;
 }
+
+i.far.fa-hourglass {
+    font-weight: 22px;
+    font-size: 26px;
+    margin-right: 6px;
+}
+
+i.fas.fa-utensils {
+    font-size: 26px;
+    margin-right: 7px;
+    margin-left: 5px;
+}
