@@ -3,3 +3,16 @@
 
 <div class="content-container">
 <h3 class="register-header center-align">Register</h3>
+<!-- registration form -->
+<div class="row">
+    <form class="col s12 m8 offset-m2" method="POST" action="{{ url_for('register_user') }}">
+        <div class="card-panel">
+            <!-- username -->
+            <div class="row">
+                <div class="input-field col s12">
+                    <i class="far fa-user prefix"></i>
+                    <input id="username" name="username" type="text" minlength="5" maxlength="15"
+                        pattern="^[a-zA-Z0-9]{5,15}$" class="validate" class="validate" required>
+                    <label for="username">Username</label>
+                </div>
+            </div>
