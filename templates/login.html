@@ -1,0 +1,8 @@
+{% extends "index.html" %}
+{% block content %}
+
+<div class="content-container">
+    <h3 class="register-header center-align">User Login</h3>
+    <!-- login form -->
+    <div class="row">
+        <form class="col s12 m8 offset-m2" method="POST" action="{{ url_for('login') }}">
