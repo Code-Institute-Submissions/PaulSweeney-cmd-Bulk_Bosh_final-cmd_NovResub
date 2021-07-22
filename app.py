@@ -28,6 +28,16 @@ def home():
 
 
 # ------------------------------------------------- profile
+@app.route("/profile/<username>", methods=["GET", "POST"])
+def profile(username):
+    # grab the session user's username from db
+    username = mongo.db.users.find_one(
+        {"username": session["user"]})
+    print(username)
+    # if the user in session is true they get directed to their profile page
+    if session["user"]:
+        return render_template("profile.html", username=username)
+    return redirect(url_for("login"))
 
 
 
