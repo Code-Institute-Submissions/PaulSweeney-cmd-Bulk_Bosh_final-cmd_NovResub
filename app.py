@@ -68,7 +68,7 @@ def meal_detail(meal_id):
 # ---------------------------------- route to meal creator profile
 @app.route("/creator_profile/<username>")
 def creator_profile(username):
-    # requesting the database to display the user attahced username in meal card 
+    # requesting the database to display the user attahced username in meal card
     creator = mongo.db.users.find_one({"username": username})
     return render_template("creator_profile.html", creator=creator)
 
@@ -144,17 +144,23 @@ def login():
 @app.route("/add_meal", methods=["GET", "POST"])
 def add_meal():
     if request.method == "POST":
+        # assignign values as a list
         meal_ingredients = []
         ingredient_name_list = request.form.getlist("ingredient_name")
         ingredient_quantity_list = request.form.getlist("ingredient_quantity")
         ingredient_unit_list = request.form.getlist("ingredient_unit")
+
+        # using for loop to iterate through ingredient values
         for i in range(len(ingredient_name_list)):
             ingredient = {
                 "ingredient_name": ingredient_name_list[i],
                 "ingredient_quantity": ingredient_quantity_list[i],
                 "ingredient_unit": ingredient_unit_list[i]
             }
+            # appending new data to the empty list variable above
             meal_ingredients.append(ingredient)
+
+            # passing that new ingredients variable to be added to database
         new_meal = {
             "meal_name": request.form.get("meal_name"),
             "meal_description": request.form.get("meal_description"),
@@ -173,6 +179,46 @@ def add_meal():
         return redirect(url_for("get_meals"))
 
     return render_template("add_recipe.html")
+
+
+# ------------------------------------------------- edit meal
+@app.route("/edit_meal/<meal_id>", methods=["GET", "POST"])
+def edit_meal(meal_id):
+    if request.method == "POST":
+        # assignign values as a list
+        meal_ingredients = []
+        ingredient_name_list = request.form.getlist("ingredient_name")
+        ingredient_quantity_list = request.form.getlist("ingredient_quantity")
+        ingredient_unit_list = request.form.getlist("ingredient_unit")
+        for i in range(len(ingredient_name_list)):
+            ingredient = {
+                "ingredient_name": ingredient_name_list[i],
+                "ingredient_quantity": ingredient_quantity_list[i],
+                "ingredient_unit": ingredient_unit_list[i]
+            }
+            # appending new data to the empty list variable above
+            meal_ingredients.append(ingredient)
+
+            # passing that new ingredients variable to be added to database
+        update = {
+            "meal_name": request.form.get("meal_name"),
+            "meal_description": request.form.get("meal_description"),
+            "meal_ingredients": meal_ingredients,
+            "meal_instructions": request.form.get("meal_instructions"),
+            "added_by": session["user"],
+            "calories": request.form.get("calories"),
+            "carbs": request.form.get("carbs"),
+            "protein": request.form.get("protein"),
+            "cooking_time": request.form.get("cooking_time"),
+            "servings": request.form.get("servings")
+        }
+        print(meal_ingredients)
+        mongo.db.meals.update({"_id": ObjectId(meal_id)}, update)
+        flash("Your meal has been updated, thanks for sharing!")
+        return redirect(url_for("get_meals"))
+
+    meal = mongo.db.meals.find_one({"_id": ObjectId(meal_id)})
+    return render_template("edit_recipe.html", meal=meal)
 
 
 
