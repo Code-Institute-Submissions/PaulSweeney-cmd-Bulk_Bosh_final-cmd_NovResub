@@ -263,3 +263,20 @@ h2.view-instructions {
     margin-bottom: 16px;
     margin-top: 10px;
 }
+
+p.view-description {
+    font-family: 'Barlow', sans-serif;
+    font-size: 22px;
+    margin-bottom: -5px;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #2c6adc;
+}
+
+.nutrition-info {
+    margin-right: 7px;
+    margin-left: 7px;
+}
