@@ -6,7 +6,6 @@ body {
     background-size: cover;
     background-color: black;
 }
-
 .container {
     width: auto;
 }
@@ -33,17 +32,25 @@ a.brand-logo.left {
 .sidenav li>a {
     color: #fafafa;
     display: block;
-    font-family: 'Big Shoulders Display', cursive;
-    font-size: 35px;
-    letter-spacing: 2px;
     font-weight: 500;
     height: 48px;
     line-height: 48px;
     padding: 0 32px;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 35px;
+    letter-spacing: 2px;
 }
 nav ul a {
     font-family: 'Big Shoulders Display', cursive;
     color: #fafafa;
     font-size: 33px;
     letter-spacing: 1px;
+}
+i.fas.fa-bars {
+    color: #ffff00b8;
+}
+/* side nav home icon image */
+img.logo-image {
+    height: 200px;
+    width: 200px;
 }
