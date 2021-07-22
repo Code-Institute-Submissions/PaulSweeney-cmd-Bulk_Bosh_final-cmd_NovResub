@@ -204,3 +204,43 @@ a.created-by {
     font-weight: 600;
     color: #2c6adc;
 }
+
+/* C.R.U.D functionality buttons */
+a.btn-large.edit-button {
+    color: #2c6adc;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'barlow';
+    border-radius: 7px;
+    box-shadow: rgba(0,0,0,.2);
+    margin: 10px;
+    background: transparent;
+    border: 1px solid #f43d20;
+    margin-left: 0px;
+}
+
+a.btn-large.delete-button {
+    color: #f43d20;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'barlow';
+    border-radius: 7px;
+    box-shadow: rgba(0,0,0,.2);
+    margin: 10px;
+    background: transparent;
+    border: 1px solid #f43d20;
+    margin-left: 0px;
+}
+
+a.btn-large.view-button {
+    color: #ffff00b8;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'barlow';
+    border-radius: 7px;
+    box-shadow: rgba(0,0,0,.2);
+    margin: 10px;
+    background: transparent;
+    border: 1px solid #ffff00b8;
+    margin-left: 0px;
+}
