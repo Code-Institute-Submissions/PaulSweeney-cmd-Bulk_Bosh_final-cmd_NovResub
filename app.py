@@ -52,9 +52,20 @@ def get_meals():
     site_meals = mongo.db.meals.find()
 
 
+# ---------------------------------- route to page with the full recipe on
+@app.route("/meal_detail/<meal_id>")
+def meal_detail(meal_id):
+
+    # requesting the database to find the id of the meal name user has selected
+    each_meal = mongo.db.meals.find_one({"_id": ObjectId(meal_id)})
+
+    # user gets directed to the single meal page with all data related to it
+    return render_template("meal_page.html", each_meal=each_meal)
 
 
-    
+
+
+
 
     return render_template("recipes.html", site_meals=site_meals)
 if __name__ == "__main__":
