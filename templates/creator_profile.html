@@ -29,20 +29,20 @@
     <div class="user-description">
         <strong>{{ creator.profile_about }}</strong>
     </div>
-        <!-- users contact info and social links -->
-        {% if session.user %}
-        <div class="row contact-info">
-            <p class="email">Email <strong>{{ creator.email_address }}
-                    <a target="_blank" href="{{ creator.social_links[0].facebook }}">
-                        <i class="fab fa-facebook-square center"></i>
-                    </a>
-                    <a target="_blank" href="{{ creator.social_links[0].instagram }}">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                </strong>
-            </p>
-        </div>
-        {% endif %}
+    <!-- users contact info and social links -->
+    {% if session.user %}
+    <div class="row contact-info">
+        <p class="email">Email <strong>{{ creator.email_address }}
+                <a target="_blank" href="{{ creator.social_links[0].facebook }}">
+                    <i class="fab fa-facebook-square center"></i>
+                </a>
+                <a target="_blank" href="{{ creator.social_links[0].instagram }}">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </strong>
+        </p>
     </div>
+    {% endif %}
+</div>
 
-    {% endblock %}
+{% endblock %}
