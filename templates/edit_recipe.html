@@ -79,3 +79,18 @@
                     <label for="servings">Servings</label>
                 </div>
             </div>
+             <!-- directions -->
+             <h3 class="register-header">Directions</h3>
+             <div class="row">
+                 <div class="input-field col s12">
+                     <input id="meal_instructions" name="meal_instructions" minlength="10" maxlength="500"
+                         value="{{ meal.meal_instructions }}" type="text" required>
+                 </div>
+             </div>
+             <!-- add ingredient button -->
+             <div class="input-field col s12 center-align">
+                 <div class="row">
+                     <a id="ing-btn" class="btn-large teal darken-1 text-shadow">
+                         Add More Ingredients<i class="fas fa-plus-square right"></i>
+                     </a>
+                 </div>
