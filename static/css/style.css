@@ -435,3 +435,15 @@ i.fas.fa-key {
     font-weight: 600;
     color: #fafafa;
 }
+
+img.profile-image.rounded-circle {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+.col-s12.image-div {
+    display: flex;
+    margin-top: 105px;
+    justify-content: center;
+}
