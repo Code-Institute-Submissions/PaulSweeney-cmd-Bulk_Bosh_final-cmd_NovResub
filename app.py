@@ -221,6 +221,14 @@ def edit_meal(meal_id):
     return render_template("edit_recipe.html", meal=meal)
 
 
+# ------------------------------------------------- delete meal
+@app.route("/delete_meal/<meal_id>")
+def delete_meal(meal_id):
+    # targeting meal id in database
+    mongo.db.meals.remove({"_id": ObjectId(meal_id)})
+    flash("Meal deleted")
+    return redirect(url_for("get_meals"))
+
 
 
 if __name__ == "__main__":
