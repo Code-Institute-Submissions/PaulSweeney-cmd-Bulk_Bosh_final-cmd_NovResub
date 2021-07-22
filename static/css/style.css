@@ -513,3 +513,18 @@ i.far.fa-thumbs-down {
     color: #2c6adc;
     font-size: 43px;
 }
+
+/* ------------------------------------ Add recipes Page */
+.container.profile-recipe-container {
+    margin-top: 100px;
+}
+
+button.add-meal-button {
+    font-size: 15px;
+    padding-top: 4px;
+    background: rgba(255,255,255,.1);
+    border-radius: 10px;
+    box-shadow: 0 5px 5px rgb(0,0,0,.2);
+    padding: 13px;
+    color: #fafafa;
+}
