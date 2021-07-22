@@ -132,3 +132,11 @@ button.submit-button {
     box-shadow: 0 5px 5px rgba(0,0,0,.2);
     padding: 13px;
 }
+
+a.register-button-text {
+    color: #ffff00b8;
+}
+
+a.login-button-text {
+    color: #2c6adc;
+}
