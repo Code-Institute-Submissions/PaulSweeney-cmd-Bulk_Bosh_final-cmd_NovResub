@@ -509,7 +509,18 @@ i.fab.fa-facebook-square.center {
 }
 
 /* ------------------------------------ Add recipes Page */
-input#meal_name {
+input#meal_name,
+input#meal_description,
+input#url,
+input#calories,
+input#carbs,
+input#protein,
+input#cooking_time,
+input#servings,
+input#meal_instructions {
+    color: #fafafa;
+}
+input[type="text"] {
     color: #fafafa;
 }
 
