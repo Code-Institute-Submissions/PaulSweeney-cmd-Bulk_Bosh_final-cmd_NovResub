@@ -43,14 +43,7 @@ Future site goals:
 - Link up the app to a fitness app
 - Share their recipes on social media and incorp[orate reaction buttons to each recipe
 
-------------------------------------------------------------------------------------------------
-## WIREFRAMES
-* [Desktop View](/static/images/MONITOR.png)
-* [Mobile View](/static/images/PHONE.png)
-* [Tablet View](/static/images/TABLET.png)
-------------------------------------------------------------------------------------------------
-
-
+#
 ## STRATEGY:
 - The goal is for the site is to allow users to self promote and connect through their love of healthy food for a healthy lifestyle. Simple and straight forward social networking for a person that likes to cut the hassle and have an app with clear navigation, good food and new connections.
 #
@@ -60,7 +53,7 @@ Future site goals:
 - MEALS: They can have a look at the pre-loaded recipes on the second tab along with the opportunity to click on the users name which will take them to that users profile where they can connect through Facebook and Instagram.
 - LOGIN: directs them to a login page with a link to register 
 - REGISTER: This asks for all information to buid their profile and incluide any social links. This will then direct them to their created profile. Once registered they can upload recipes, edit and delete them. See below for availability for registered and non-registered users:
-
+#
 ### Registered:
 * Upload recipes
 * Edit recipes
@@ -85,42 +78,36 @@ Future site goals:
 ![Am I Responsive?](/static/images/final-schema.png)
 - Font Icons from [Font-Awesome](https://fontawesome.com/)
 - I used Barlow & Big Shoulders fonts from [HTML](https://fonts.google.com/)
-
-# Imagery
+#
+## Wireframes
+* [Desktop View](/static/images/MONITOR.png)
+* [Mobile View](/static/images/PHONE.png)
+* [Tablet View](/static/images/TABLET.png)
+#
+## Imagery
 - Background imagery courtesy of Cottonbro at [Pexels](https://www.pexels.com//)
 - Images for pre loaded meals were sourced from the same recipes at [BodyBuilding.com](https://www.bodybuilding.com)
-
-# Programming languages
+#
+## Programming languages
 - [HTML](https://en.wikipedia.org/wiki/HTML/) for the building blocks
 - [CSS](https://en.wikipedia.org/wiki/CSS/) for the makeup
 - [JavaScript](https://www.javascript.com/) for the moving parts
 - [Python](https://www.python.org/) because it looks cool
-
-# Libraries & Frameworks
+#
+## Libraries & Frameworks
 - [Materialize](https://materializecss.com/getting-started.html)
 - [JQuery](https://jquery.com/)  
 - [Flask](https://flask.palletsprojects.com/en/2.0.x/)
 - PyMongo  
 - Werkzeug
-
-# Resources
+#
+## Resources
 - W3Schools for syntax references
 - Slack for tutor support
 - YouTube for the glass button effects
 - Pre Loaded meals were sourced from [BodyBuilding.com](https://www.bodybuilding.com/)
-
-
-# Credits and Acknowledgements
-- Recipe card bug was discussed and resolved with Scott from Tutor Support at [Code Institute](https://codeinstitute.net//)
-- Add meal function in python was discussed in depth with Sheryl from Tutor support at [Code Institute](https://codeinstitute.net//)
-- Creator profile App route issue discussed and rectified with Sean from Tutor Support at [Code Institute](https://codeinstitute.net//)
-- I would like to thank my Mentor Nishant Kumar for his valuable insight in to the improvements needed for UX 
-- Preloaded recipes were sourced from [BodyBuilding.com](https://www.bodybuilding.com)
-- Python functionality sourced from Task Manager walkthrough  with Tim Nelson as well as the same functionality code extended for adding recipes and editing recipes discussed with code institute and written by myself.
-- Python code for linking profile to meal cards written by myself.
-
-#  Bugs & Fixes
-#  Imagery and Presentation:
+# Bugs & Fixes
+##  Imagery and Presentation:
 
 ## Bug/Issue: 
 ### Icons & text wouldn't center on full screen view
@@ -267,6 +254,15 @@ HAPPY CODING!
 # CSS Validator
 ![Am I Responsive?](static/images/css-validate.png)
 
+#
+## Credits and Acknowledgements
+- Recipe card bug was discussed and resolved with Scott from Tutor Support at [Code Institute](https://codeinstitute.net//)
+- Add meal function in python was discussed in depth with Sheryl from Tutor support at [Code Institute](https://codeinstitute.net//)
+- Creator profile App route issue discussed and rectified with Sean from Tutor Support at [Code Institute](https://codeinstitute.net//)
+- I would like to thank my Mentor Nishant Kumar for his valuable insight in to the improvements needed for UX 
+- Preloaded recipes were sourced from [BodyBuilding.com](https://www.bodybuilding.com)
+- Python functionality sourced from Task Manager walkthrough  with Tim Nelson as well as the same functionality code extended for adding recipes and editing recipes discussed with code institute and written by myself.
+- Python code for linking profile to meal cards written by myself.
 
 
 
