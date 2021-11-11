@@ -255,6 +255,10 @@ HAPPY CODING!
 ![Am I Responsive?](static/images/css-validate.png)
 
 #
+
+## Assessment Feedback
+This can be found in a seperate file [Here](Assessment_feedback.md). This file includes the issues highlighted and what I've done to improve and rectify them. 
+#
 ## Credits and Acknowledgements
 - Recipe card bug was discussed and resolved with Scott from Tutor Support at [Code Institute](https://codeinstitute.net//)
 - Add meal function in python was discussed in depth with Sheryl from Tutor support at [Code Institute](https://codeinstitute.net//)
