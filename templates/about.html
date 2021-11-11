@@ -9,36 +9,38 @@
             </div>
         </div>
         <!-- site description-->
-     <div class="row">
-        <div class="col 12">
-            <p class="center-align">
-                We're are a small team of run of the mill guys that love to eat healthy, train well and inspire each
-                other. We are not a massive organization,
-                we came up with the idea to appeal to people just like you to take the hassle out of meal times with
-                quick and easy recipes to follow.
-                It can be overwhelming counting macros, wondering if you need a massive bank balance to eat well (or
-                investing in Tupperware shares!) so,
-                we have developed this app to allow you to create your own profile, upload and share your recipes on
-                here for others to follow and hopefully do the same.
-                We are also looking in to adding more features for you in the near future but for the mean time we've
-                included what you need to maintain your physical and
-                mental health through connection to other like minded guys on the same wavelength.
-            </p>
-        </div>
-    </div>
-     <!-- register button -->
-     <div class="row center-align">
-        <button type="submit" class="register-button-text-" href="{{ url_for('register_user') }}">Register Account</button>
         <div class="row">
-            <div class="col s12">
-                <p class="registered-text center-align">
-                    Already Registered?
-                    <a href="{{ url_for('login') }}" class="#2c6adc-text">Login</a>
+            <div class="col 12">
+                <p class="center-align">
+                    We're are a small team of run of the mill guys that love to eat healthy, train well and inspire each
+                    other. We are not a massive organization,
+                    we came up with the idea to appeal to people just like you to take the hassle out of meal times with
+                    quick and easy recipes to follow.
+                    It can be overwhelming counting macros, wondering if you need a massive bank balance to eat well (or
+                    investing in Tupperware shares!) so,
+                    we have developed this app to allow you to create your own profile, upload and share your recipes on
+                    here for others to follow and hopefully do the same.
+                    We are also looking in to adding more features for you in the near future but for the mean time
+                    we've
+                    included what you need to maintain your physical and
+                    mental health through connection to other like minded guys on the same wavelength.
                 </p>
             </div>
         </div>
+        <!-- register button -->
+        <div class="row center-align">
+            <button type="submit" class="register-button-text-" href="{{ url_for('register_user') }}">Register
+                Account</button>
+            <div class="row">
+                <div class="col s12">
+                    <p class="registered-text center-align">
+                        Already Registered?
+                        <a href="{{ url_for('login') }}" class="#2c6adc-text">Login</a>
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
-</div>
 </div>
 
 {% endblock %}

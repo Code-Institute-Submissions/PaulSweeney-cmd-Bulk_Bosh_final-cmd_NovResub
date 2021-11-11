@@ -27,17 +27,17 @@
     <div class="user-description">
         <strong>{{ username.profile_about }}</strong>
     </div>
-        <!-- users contact info and social links -->
-        <div class="row contact-info">
-            <p class="email">Email <strong>{{ username.email_address }}
-                    <a target="_blank" href="{{ username.social_links[0].facebook }}">
-                        <i class="fab fa-facebook-square center"></i>
-                    </a>
-                    <a target="_blank" href="{{ username.social_links[0].instagram }}">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                </strong>
-            </p>
-        </div>
-    
+    <!-- users contact info and social links -->
+    <div class="row contact-info">
+        <p class="email">Email <strong>{{ username.email_address }}
+                <a target="_blank" href="{{ username.social_links[0].facebook }}">
+                    <i class="fab fa-facebook-square center"></i>
+                </a>
+                <a target="_blank" href="{{ username.social_links[0].instagram }}">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </strong>
+        </p>
+    </div>
+</div>
     {% endblock %}
