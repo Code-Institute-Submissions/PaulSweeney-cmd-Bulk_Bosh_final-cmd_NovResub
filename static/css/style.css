@@ -509,6 +509,10 @@ i.fab.fa-facebook-square.center {
 }
 
 /* ------------------------------------ Add recipes Page */
+input#meal_name {
+    color: #fafafa;
+}
+
 .container.profile-recipe-container {
     margin-top: 100px;
 }
