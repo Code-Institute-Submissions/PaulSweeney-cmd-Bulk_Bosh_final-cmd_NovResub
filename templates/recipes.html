@@ -14,7 +14,8 @@
                 </div>
                 <span class="card-meal-title">{{ meal.meal_name }}</span>
                 <!-- href link to app route functionality to direct users to the meal creator profile -->
-                <div>Creator: 
+                <div>
+                    Creator: 
                     <a href="{{ url_for('creator_profile', username=meal.added_by) }}"
                         class="created-by">{{ meal.added_by }}
                     </a>
