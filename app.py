@@ -1,4 +1,6 @@
+""" Imorting operating system """
 import os
+
 from flask import (
     Flask, flash, render_template,
     redirect, request, session, url_for)
@@ -24,12 +26,18 @@ mongo = PyMongo(app)
 @app.route("/")
 @app.route("/home")
 def home():
+    """
+    Function to render the home page
+    """
     return render_template("home.html")
 
 
 # ------------------------------------------------- profile
 @app.route("/profile/<username>", methods=["GET", "POST"])
 def profile(username):
+    """
+    Render profile page
+    """
     # grab the session user's username from db
     username = mongo.db.users.find_one(
         {"username": session["user"]})
@@ -43,12 +51,18 @@ def profile(username):
 # ------------------------------------------------- about page
 @app.route("/about")
 def about():
+    """
+    Render about page
+    """
     return render_template("about.html")
 
 
 # ------------------------------------------------- meal card page
 @app.route("/get_meals")
 def get_meals():
+    """
+    Function to render meals added in mongodb
+    """
     site_meals = mongo.db.meals.find()
     # returns the page with all meals in the database
     return render_template("recipes.html", site_meals=site_meals)
@@ -57,7 +71,9 @@ def get_meals():
 # ---------------------------------- route to page with the full recipe on
 @app.route("/meal_detail/<meal_id>")
 def meal_detail(meal_id):
-
+    """
+    Render page for individual meal
+    """
     # requesting the database to find the id of the meal user has selected
     each_meal = mongo.db.meals.find_one({"_id": ObjectId(meal_id)})
 
@@ -68,6 +84,9 @@ def meal_detail(meal_id):
 # ---------------------------------- route to meal creator profile
 @app.route("/creator_profile/<username>")
 def creator_profile(username):
+    """ Displays profile when
+    user clicks on link displayed for meal creator
+    """
     # requesting the database to display selected user
     creator = mongo.db.users.find_one({"username": username})
     return render_template("creator_profile.html", creator=creator)
@@ -76,6 +95,10 @@ def creator_profile(username):
 # ------------------------------------------------- register page
 @app.route("/register_user", methods=["GET", "POST"])
 def register_user():
+    """
+    Renders register page with functionality
+    to add a new account
+    """
     if request.method == "POST":
         # check if username already exists in db
         existing_user = mongo.db.users.find_one(
@@ -114,6 +137,9 @@ def register_user():
 # ------------------------------------------------- login
 @app.route("/login", methods=["GET", "POST"])
 def login():
+    """
+    Functionality to process login info tied to mongodb
+    """
     if request.method == "POST":
         # check if username exists in db
         existing_user = mongo.db.users.find_one(
@@ -121,12 +147,11 @@ def login():
 
         if existing_user:
             # ensure hashed password matches user input
-            if check_password_hash(
-                    existing_user["password"], request.form.get("password")):
-                        session["user"] = request.form.get(
-                            "username").lower()
-                        return redirect(url_for(
-                            "profile", username=session["user"]))
+            if check_password_hash(existing_user["password"], request.form.get("password")):
+                session["user"] = request.form.get(
+                    "username").lower()
+                return redirect(url_for(
+                    "profile", username=session["user"]))
             else:
                 # invalid password match
                 flash("Incorrect Username and/or Password")
@@ -143,6 +168,10 @@ def login():
 # ------------------------------------------------- add meal
 @app.route("/add_meal", methods=["GET", "POST"])
 def add_meal():
+    """
+    Processing new meal entries to mongo
+    and rendering back to a page
+    """
     if request.method == "POST":
         # assignign values as a list
         meal_ingredients = []
@@ -184,6 +213,10 @@ def add_meal():
 # ------------------------------------------------- edit meal
 @app.route("/edit_meal/<meal_id>", methods=["GET", "POST"])
 def edit_meal(meal_id):
+    """
+    Editing fields from mongodb
+    and updating page & database
+    """
     if request.method == "POST":
         # assignign values as a list
         meal_ingredients = []
@@ -224,6 +257,9 @@ def edit_meal(meal_id):
 # ------------------------------------------------- delete meal
 @app.route("/delete_meal/<meal_id>")
 def delete_meal(meal_id):
+    """
+    Deleting an entry
+    """
     # targeting meal id in database
     mongo.db.meals.remove({"_id": ObjectId(meal_id)})
     flash("Meal deleted")
@@ -233,6 +269,9 @@ def delete_meal(meal_id):
 # ------------------------------------------------- logout
 @app.route("/logout")
 def logout():
+    """
+    Removing session data
+    """
     flash("Goodbye")
     session.pop("user")
     return redirect(url_for("login"))
