@@ -9,11 +9,15 @@ Add Meal Before  | Add Meal After | Add Meal Form Guides Added |
 * Also updated Recipe form with a guide on input for each field
 * Register buttons on Home and Who We Are pages updated with some CSS taken from the Login page to display same styling
 #
-Edit Recipe Before  | After
+Edit Recipe Before  | After |
 :---------------: | :---------------:
 ![](assessment-images/button-style-before.png)  | ![](assessment-images/.png) |
 #
 ## 1.1	Missing UX and/or issues in navigation
 ## Resolution
 * URL for home page added to the company logo situated in the top right hand corner, checked navigation in nav links.
-
+#
+## 1.5 Fails to pass through the official validator, and has significant code issues in console and front-end
+## Resolution
+* Source code for all pages on site ran through validators, issues highlighted now resolved. Syntax amended.
+#
