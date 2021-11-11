@@ -44,9 +44,7 @@
     </div>
     <!-- side-->
     <ul class="sidenav #0e0e0e grey darken-4" id="mobile-demo">
-        <div>
-            <a href="{{ url_for('home') }}"><img src="static/images/logo.png" class="logo-image"></a>
-        </div>
+        <a href="{{ url_for('home') }}"><img src="static/images/logo.png" class="logo-image" alt="logo"></a>
         {% if session.user %}
             <li><a href="{{ url_for('profile', username=session['user']) }}">Profile</a></li>
             <li><a href="{{ url_for('add_meal')}}">Add Meal</a></li>
@@ -66,7 +64,7 @@
            {% if messages %}
                {% for message in messages %}
                    <div class="row flashes">
-                       <h4 class="center-align">{{ message }}</h4>
+                       <h2 class="center-align">{{ message }}</h2>
                    </div>
                {% endfor %}
            {% endif %}
