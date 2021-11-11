@@ -44,19 +44,12 @@ Future site goals:
 - Share their recipes on social media and incorp[orate reaction buttons to each recipe
 
 ------------------------------------------------------------------------------------------------
-## WIREFRAMES:
-### Register & About pages
-![Am I Responsive?](/static/images/iPad-one.jpg)
-### Login, Profile, Add Meal, Meals & Home
-![Am I Responsive?](/static/images/iPad-two.jpg)
-### About, Profile, Side Nav & Meals
-![Am I Responsive?](/static/images/iPhone-one.jpg)
-### Login, Home & Register
-![Am I Responsive?](/static/images/iPhone-twoejpg)
-
+## WIREFRAMES
+* [Desktop View](/static/images/MONITOR.png)
+* [Mobile View](/static/images/PHONE.png)
+* [Tablet View](/static/images/TABLET.png)
 ------------------------------------------------------------------------------------------------
-## Desk-top View
-![Am I Responsive?](/static/images/desktop-view.jpg)
+
 
 ## STRATEGY:
 - The goal is for the site is to allow users to self promote and connect through their love of healthy food for a healthy lifestyle. Simple and straight forward social networking for a person that likes to cut the hassle and have an app with clear navigation, good food and new connections.
