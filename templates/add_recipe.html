@@ -12,6 +12,9 @@
                         required>
                     <label for="meal_name">What's it called?</label>
                 </div>
+                <div class="form-guide">
+                    Recipe name must be between 10 and 60 characters.
+                </div>
             </div>
              <!-- description -->
              <div class="row">
@@ -19,6 +22,9 @@
                     <input id="meal_description" name="meal_description" minlength="10" maxlength="600" type="text"
                         required></textarea>
                     <label for="meal_description">Tell Us About It</label>
+                </div>
+                <div class="form-guide">
+                    Description must be between 10 and 300 characters.
                 </div>
             </div>
             <!-- image url -->
@@ -28,6 +34,9 @@
                         required></textarea>
                     <label for="url">Feel free to include and image url here</label>
                 </div>
+                <div class="form-guide">
+                    Please make sure you include the entire image url including https://
+                </div>
             </div>
             <!-- ingredients fields -->
             <h3 class="register-header">Ingredients</h3>
@@ -36,13 +45,22 @@
                     <div class="input-field col s12">
                         <input name="ingredient_name" minlength="5" maxlength="100" type="text" placeholder="Name">
                     </div>
+                    <div class="form-guide">
+                        Ingredient name must be between 5 and 100 characters long
+                    </div>
                     <div class="input-field col s12">
                         <input name="ingredient_quantity" minlength="1" maxlength="5" type="text"
                             placeholder="Quantity">
                     </div>
+                    <div class="form-guide">
+                        Please make sure you include numbers only
+                    </div>
                     <div class="input-field col s12">
                         <input name="ingredient_unit" minlength="1" maxlength="15" type="text"
                             placeholder="Measurement">
+                    </div>
+                    <div class="form-guide">
+                        Please make sure you include numbers only
                     </div>
                 </div>
             </div>
@@ -51,7 +69,9 @@
             </div>
             <!-- nutrition -->
             <h3 class="register-header">Nutrition</h3>
-            Please make sure you include the units of measurement i.e. g, kg, lbs
+            <div class="form-guide">
+                Please make sure you include the units of measurement and incluide numbers only
+            </div>
             <div class="row">
                 <div class="input-field col s12">
                     <input id="calories" name="calories" minlength="1" maxlength="5" type="text" required>
@@ -77,18 +97,27 @@
                      <input id="cooking_time" name="cooking_time" minlength="1" maxlength="5" type="text" required>
                      <label for="cooking_time">Cooking Time</label>
                  </div>
+                 <div class="form-guide">
+                    Cooking time must be between 1 and 5 characters making sure to include both numbers and letters
+                </div>
              </div>
              <div class="row">
                  <div class="input-field col s12">
                      <input id="servings" name="servings" minlength="1" maxlength="5" type="text" required>
                      <label for="servings">Servings</label>
                  </div>
+                 <div class="form-guide">
+                    Serving time must be between 1 and 5 characters making sure to include both numbers and letters
+                </div>
              </div>
              <!-- directions -->
             <h3 class="register-header">Directions</h3>
             <div class="row">
                 <div class="input-field col s12">
                     <input id="meal_instructions" name="meal_instructions" minlength="10" type="text" required>
+                </div>
+                <div class="form-guide">
+                    Directions time must be a minumum of 10 characters longte making sure to include both numbers and letters
                 </div>
             </div>
             <!-- add meal button -->
