@@ -523,6 +523,9 @@ input#meal_instructions {
 input[type="text"] {
     color: #fafafa;
 }
+.form-guide {
+    margin-left: 10px;
+}
 
 .container.profile-recipe-container {
     margin-top: 100px;
