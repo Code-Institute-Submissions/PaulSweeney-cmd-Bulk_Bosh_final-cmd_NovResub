@@ -103,14 +103,21 @@ button.submit-button {
     color: #ffff00b8;
     font-size: 30px;
     padding-top: 4px;
-    background: rgba(255,255,255,.1);
+    background: rgba(255,255,255 / 22%);
     border-radius: 10px;
     box-shadow: 0 5px 5px rgba(0,0,0,.2);
     padding: 13px;
 }
 
-a.register-button-text {
+a.register-button {
+    font-size: 30px;
+    padding-top: 4px;
+    background: rgba(255,255,255,.1);
+    border-radius: 10px;
+    box-shadow: 0 5px 5px rgb(0 0 0 / 20%);
+    padding: 13px;
     color: #ffff00b8;
+    font-weight: 600;
 }
 
 a.login-button-text {
