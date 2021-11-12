@@ -2,20 +2,20 @@
 Bulk Bosh is a Health app focussed targeting the weight training demographic. Users can log in and upload their recipes. There are nutritional recipes on the home page to follow and try for themselves. Click on the logo below for the live site.
 
 [![Am I Responsive?](/static/images/logo.png)](https://bulk-bosh-final-cmd.herokuapp.com/home)
-# **```UX```**
+# **UX**
 
 ![Am I Responsive?](/static/images/am-i-responsive.png)
 
 <br>
 
-# **```Site Creator Overview```** - UX
+# **Site Creator Overview** - UX
 ## Presentation 
  * I wanted to create a site that gives users a meaningful and relevant experience. This needed to be visually and physically practical. The site layout works perfectly as it's not too overwhelming in regards to styling. Some sites can be noisy on a visual level, my colour scheme for pretty much every project I've made up to this point follow a similar pattern and I've based it on my own preferences as if I was acting as the end user. I feel the site could improve as time goes and theres always room for more functionality and styling on but for now I've kept it simple and to the point. a black white and yellow colour scheme works perfectly for my target demographic. It's eye catching, sharp and well structured.
  * The text content backdrop works well against the image, the page image would not have been viable to use if I didn't style the containers with HEX code: ```#070707a8```, the original idea was to have a plain black backdrop but I felt this would've de-valued the site and made it too basic, this way the content stands out better and gives the user a positive experience as it shows effort. This style also works well across the rest of the site in regards to containers, forms etc as it looks more structured and professional.
  * This section is just a site creators overview, functionality from an end user point can be found in the end user testing section.
 
 
-# **```User Stories```**
+# **User Stories**
 ## *First time Visitor Goals*
 - To browse the site for a variety of meals.
 - Easily navigate through the site via a well presented navigation menu.
@@ -41,13 +41,13 @@ Bulk Bosh is a Health app focussed targeting the weight training demographic. Us
 
 <br>
 
-# **```Features```**
+# **Features**
 - An array of recipes to choose from
 - Clear navigation with the use of a navigation bar and side navigation bar on mobile and tablet format
 - Log in/out of their profile and add their own recipes
 - Register for an account
 
-# **```Future Features```**
+# **Future Features**
 
 - Incorporate sponsorship from supplement companies to promote their products
 - Link up the app to a fitness app
@@ -55,9 +55,9 @@ Bulk Bosh is a Health app focussed targeting the weight training demographic. Us
 
 <br>
 
-# **```Strategy```**
+# **Strategy**
 - The goal is for the site is to allow users to self promote and connect through their love of healthy food for a healthy lifestyle. Simple and straight forward social networking for a person that likes to cut the hassle and have an app with clear navigation, good food and new connections.
-# **```Scope```**
+# **Scope**
 - HOME: The user is welcomed on to the site showing a welcome message with a brief overview of the aim of the site. 
 - WHO WE ARE: They can click on the the about page which gives them a breif insight in to the site creators story.
 - MEALS: They can have a look at the pre-loaded recipes on the second tab along with the opportunity to click on the users name which will take them to that users profile where they can connect through Facebook and Instagram.
@@ -66,7 +66,7 @@ Bulk Bosh is a Health app focussed targeting the weight training demographic. Us
 
 <br>
 
-# **```User Accessibility & Restrictions```**
+# **User Accessibility & Restrictions**
 ## *Registered*
 1. Upload recipes
 2. Edit recipes
@@ -86,7 +86,7 @@ Bulk Bosh is a Health app focussed targeting the weight training demographic. Us
 
 <br>
 
-# **```Technologies and Design```**
+# **Technologies and Design**
 * DataBase Schema was created with [Moqups](https://moqups.com/)
 
 <br>
@@ -132,7 +132,7 @@ Bulk Bosh is a Health app focussed targeting the weight training demographic. Us
 
 <br>
 
-# **```Bugs & Fixes - Presentation```**
+# **Bugs & Fixes - Presentation**
 ## *Bug/Issue?*
 Icons & text wouldn't center on full screen view
 
@@ -166,7 +166,7 @@ The original idea was to extract the new profile information from a seperate col
 
 <br>
 
-# **```Bugs & Fixes - Data```**
+# **Bugs & Fixes - Data**
 ## *Bug/Issue?*
 * Data sent to MongoDB from the add recipe form not being displayed.
 
@@ -182,7 +182,7 @@ Syntaxt incoerrect in the app route, tried targeting user Id instead of username
 
 <br>
 
-# **```Deployment```**
+# **Deployment**
 
 * To view the live version go to [BulkBosh Live](https://github.com/PaulSweeney-cmd/Bulk_Bosh_final-cmd)
 * Click on the Bulk_Bosh logo at the top of the page
