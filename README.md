@@ -128,14 +128,14 @@ Bulk Bosh is a Health app focussed targeting the weight training demographic. Us
 Icons & text wouldn't center on full screen view
 
 ![Am I Responsive?](static/images/icon_position.png)
-## *Resolved/Remaining? - Resolved*
+## *Resolved/Remaining?* - Resolved
 ```div class="col m4 s12"``` to re-position them.
 #
 ## *Bug/Issue?*
 * Meals template in the recipes.html file not rendering after new meal is added in the add_recipe template.
 
 ![Am I Responsive?](static/images/recipe-card.png)
-## *Resolved/Remaining? - Resolved*
+## *Resolved/Remaining?* - Resolved
 Removed for loop in ```add_meal()``` - code commented out.
 #
 
@@ -143,7 +143,7 @@ Removed for loop in ```add_meal()``` - code commented out.
 * Recipe cards not positioning horizontally next to each other, tried altering grid sizes and applying container outside the for loop in the recipes.html file.
 
 ![Am I Responsive?](static/images/recipe-div.png)
-## *Resolved/Remaining? - Resolved*
+## *Resolved/Remaining?* - Resolved
 
 Moved the row div above the for loop and below the endfor in the recipes.html file to allow cards to sit horizontally.
 #
@@ -152,7 +152,7 @@ Moved the row div above the for loop and below the endfor in the recipes.html fi
 * New users profile information isn't being displayed when the profile page renders
 ![Am I Responsive?](static/images/profile-info.png)
 
-## *Resolved/Remaining? - Resolved*
+## *Resolved/Remaining?* - Resolved
 The original idea was to extract the new profile information from a seperate collection to the user collection, which only had the username and password. I combined the profile info fields in with the register fields in the register function. this allowed an updated collection and for me to get info using jinja templating.
 
 <br>
@@ -161,14 +161,14 @@ The original idea was to extract the new profile information from a seperate col
 ## *Bug/Issue?*
 * Data sent to MongoDB from the add recipe form not being displayed.
 
-## *Resolved/Remaining? - Resolved*
+## *Resolved/Remaining?* - Resolved
 Re-structured the python app route for adding a meal, had to declare the ingredients to a new variable and append to another variable with the value of an empty list, this allowed the cloned html ingredients form to pass the data back to mongo db and then render to the recipe card on the recipe page.
 
 <br> 
 
 ## *Bug/Issue?*
 * Meal creator profile not rendering when user clicks on their username
-## *Resolved/Remaining? - Resolved*
+## *Resolved/Remaining?* - Resolved
 Syntaxt incoerrect in the app route, tried targeting user Id instead of username.
 
 <br>
@@ -255,17 +255,3 @@ This can be found in a seperate file [Here](/Assessment_feedback.md). This file 
 - Preloaded recipes were sourced from [BodyBuilding.com](https://www.bodybuilding.com)
 - Python functionality sourced from Task Manager walkthrough  with Tim Nelson as well as the same functionality code extended for adding recipes and editing recipes discussed with code institute and written by myself.
 - Python code for linking profile to meal cards written by myself.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
