@@ -219,8 +219,6 @@ Store your variables as follows:
 * Click the edit button on the right to get your password
 * Go back to your workspace and create a .gitignore file by typing touch .gitignore
 * The reason for this is so GitHub doesnt share sensitive data, this file should include the environment variable page
-- __pycache__/
-
 - Type ```git status``` to make sure yur environment variable file isn't being tracked, you can see the results in the terminal. If it is then go back in to your file and make sure it's saved properly.
 - If everything checks out you can type ```python3 app.py``` to run your app.
 #
