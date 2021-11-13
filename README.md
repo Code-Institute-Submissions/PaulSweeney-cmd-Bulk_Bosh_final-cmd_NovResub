@@ -271,17 +271,25 @@ This can be found in a seperate file [Here](/Assessment_feedback.md). This file 
 ## *First time Visitor Goals*
 **To browse the site for a variety of meals.**
 
-|Desktop  | Phone | Tablet |
+|Meals Page - Desktop  | Phone | Tablet |
 :---------------: | :---------------: | :---------------: |
 ![](user_testing_images/desktop_meals.png)  | ![](user_testing_images/phone_meals.png) | ![](user_testing_images/tablet_meals.png)
+
+|Meal Detail Page - Desktop  | Phone-top | Phone-bottom | Tablet-top | Tablet-bottom |
+:---------------: | :---------------: | :---------------: | :---------------: | :---------------: |
+![](user_testing_images/desktop_meal_page.png)  | ![](user_testing_images/phone_meal_page.png) | ![](user_testing_images/phone_meal_page_bottom.png) | ![](user_testing_images/tablet_meal_page_top.png) | ![](user_testing_images/tablet_meal_page_bottom.png)
+
 #
 **To create an account and register my information.**
 
-|Desktop  | Phone | Tablet |
+|Register Account - Desktop  | Phone | Tablet |
 |:---------------: | :---------------: | :---------------: |
 ![](user_testing_images/register_desktop.png)  | ![](user_testing_images/phone_register.png) | ![](user_testing_images/tablet_register.png)
 ![](user_testing_images/register_desktop_submit.png) |![](user_testing_images/phone_register_submit.png) | ![](user_testing_images/tablet_register_submit.png)
-![](user_testing_images/desktop_registration_success.png) |![](user_testing_images/phone_register_success.png) | ![](user_testing_images/tablet_register_success.png)
+
+|Registration Success - Desktop  | Phone | Tablet 
+|:---------------: | :---------------: | :---------------: |
+![](user_testing_images/desktop_registration_success.png) |![](user_testing_images/phone_register_success.png) | ![](user_testing_images/tablet_register_success.png)|
 #
 **Navigating through a menu**
 
