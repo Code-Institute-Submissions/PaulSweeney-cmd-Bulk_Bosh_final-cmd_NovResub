@@ -628,29 +628,3 @@ a#ing-btn {
     align-items: baseline;
 }
 
-/* Media Queries */
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (-webkit-min-device-pixel-ratio: 1) {
-    span.card-meal-title {
-        font-size: 25px;
-        font-weight: 600;
-    }
-    .row .col.m6 {
-        width: 100%;
-        margin-left: auto;
-        left: auto;
-        right: auto;
-    }
-}
-
-@media only screen and (min-width:769px) {
-    .row .col.m6 {
-        width: 50%;
-        margin-left: auto;
-        left: auto;
-        right: auto;
-    }
-}
-
