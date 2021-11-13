@@ -159,9 +159,12 @@ p {
 }
 
 /* ------------------------------------ Recipe Card Page */
-
 .card .card-image {
     position: relative; 
+}
+
+.card.meal-card:hover{
+    border: 2px solid black;  
 }
 
 h1.menu-header {
@@ -178,7 +181,7 @@ hr.menu-header-hr {
 
 /* recipe cards */
 .row.meal-row {
-    margin-top: 35px;
+    margin-top: 100px;
 }
 
 .card.meal-card {
@@ -621,4 +624,3 @@ a#ing-btn {
     display: flex;
     align-items: baseline;
 }
-
