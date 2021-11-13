@@ -269,8 +269,9 @@ This can be found in a seperate file [Here](/Assessment_feedback.md). This file 
 
 # **End User Testing**
 ## *First time Visitor Goals*
-### To browse the site for a variety of meals.
+To browse the site for a variety of meals.
 
 |Desktop  | Phone | Tablet |
 :---------------: | :---------------: | :---------------: |
-![](user_testing_images/desktop_meals.png)  | ![](user_testing_images/Iphone_meals.png) | ![]
+![](user_testing_images/desktop_meals.png)  | ![](user_testing_images/phone_meals.png) | ![](user_testing_images/tablet_meals.png)
+#

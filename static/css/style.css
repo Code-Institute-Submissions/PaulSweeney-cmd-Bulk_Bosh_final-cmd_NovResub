@@ -302,6 +302,12 @@ p.cook-prep {
 }
 
 /* ------------------------------------ Register Page */
+.register-form-guide {
+    margin-left: 51px;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
 h3.register-header.center-align {
     color: #fafafa;
     font-family: 'Barlow', sans-serif;
@@ -332,8 +338,9 @@ button.submit-button {
 
 .password-guide {
     margin-left: 42px;
-    font-size: 14px;
+    font-size: 15px;
     margin-bottom: -15px;
+    letter-spacing: 1px;
 }
 
 /* input fields */
