@@ -177,7 +177,7 @@ hr.menu-header-hr {
 
 /* recipe cards */
 .row.meal-row {
-    margin-top: 100px;
+    margin-top: 15pxpx;
 }
 
 .card.meal-card {
@@ -185,7 +185,7 @@ hr.menu-header-hr {
 }
 
 span.card-meal-title {
-    font-size: 35px;
+    font-size: 25px;
     font-weight: 600;
 }
 
@@ -203,45 +203,45 @@ hr.meal-title-divider {
 
 /* user hyperlink styling */
 a.created-by {
-    font-size: 26px;
+    font-size: 20px;
     font-weight: 600;
-    color: #2c6adc;
+    color: #5ca7e7;
 }
 
 /* C.R.U.D functionality buttons */
 a.btn-large.edit-button {
-    color: #2c6adc;
+    color: #5ca7e7;
     font-weight: bold;
     font-size: 20px;
     font-family: 'barlow';
     border-radius: 7px;
     margin: 10px;
     background: transparent;
-    border: 1px solid #2c6adc;
+    border: 1px solid #fafafa;
     margin-left: 0px;
 }
 
 a.btn-large.delete-button {
-    color: #f43d20;
+    color: #5ca7e7;
     font-weight: bold;
     font-size: 20px;
     font-family: 'barlow';
     border-radius: 7px;
     margin: 10px;
     background: transparent;
-    border: 1px solid #f43d20;
+    border: 1px solid #fafafa;
     margin-left: 0px;
 }
 
 a.btn-large.view-button {
-    color: #ffff00b8;
+    color: #5ca7e7;
     font-weight: bold;
     font-size: 20px;
     font-family: 'barlow';
     border-radius: 7px;
     margin: 10px;
     background: transparent;
-    border: 1px solid #ffff00b8;
+    border: 1px solid #fafafa;
     margin-left: 0px;
 }
 
