@@ -285,7 +285,11 @@ This can be found in a seperate file [Here](/Assessment_feedback.md). This file 
 #
 **Navigating through a menu**
 
-| Phone | Tablet |
+| Logged In - Phone | Logged In - Tablet |
 | :---------------: | :---------------: |
-![](user_testing_images/phone_sidenav.png)  | ![](user_testing_images/tablet_sidenav.png) |
+![](user_testing_images/phone_sidenav_logout.png)  | ![](user_testing_images/tablet_sidenav_logout.png) |
+
+| Logged Out - Phone | Logged Out - Tablet |
+| :---------------: | :---------------: |
+![](user_testing_images/phone_sidenav_login.png)  | ![](user_testing_images/tablet_sidenav_login.png) |
 #

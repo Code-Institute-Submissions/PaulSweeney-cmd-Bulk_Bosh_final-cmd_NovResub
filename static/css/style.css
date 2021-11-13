@@ -301,6 +301,15 @@ p.cook-prep {
     height: auto;
 }
 
+.ingredients-list {
+    font-size: 20px;
+}
+
+.meal-instructions {
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+}
+
 /* ------------------------------------ Register Page */
 .register-form-guide {
     margin-left: 56px;
