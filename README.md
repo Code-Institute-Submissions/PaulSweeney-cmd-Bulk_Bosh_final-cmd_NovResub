@@ -281,4 +281,11 @@ This can be found in a seperate file [Here](/Assessment_feedback.md). This file 
 |:---------------: | :---------------: | :---------------: |
 ![](user_testing_images/register_desktop.png)  | ![](user_testing_images/phone_register.png) | ![](user_testing_images/tablet_register.png)
 ![](user_testing_images/register_desktop_submit.png) |![](user_testing_images/phone_register_submit.png) | ![](user_testing_images/tablet_register_submit.png)
+![](user_testing_images/desktop_registration_success.png) |![](user_testing_images/phone_register_success.png) | ![](user_testing_images/tablet_register_success.png)
+#
+**Navigating through a menu**
+
+| Phone | Tablet |
+| :---------------: | :---------------: |
+![](user_testing_images/phone_sidenav.png)  | ![](user_testing_images/tablet_sidenav.png) |
 #
