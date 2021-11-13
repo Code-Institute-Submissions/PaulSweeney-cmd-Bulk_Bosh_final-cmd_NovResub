@@ -269,9 +269,16 @@ This can be found in a seperate file [Here](/Assessment_feedback.md). This file 
 
 # **End User Testing**
 ## *First time Visitor Goals*
-To browse the site for a variety of meals.
+**To browse the site for a variety of meals.**
 
 |Desktop  | Phone | Tablet |
 :---------------: | :---------------: | :---------------: |
 ![](user_testing_images/desktop_meals.png)  | ![](user_testing_images/phone_meals.png) | ![](user_testing_images/tablet_meals.png)
+#
+**To create an account and register my information.**
+
+|Desktop  | Phone | Tablet |
+|:---------------: | :---------------: | :---------------: |
+![](user_testing_images/register_desktop.png)  | ![](user_testing_images/phone_register.png) | ![](user_testing_images/tablet_register.png)
+![](user_testing_images/register_desktop_submit.png) |![](user_testing_images/phone_register_submit.png) | ![](user_testing_images/tablet_register_submit.png)
 #
