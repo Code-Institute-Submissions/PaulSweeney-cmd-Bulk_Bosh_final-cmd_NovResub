@@ -50,7 +50,7 @@
         {% if session.user %}
             <li><a href="{{ url_for('profile', username=session['user']) }}">Profile</a></li>
             <li><a href="{{ url_for('add_meal')}}">Add Meal</a></li>
-            <li><a href="{{ url_for('get_meals') }}">Your Meals</a></li>
+            <li><a href="{{ url_for('get_meals') }}"> Meals</a></li>
             <li><a href="{{ url_for('logout') }}">Logout</a></li>
         {% else %}
             <li><a href="{{ url_for('about') }}">Who We Are</a></li>
