@@ -163,10 +163,6 @@ p {
     position: relative; 
 }
 
-.card.meal-card:hover{
-    border: 2px solid black;  
-}
-
 h1.menu-header {
     font-size: 55px;
 }
