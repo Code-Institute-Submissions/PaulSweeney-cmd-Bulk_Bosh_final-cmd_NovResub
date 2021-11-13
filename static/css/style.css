@@ -637,13 +637,11 @@ a#ing-btn {
         font-size: 25px;
         font-weight: 600;
     }
-}
-
-@media only screen and (min-width: 601px) {
-.row .col.m6 {
-    width: 100%;
-    margin-left: auto;
-    left: auto;
-    right: auto;
+    .row .col.m6 {
+        width: 100%;
+        margin-left: auto;
+        left: auto;
+        right: auto;
     }
 }
+

@@ -264,3 +264,13 @@ This can be found in a seperate file [Here](/Assessment_feedback.md). This file 
 - Preloaded recipes were sourced from [BodyBuilding.com](https://www.bodybuilding.com)
 - Python functionality sourced from Task Manager walkthrough  with Tim Nelson as well as the same functionality code extended for adding recipes and editing recipes discussed with code institute and written by myself.
 - Python code for linking profile to meal cards written by myself.
+
+<br>
+
+# **End User Testing**
+## *First time Visitor Goals*
+### To browse the site for a variety of meals.
+
+|Desktop  | Phone | Tablet |
+:---------------: | :---------------: | :---------------: |
+![](user_testing_images/desktop_meals.png)  | ![](user_testing_images/Iphone_meals.png) | ![]
