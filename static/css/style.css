@@ -159,12 +159,6 @@ p {
 }
 
 /* ------------------------------------ Recipe Card Page */
-.row .col.m6 {
-    width: 50%;
-    margin-left: auto;
-    left: auto;
-    right: auto;
-}
 
 .card .card-image {
     position: relative; 
