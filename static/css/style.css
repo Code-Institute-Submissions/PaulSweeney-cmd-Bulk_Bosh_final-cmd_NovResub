@@ -163,10 +163,6 @@ p {
     position: relative; 
 }
 
-.card.meal-card:hover{
-    border: 2px solid black;  
-}
-
 h1.menu-header {
     font-size: 55px;
 }
@@ -181,7 +177,7 @@ hr.menu-header-hr {
 
 /* recipe cards */
 .row.meal-row {
-    margin-top: 100px;
+    margin-top: 35px;
 }
 
 .card.meal-card {
