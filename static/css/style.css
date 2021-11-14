@@ -677,6 +677,16 @@ button.add-meal-button {
     align-items: center;
 }
 
+
+
+
+
+
+
+
+
+
+
 .col.s12.col.m6 {
     width: 50%;
 }
@@ -684,5 +694,8 @@ button.add-meal-button {
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     .col.s12.col.m6 {
         width: auto;
+    }
+    .content-container {
+        display: table-cell;
     }
 }
