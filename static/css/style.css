@@ -676,18 +676,3 @@ button.add-meal-button {
     display: flex;
     align-items: center;
 }
-
-
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) {
-    .form-content-container {
-        display: table-cell;
-    }
-    h3.register-header.center-align {
-        font-size: 35px;
-    }
-    h3.form-header {
-        font-size: 35px;
-    }
-}
