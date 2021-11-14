@@ -787,4 +787,7 @@ and (max-device-width : 480px) {
         display: flex;
         flex-direction: column;
     }
+    a.brand-logo-left {
+        font-size: 33px;
+    }
 }
