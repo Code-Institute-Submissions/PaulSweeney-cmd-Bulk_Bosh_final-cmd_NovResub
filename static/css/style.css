@@ -77,6 +77,10 @@ img.logo-image {
 }
 
 /* ------------------------------------ Home Page */
+.row.benefits.center-align {
+    display: flex;
+}
+
 h3.home-header.center-align {
     color: #fafafa;
     font-family: 'Barlow', sans-serif;
@@ -774,5 +778,9 @@ and (max-device-width : 480px) {
         font-size: 17px;
         font-weight: 800;
         margin-top: 30px;
+    }
+    .row.benefits.center-align {
+        display: flex;
+        flex-direction: column;
     }
 }
