@@ -191,7 +191,7 @@ def add_meal():
             "carbs": request.form.get("carbs"),
             "protein": request.form.get("protein"),
             "cooking_time": request.form.get("cooking_time"),
-            "servings": request.form.get("steps"),
+            "servings": request.form.get("servings"),
             "url": request.form.get("url")
         }
         mongo.db.meals.insert_one(new_meal)
