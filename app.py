@@ -233,7 +233,8 @@ def edit_meal(meal_id):
             "carbs": request.form.get("carbs"),
             "protein": request.form.get("protein"),
             "cooking_time": request.form.get("cooking_time"),
-            "servings": request.form.get("servings")
+            "servings": request.form.get("servings"),
+            "url": request.form.get("url")
         }
 
         mongo.db.meals.update({"_id": ObjectId(meal_id)}, update)
