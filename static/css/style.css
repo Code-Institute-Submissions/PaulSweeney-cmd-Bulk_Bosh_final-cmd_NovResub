@@ -670,23 +670,3 @@ button.add-meal-button {
     display: flex;
     align-items: center;
 }
-
-
-.form-content-container {
-    background-color: #070707a8;
-    border-radius: 11px;
-    margin: 30px;
-    padding: 50px;
-}
-
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) {
-    .form-content-container {
-        background-color: #070707a8;
-        border-radius: 11px;
-        margin: 30px;
-        padding: 50px;
-        display: table-cell;
-    }
-}
