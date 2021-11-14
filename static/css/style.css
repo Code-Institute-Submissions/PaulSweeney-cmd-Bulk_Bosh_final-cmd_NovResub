@@ -712,7 +712,8 @@ and (max-device-width : 480px) {
 
 /* iPads (portrait and landscape) ----------- */
 @media only screen 
-and (min-device-width : 768px) {
+and (min-device-width : 768px) 
+and (max-device-width : 769px) {
     .content-container {
         background-color: #070707a8;
         padding: 10px;
