@@ -42,14 +42,15 @@
             <div id="ingredients-form">
                 <div class="row">
                     <div class="input-field col s12">
-                        <input name="ingredient_name" minlength="5" maxlength="60" type="text" placeholder="Name">
+                        <input name="ingredient_name" minlength="5" maxlength="60" type="text" required>
+                        <label for="ingredient_name">Name</label>
                     </div>
                     <div class="form-guide">
                         Ingredient name must be between 5 and 60 characters long.
                     </div>
                     <div class="input-field col s12">
-                        <input name="ingredient_quantity" minlength="1" maxlength="5" type="number"
-                            placeholder="Quantity">
+                        <input name="ingredient_quantity" minlength="1" maxlength="5" type="number">
+                        <label for="ingredient_quantity">Quantity</label>
                     </div>
                     <div class="form-guide">
                         Quantity can be up to 5 numbers long.
@@ -57,8 +58,8 @@
                     <div class="form-guide">
                     </div>
                     <div class="input-field col s12">
-                        <input name="ingredient_unit" minlength="1" maxlength="15" type="text"
-                            placeholder="Measurement">
+                        <input name="ingredient_unit" minlength="1" maxlength="15" type="text">
+                        <label for="ingredient_unit">Measurement</label>
                     </div>
                     <div class="form-guide">
                         Please only use the following units of measurement: tbsp, tsp, cup, ltr, ml etc.
