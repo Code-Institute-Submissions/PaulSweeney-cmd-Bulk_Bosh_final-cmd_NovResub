@@ -162,6 +162,42 @@ p {
 }
 
 /* ------------------------------------ Recipe Card Page */
+a.view-button {
+    font-size: 19px;
+    padding-top: 4px;
+    background: rgb(0 0 0 / 33%);
+    border-radius: 10px;
+    box-shadow: 0 5px 5px rgb(0 0 0 / 20%);
+    padding: 13px;
+    color: #fafafa;
+    border: 2px solid #5ca7e7;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+a.edit-button {
+    font-size: 19px;
+    padding-top: 4px;
+    background: rgb(0 0 0 / 33%);
+    border-radius: 10px;
+    box-shadow: 0 5px 5px rgb(0 0 0 / 20%);
+    padding: 13px;
+    color: #fafafa;
+    border: 2px solid #5ca7e7;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+a.delete-button {
+    font-size: 19px;
+    padding-top: 4px;
+    background: rgb(0 0 0 / 33%);
+    border-radius: 10px;
+    box-shadow: 0 5px 5px rgb(0 0 0 / 20%);
+    padding: 13px;
+    color: #fafafa;
+    border: 2px solid #5ca7e7;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
 .card .card-image {
     position: relative; 
 }
@@ -412,43 +448,43 @@ input#instagram {
 
 /* icons */
 i.far.fa-question-circle.prefix {
-    color: #2c6adc;
+    color: #5ca7e7;
 }
 
 i.fab.fa-facebook-square.prefix {
-    color: #2c6adc;
+    color: #5ca7e7;
 }
 
 i.fab.fa-instagram-square.prefix {
-    color: #2c6adc;
+    color: #5ca7e7;
 }
 
 i.far.fa-thumbs-up.prefix {
-    color: #2c6adc;
+    color: #5ca7e7;
 }
 
 i.far.fa-thumbs-down.prefix {
-    color: #2c6adc;
+    color: #5ca7e7;
 }
 
 i.far.fa-envelope.prefix {
-    color: #2c6adc;
+    color: #5ca7e7;
 }
 
 i.fas.fa-user-edit.prefix {
-    color: #2c6adc;
+    color: #5ca7e7;
 }
 
 i.far.fa-user {
-    color: #2c6adc;
+    color: #5ca7e7;
 }
 
 i.fas.fa-key {
-    color: #2c6adc;
+    color: #5ca7e7;
 }
 
 i.fas.fa-camera-retro.prefix {
-    color: #2c6adc;
+    color: #5ca7e7;
 }
 
 /* ------------------------------------ Profile Page */
@@ -701,41 +737,10 @@ and (max-device-width : 480px) {
         font-size: 35px;
         margin-top: 15px;
     }
-}
-
-a.view-button {
-    font-size: 19px;
-    padding-top: 4px;
-    background: rgb(0 0 0 / 33%);
-    border-radius: 10px;
-    box-shadow: 0 5px 5px rgb(0 0 0 / 20%);
-    padding: 13px;
-    color: #fafafa;
-    border: 2px solid #5ca7e7;
-    cursor: pointer;
-    letter-spacing: 1px;
-}
-a.edit-button {
-    font-size: 19px;
-    padding-top: 4px;
-    background: rgb(0 0 0 / 33%);
-    border-radius: 10px;
-    box-shadow: 0 5px 5px rgb(0 0 0 / 20%);
-    padding: 13px;
-    color: #fafafa;
-    border: 2px solid #5ca7e7;
-    cursor: pointer;
-    letter-spacing: 1px;
-}
-a.delete-button {
-    font-size: 19px;
-    padding-top: 4px;
-    background: rgb(0 0 0 / 33%);
-    border-radius: 10px;
-    box-shadow: 0 5px 5px rgb(0 0 0 / 20%);
-    padding: 13px;
-    color: #fafafa;
-    border: 2px solid #5ca7e7;
-    cursor: pointer;
-    letter-spacing: 1px;
+    a.view-button,
+    a.edit-button,
+    a.delete-button {
+        font-size: 16px;
+        padding: 7px;
+    }
 }
