@@ -17,9 +17,17 @@ body {
     margin: 30px;
     padding: 50px;
 }
-
 .col.s12.col.m6 {
     width: 50%;
+}
+
+.content-container.login-container {
+    display: block;
+    margin-top: 25%;
+}
+
+.content-container.home-container {
+    margin-top: 7%;
 }
 /* ------------------------------------ nav bar */
 .nav-wrapper.\#0e0e0e.grey.darken-4 {
@@ -754,21 +762,17 @@ and (max-device-width : 480px) {
         font-size: 16px;
         padding: 7px;
     }
-    body {
-        height: 100vh;
-    }
     .content-container.login-container {
         display: block;
         margin-top: 30%;
     }
-}
-
-
-.content-container.login-container {
-    display: block;
-    margin-top: 25%;
-}
-
-.content-container.home-container {
-    margin-top: 7%;
+    p {
+        font-family: 'Barlow', sans-serif;
+        font-size: 21px;
+    }
+    p.registered-text.center-align {
+        font-size: 17px;
+        font-weight: 800;
+        margin-top: 30px;
+    }
 }
