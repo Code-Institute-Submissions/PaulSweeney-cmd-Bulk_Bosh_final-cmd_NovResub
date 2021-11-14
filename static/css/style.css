@@ -550,6 +550,7 @@ h3.form-header{
     font-family: 'Barlow', sans-serif;
     font-size: 50px;
     margin-top: 5rem;
+    margin-bottom: 0;
 }
 
 input#meal_name,
