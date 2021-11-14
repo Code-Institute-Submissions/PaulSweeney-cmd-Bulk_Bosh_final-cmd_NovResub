@@ -26,9 +26,6 @@ body {
     margin-top: 25%;
 }
 
-.content-container.home-container {
-    margin-top: 20%;
-}
 /* ------------------------------------ nav bar */
 .nav-wrapper.\#0e0e0e.grey.darken-4 {
     width: 100%;
@@ -77,6 +74,10 @@ img.logo-image {
 }
 
 /* ------------------------------------ Home Page */
+.content-container.home-container {
+    margin-top: 20%;
+}
+
 .row.benefits.center-align {
     display: flex;
 }
@@ -148,6 +149,9 @@ p.registered-text.center-align {
     margin-top: 45px;
 }
 /* ------------------------------------ About Page */
+.content-container.about-container {
+    margin-top: 20%;
+}
 button.submit-button {
     font-size: 25px;
     padding-top: 4p;
