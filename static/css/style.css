@@ -737,18 +737,3 @@ and (max-device-width : 1024px) {
         font-size: 40px;
     }
 }
-
-/* Desktops and laptops ----------- */
-@media only screen 
-and (min-width : 1224px) {
-    .row .col.s12 {
-        width: 50%;
-        margin-left: auto;
-        left: auto;
-        right: auto;
-        margin-bottom: 0;
-    }
-}
-
-
-    
