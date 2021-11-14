@@ -163,10 +163,9 @@ p.registered-text.center-align {
     font-weight: 800;
 }
 
-p {
+p.center-align {
     font-family: 'Barlow', sans-serif;
     font-size: 25px;
-    text-align: center;
 }
 
 /* ------------------------------------ Recipe Card Page */
@@ -402,7 +401,7 @@ button.submit-button {
     box-shadow: 0 5px 5px rgb(0 0 0 / 20%);
     padding: 13px;
     color: #fafafa;
-    border: 2px solid #ffff00b8;
+    border: 2px solid #fafafa;
     cursor: pointer;
 }
 
@@ -771,6 +770,5 @@ and (max-device-width : 480px) {
 }
 
 .content-container.home-container {
-    display: block;
     margin-top: 7%;
 }
