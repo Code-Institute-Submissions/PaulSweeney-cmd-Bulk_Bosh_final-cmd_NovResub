@@ -537,6 +537,14 @@ i.fab.fa-facebook-square.center {
 
 /* ------------------------------------ Add recipes Page */
 
+.row .col.s12 {
+    width: 100%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+    margin-bottom: 0;
+}
+
 h3.form-header{
     color: #fafafa;
     font-family: 'Barlow', sans-serif;
@@ -564,6 +572,16 @@ input[type="number"] {
 }
 .form-guide {
     margin-left: 10px;
+}
+
+#ing-btn {
+    font-size: 15px;
+    padding-top: 4px;
+    background: rgba(255,255,255,.1);
+    border-radius: 10px;
+    box-shadow: 0 5px 5px rgb(0 0 0 / 20%);
+    padding: 13px;
+    color: #fafafa;
 }
 
 label {
