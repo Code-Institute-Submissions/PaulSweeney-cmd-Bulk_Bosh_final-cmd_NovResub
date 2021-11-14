@@ -679,3 +679,22 @@ button.add-meal-button {
     display: flex;
     align-items: center;
 }
+
+@media (min-width:320px) and (min-width:600px) {
+    .content-container {
+        background-color: #070707a8;
+        padding: 10px;
+        border-radius: 11px;
+        margin-top: 30px;
+        display: table-cell;
+    }
+    button.add-meal-button {
+        padding: 10px;
+        font-size: 16px;
+    }
+    #ing-btn {
+        padding: 10px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+}
