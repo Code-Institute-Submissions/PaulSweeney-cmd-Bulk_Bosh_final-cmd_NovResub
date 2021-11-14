@@ -22,9 +22,6 @@
                 </div>
                 <!-- short overview of meal -->
                 <hr class="meal-title-divider">
-                <div class="meal-overview">
-                    {{ meal.overview }}
-                </div>
                 <!-- CRUD functionality buttons -->
                 <a href="{{ url_for('meal_detail', meal_id=meal._id) }}" class="view-button">
                     View

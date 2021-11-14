@@ -202,6 +202,7 @@ hr.meal-title-divider {
     height: 1px;
     border: 0;
     border-top: 1px solid #414348;
+    margin-bottom: 20px;
 }
 
 /* user hyperlink styling */
@@ -709,7 +710,7 @@ a.view-button {
     box-shadow: 0 5px 5px rgb(0 0 0 / 20%);
     padding: 13px;
     color: #fafafa;
-    border: 1pxsolid #5ca7e7;
+    border: 1px solid #5ca7e7;
     cursor: pointer;
 }
 a.edit-button {
@@ -720,7 +721,7 @@ a.edit-button {
     box-shadow: 0 5px 5px rgb(0 0 0 / 20%);
     padding: 13px;
     color: #fafafa;
-    border: 1pxsolid #5ca7e7;
+    border: 1px solid #5ca7e7;
     cursor: pointer;
 }
 a.delete-button {
@@ -731,6 +732,6 @@ a.delete-button {
     box-shadow: 0 5px 5px rgb(0 0 0 / 20%);
     padding: 13px;
     color: #fafafa;
-    border: 1pxsolid #5ca7e7;
+    border: 1px solid #5ca7e7;
     cursor: pointer;
 }
