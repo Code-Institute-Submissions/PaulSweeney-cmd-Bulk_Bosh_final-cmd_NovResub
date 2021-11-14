@@ -681,7 +681,7 @@ button.add-meal-button {
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
-    .content-container {
+    .form-content-container {
         display: table-cell;
     }
     h3.register-header.center-align {
