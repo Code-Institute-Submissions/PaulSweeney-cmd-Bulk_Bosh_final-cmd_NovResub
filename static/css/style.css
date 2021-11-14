@@ -700,6 +700,12 @@ and (max-device-width : 480px) {
         font-size: 16px;
         font-weight: 600;
     }
+    h3.form-header {
+        font-size: 40px;
+    }
+    h3.register-header.center-align {
+        font-size: 40px;
+    }
 }
 
 /* iPads (portrait and landscape) ----------- */
@@ -721,6 +727,12 @@ and (max-device-width : 1024px) {
         padding: 10px;
         font-size: 16px;
         font-weight: 600;
+    }
+    h3.form-header {
+        font-size: 40px;
+    }
+    h3.register-header.center-align {
+        font-size: 40px;
     }
 }
 
