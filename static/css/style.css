@@ -143,10 +143,10 @@ a.login-button-text {
 }
 
 p.registered-text.center-align {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 800;
+    margin-top: 45px;
 }
-
 /* ------------------------------------ About Page */
 button.submit-button {
     font-size: 25px;
