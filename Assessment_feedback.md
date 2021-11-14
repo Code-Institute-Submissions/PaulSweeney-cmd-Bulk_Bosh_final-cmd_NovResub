@@ -9,6 +9,7 @@ Add Meal Before  | Add Meal After | Add Meal Form Guides Added |
 * Also updated Recipe form with a guide on input for each field
 * Register buttons on Home and Who We Are pages updated with some CSS taken from the Login page to display same styling
 * Servings entry not rendering when user adds value to the field, typo fixed to ```"servings": request.form.get("servings")``` as opposed to ```'steps'```.
+* Image wasnt rendering when user updates recipe, syntax fixed. Value want passed in to the url section therefore no data rendering back when form updated = ```value="{{ meal.url }}"```
 #
 Edit Recipe Before  | After |
 :---------------: | :---------------:
