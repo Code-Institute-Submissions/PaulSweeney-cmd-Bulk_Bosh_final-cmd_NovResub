@@ -17,6 +17,10 @@ body {
     margin: 30px;
     padding: 50px;
 }
+
+.col.s12.col.m6 {
+    width: 50%;
+}
 /* ------------------------------------ nav bar */
 .nav-wrapper.\#0e0e0e.grey.darken-4 {
     width: 100%;
@@ -677,21 +681,8 @@ button.add-meal-button {
     align-items: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-.col.s12.col.m6 {
-    width: 50%;
-}
-
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-device-width : 320px) 
+and (max-device-width : 480px) {
     .col.s12.col.m6 {
         width: auto;
     }
@@ -706,5 +697,18 @@ button.add-meal-button {
     }
     h1.menu-header {
         font-size: 35px;
+        margin-top: 15px;
     }
+}
+
+button.add-meal-button {
+    font-size: 18px;
+    padding-top: 4px;
+    background: rgb(0 0 0 / 33%);
+    border-radius: 10px;
+    box-shadow: 0 5px 5px rgb(0 0 0 / 20%);
+    padding: 13px;
+    color: #fafafa;
+    border: 1pxsolid #5ca7e7;
+    cursor: pointer;
 }

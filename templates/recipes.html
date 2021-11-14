@@ -26,14 +26,14 @@
                     {{ meal.overview }}
                 </div>
                 <!-- CRUD functionality buttons -->
-                <a href="{{ url_for('meal_detail', meal_id=meal._id) }}" class="btn-large view-button">
+                <a href="{{ url_for('meal_detail', meal_id=meal._id) }}" class="view-button">
                     View
                 </a>
                 {% if session.user|lower == meal.added_by|lower %}
-                <a href="{{ url_for('edit_meal', meal_id=meal._id) }}" class="btn-large edit-button ">
+                <a href="{{ url_for('edit_meal', meal_id=meal._id) }}" class="edit-button ">
                     Edit
                 </a>
-                <a href="{{ url_for('delete_meal', meal_id=meal._id) }}" class="btn-large delete-button">
+                <a href="{{ url_for('delete_meal', meal_id=meal._id) }}" class="delete-button">
                     Remove
                 </a>
                 {% endif %}
