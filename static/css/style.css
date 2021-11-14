@@ -679,33 +679,3 @@ button.add-meal-button {
     display: flex;
     align-items: center;
 }
-
-/* Media Queries
-
-/* Phones (portrait and landscape) ----------- */
-/* @media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 768px) {
-    .content-container {
-        background-color: #070707a8;
-        padding: 10px;
-        border-radius: 11px;
-        margin-top: 30px;
-        display: table-cell !important;
-    }
-    button.add-meal-button {
-        padding: 10px;
-        font-size: 16px;
-    }
-    #ing-btn {
-        padding: 10px;
-        font-size: 16px;
-        font-weight: 600;
-    }
-    h3.form-header {
-        font-size: 40px;
-    }
-    h3.register-header.center-align {
-        font-size: 40px;
-    }
-}  */
