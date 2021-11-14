@@ -698,4 +698,13 @@ button.add-meal-button {
     .content-container {
         display: table-cell;
     }
+    h3.register-header.center-align {
+        font-size: 35px;
+    }
+    h3.form-header {
+        font-size: 35px;
+    }
+    h1.menu-header {
+        font-size: 35px;
+    }
 }
