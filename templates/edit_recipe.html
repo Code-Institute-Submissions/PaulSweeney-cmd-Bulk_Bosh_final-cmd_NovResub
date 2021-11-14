@@ -72,19 +72,22 @@
             <h3 class="register-header">Nutrition</h3>
             <div class="row">
                 <div class="input-field col s12">
-                    <input id="calories" name="calories" minlength="1" maxlength="5" type="text" required>
+                    <input id="calories" name="calories" minlength="1" maxlength="5"  value="{{ meal.calories }}"
+                        type="text" required>
                     <label for="calories">Calories</label>
                 </div>
             </div>
             <div class="row">
                 <div class="input-field col s12">
-                    <input id="carbs" name="carbs" minlength="1" maxlength="5" type="text" required>
+                    <input id="carbs" name="carbs" minlength="1" maxlength="5"  value="{{ meal.carbs }}"
+                        type="text" required>
                     <label for="carbs">Carbs</label>
                 </div>
             </div>
             <div class="row">
                 <div class="input-field col s12">
-                    <input id="protein" name="protein" minlength="1" maxlength="5" type="text" required>
+                    <input id="protein" name="protein" minlength="1" maxlength="5" value="{{ meal.protein }}" 
+                        type="text" required>
                     <label for="protein">Protein</label>
                 </div>
                 <div class="form-guide">
