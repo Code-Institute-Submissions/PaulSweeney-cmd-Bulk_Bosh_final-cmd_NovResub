@@ -18,13 +18,6 @@ body {
     padding: 50px;
 }
 
-.row .col.s12 {
-    width: 50% !important;
-    margin-left: auto;
-    left: auto;
-    right: auto;
-    margin-bottom: 0;
-}
 /* ------------------------------------ nav bar */
 .nav-wrapper.\#0e0e0e.grey.darken-4 {
     width: 100%;
@@ -687,10 +680,10 @@ button.add-meal-button {
     align-items: center;
 }
 
-/* Media Queries */
+/* Media Queries
 
 /* Phones (portrait and landscape) ----------- */
-@media only screen 
+/* @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 768px) {
     .content-container {
@@ -715,4 +708,4 @@ and (max-device-width : 768px) {
     h3.register-header.center-align {
         font-size: 40px;
     }
-}
+}  */
