@@ -137,13 +137,17 @@ p.registered-text.center-align {
 
 /* ------------------------------------ About Page */
 button.submit-button {
-    color: #ffff00b8;
-    font-size: 30px;
-    padding-top: 4px;
-    background: rgba(255,255,255,.1);
+    font-size: 25px;
+    padding-top: 4p;
+    font-size: 18px;
+    padding-top: 4p;
+    background: rgb(0 0 0 / 33%);
     border-radius: 10px;
-    box-shadow: 0 5px 5px rgba(0,0,0,.2);
+    box-shadow: 0 5px 5px rgb(0 0 0 / 20%);
     padding: 13px;
+    color: #fafafa;
+    border: 2px solid #ffff00b8;
+    cursor: pointer;
 }
 
 a.register-button-text {
@@ -388,13 +392,17 @@ h3.social-link-header {
 }
 
 button.submit-button {
-    color: #ffff00b8;
-    font-size: 30px;
-    padding-top: 4px;
-    background: rgba(255,255,255,.1);
+    font-size: 25px;
+    padding-top: 4p;
+    font-size: 18px;
+    padding-top: 4p;
+    background: rgb(0 0 0 / 33%);
     border-radius: 10px;
-    box-shadow: 0 5px 5px rgba(0,0,0,.2);
+    box-shadow: 0 5px 5px rgb(0 0 0 / 20%);
     padding: 13px;
+    color: #fafafa;
+    border: 2px solid #ffff00b8;
+    cursor: pointer;
 }
 
 .password-guide {
