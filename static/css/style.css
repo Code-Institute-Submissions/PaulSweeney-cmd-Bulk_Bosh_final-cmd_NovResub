@@ -680,7 +680,9 @@ button.add-meal-button {
     align-items: center;
 }
 
-/* phones */
+/* Media Queries */
+
+/* Phones (portrait and landscape) ----------- */
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
@@ -733,6 +735,18 @@ and (max-device-width : 1024px) {
     }
     h3.register-header.center-align {
         font-size: 40px;
+    }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+    .row .col.s12 {
+        width: 50%;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+        margin-bottom: 0;
     }
 }
 
