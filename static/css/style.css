@@ -185,6 +185,7 @@ hr.menu-header-hr {
 
 .card.meal-card {
     background-color: transparent;
+    padding-bottom: 20px;
 }
 
 span.card-meal-title {
@@ -703,35 +704,38 @@ and (max-device-width : 480px) {
 }
 
 a.view-button {
-    font-size: 18px;
+    font-size: 19px;
     padding-top: 4px;
     background: rgb(0 0 0 / 33%);
     border-radius: 10px;
     box-shadow: 0 5px 5px rgb(0 0 0 / 20%);
     padding: 13px;
     color: #fafafa;
-    border: 1px solid #5ca7e7;
+    border: 2px solid #5ca7e7;
     cursor: pointer;
+    letter-spacing: 1px;
 }
 a.edit-button {
-    font-size: 18px;
+    font-size: 19px;
     padding-top: 4px;
     background: rgb(0 0 0 / 33%);
     border-radius: 10px;
     box-shadow: 0 5px 5px rgb(0 0 0 / 20%);
     padding: 13px;
     color: #fafafa;
-    border: 1px solid #5ca7e7;
+    border: 2px solid #5ca7e7;
     cursor: pointer;
+    letter-spacing: 1px;
 }
 a.delete-button {
-    font-size: 18px;
+    font-size: 19px;
     padding-top: 4px;
     background: rgb(0 0 0 / 33%);
     border-radius: 10px;
     box-shadow: 0 5px 5px rgb(0 0 0 / 20%);
     padding: 13px;
     color: #fafafa;
-    border: 1px solid #5ca7e7;
+    border: 2px solid #5ca7e7;
     cursor: pointer;
+    letter-spacing: 1px;
 }
