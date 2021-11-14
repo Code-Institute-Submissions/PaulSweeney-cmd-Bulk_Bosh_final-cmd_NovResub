@@ -759,5 +759,12 @@ and (max-device-width : 480px) {
     }
     .content-container.login-container {
         display: block;
+        margin-top: 30%;
     }
+}
+
+
+.content-container.login-container {
+    display: block;
+    margin-top: 25%;
 }
