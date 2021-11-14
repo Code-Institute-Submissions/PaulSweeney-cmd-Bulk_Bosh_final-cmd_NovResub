@@ -21,7 +21,6 @@ app.secret_key = os.environ.get("SECRET_KEY")
 
 mongo = PyMongo(app)
 
-
 # ------------------------------------------------- home page
 @app.route("/")
 @app.route("/home")
@@ -30,7 +29,6 @@ def home():
     Function to render the home page
     """
     return render_template("home.html")
-
 
 # ------------------------------------------------- profile
 @app.route("/profile/<username>", methods=["GET", "POST"])
@@ -47,7 +45,6 @@ def profile(username):
         return render_template("profile.html", username=username)
     return redirect(url_for("login"))
 
-
 # ------------------------------------------------- about page
 @app.route("/about")
 def about():
@@ -55,7 +52,6 @@ def about():
     Render about page
     """
     return render_template("about.html")
-
 
 # ------------------------------------------------- meal card page
 @app.route("/get_meals")
@@ -66,7 +62,6 @@ def get_meals():
     site_meals = mongo.db.meals.find()
     # returns the page with all meals in the database
     return render_template("recipes.html", site_meals=site_meals)
-
 
 # ---------------------------------- route to page with the full recipe on
 @app.route("/meal_detail/<meal_id>")
@@ -80,7 +75,6 @@ def meal_detail(meal_id):
     # user gets directed to the single meal page with all data related to it
     return render_template("meal_page.html", each_meal=each_meal)
 
-
 # ---------------------------------- route to meal creator profile
 @app.route("/creator_profile/<username>")
 def creator_profile(username):
@@ -90,7 +84,6 @@ def creator_profile(username):
     # requesting the database to display selected user
     creator = mongo.db.users.find_one({"username": username})
     return render_template("creator_profile.html", creator=creator)
-
 
 # ------------------------------------------------- register page
 @app.route("/register_user", methods=["GET", "POST"])
@@ -133,7 +126,6 @@ def register_user():
 
     return render_template("register.html")
 
-
 # ------------------------------------------------- login
 @app.route("/login", methods=["GET", "POST"])
 def login():
@@ -163,7 +155,6 @@ def login():
             return redirect(url_for("login"))
 
     return render_template("login.html")
-
 
 # ------------------------------------------------- add meal
 @app.route("/add_meal", methods=["GET", "POST"])
@@ -209,7 +200,6 @@ def add_meal():
 
     return render_template("add_recipe.html")
 
-
 # ------------------------------------------------- edit meal
 @app.route("/edit_meal/<meal_id>", methods=["GET", "POST"])
 def edit_meal(meal_id):
@@ -253,7 +243,6 @@ def edit_meal(meal_id):
     meal = mongo.db.meals.find_one({"_id": ObjectId(meal_id)})
     return render_template("edit_recipe.html", meal=meal)
 
-
 # ------------------------------------------------- delete meal
 @app.route("/delete_meal/<meal_id>")
 def delete_meal(meal_id):
@@ -265,7 +254,6 @@ def delete_meal(meal_id):
     flash("Meal deleted")
     return redirect(url_for("get_meals"))
 
-
 # ------------------------------------------------- logout
 @app.route("/logout")
 def logout():
@@ -276,10 +264,7 @@ def logout():
     session.pop("user")
     return redirect(url_for("login"))
 
-
 # -------------------------------------------------
-
-
 if __name__ == "__main__":
     app.run(host=os.environ.get("IP"),
             port=int(os.environ.get("PORT")),
