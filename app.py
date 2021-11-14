@@ -224,11 +224,11 @@ def edit_meal(meal_id):
 
             # passing that new ingredients variable to be added to database
         update = {
-            "meal_name": request.form.get("meal_name"),
-            "meal_description": request.form.get("meal_description"),
+            # "meal_name": request.form.get("meal_name"),
+            # "meal_description": request.form.get("meal_description"),
             "meal_ingredients": meal_ingredients,
             "meal_instructions": request.form.get("meal_instructions"),
-            "added_by": session["user"],
+            # "added_by": session["user"],
             "calories": request.form.get("calories"),
             "carbs": request.form.get("carbs"),
             "protein": request.form.get("protein"),
