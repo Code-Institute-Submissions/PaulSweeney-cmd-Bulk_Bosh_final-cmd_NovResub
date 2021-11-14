@@ -49,11 +49,11 @@
                         Ingredient name must be between 5 and 60 characters long.
                     </div>
                     <div class="input-field col s12">
-                        <input name="ingredient_quantity" minlength="1" maxlength="5" type="number" min="1" max="5" required>
+                        <input name="ingredient_quantity" type="number" min="1" max="100" required>
                         <label for="ingredient_quantity">Quantity</label>
                     </div>
                     <div class="form-guide">
-                        Quantity can be up to 5 numbers long.
+                        Quantity can be up to 100 numbers.
                     </div>
                     <div class="form-guide">
                     </div>
@@ -73,43 +73,46 @@
             <h3 class="form-header">Nutrition</h3>
             <div class="row">
                 <div class="input-field col s12">
-                    <input id="calories" name="calories" minlength="1" maxlength="5" type="number" min="1" max="5" required>
+                    <input id="calories" name="calories" minlength="1" maxlength="10" type="text" required>
                     <label for="calories">Calories</label>
                 </div>
                 <div class="form-guide">
-                    Calories can be between 1 and 5 numbers long.
+                    Calories can be entered using numbers only.
                 </div>
             </div>
             <div class="row">
                 <div class="input-field col s12">
-                    <input id="carbs" name="carbs" minlength="1" maxlength="5" type="text" required>
+                    <input id="carbs" name="carbs" minlength="1" maxlength="10" type="text" required>
                     <label for="carbs">Carbs</label>
                 </div>
             </div>
             <div class="row">
                 <div class="input-field col s12">
-                    <input id="protein" name="protein" minlength="1" maxlength="5" type="text" required>
+                    <input id="protein" name="protein" minlength="1" maxlength="10" type="text" required>
                     <label for="protein">Protein</label>
                 </div>
                 <div class="form-guide">
-                    Please only use grams for your unit of measurement for the carbs and protien field.
+                    Please only use g for your unit of measurement for the carbs and protien field. Maximum character amount is 10.
                 </div>
             </div>
             <!-- prep time & serving -->
             <h3 class="form-header">Prep</h3>
             <div class="row">
                 <div class="input-field col s12">
-                    <input id="cooking_time" name="cooking_time" minlength="1" maxlength="5" type="number" min="1" max="5" required>
+                    <input id="cooking_time" name="cooking_time" minlength="1" maxlength="10" type="text" required>
                     <label for="cooking_time">Cooking Time</label>
+                </div>
+                <div class="form-guide">
+                    Cooking time must be between 1 and 10 characters long. Make sure you include the length of time i.e. hrs, mins.
                 </div>
             </div>
             <div class="row">
                 <div class="input-field col s12">
-                    <input id="servings" name="servings" minlength="1" maxlength="5" type="number" min="1" max="5" required>
+                    <input id="servings" name="servings" type="number" min="1" max="100" required>
                     <label for="servings">Servings</label>
                 </div>
                 <div class="form-guide">
-                    Cooking & serving time must be between 1 and 5 characters making sure to use numbers only.
+                    Servings can be up to 100 using numbers only.
                 </div>
             </div>
             <!-- directions -->
