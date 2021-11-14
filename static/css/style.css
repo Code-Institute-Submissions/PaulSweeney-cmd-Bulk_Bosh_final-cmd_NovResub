@@ -536,9 +536,6 @@ h3.form-header{
     margin-top: 5rem;
 }
 
-::placeholder {
-    color: #5ca7e7;
-}
 input#meal_name,
 input#meal_description,
 input#url,
@@ -551,6 +548,10 @@ input#meal_instructions {
     color: #fafafa;
 }
 input[type="text"] {
+    color: #fafafa;
+}
+
+input[type="number"] {
     color: #fafafa;
 }
 .form-guide {
