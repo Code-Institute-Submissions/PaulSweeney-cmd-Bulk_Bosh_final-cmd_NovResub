@@ -113,14 +113,17 @@ button.submit-button {
 }
 
 a.register-button {
-    font-size: 30px;
-    padding-top: 4px;
-    background: rgba(255,255,255,.1);
+    font-size: 25px;
+    padding-top: 4p;
+    font-size: 18px;
+    padding-top: 4p;
+    background: rgb(0 0 0 / 33%);
     border-radius: 10px;
     box-shadow: 0 5px 5px rgb(0 0 0 / 20%);
     padding: 13px;
-    color: #ffff00b8;
-    font-weight: 600;
+    color: #fafafa;
+    border: 2px solid #ffff00b8;
+    cursor: pointer;
 }
 
 a.login-button-text {
@@ -744,3 +747,4 @@ and (max-device-width : 480px) {
         padding: 7px;
     }
 }
+
