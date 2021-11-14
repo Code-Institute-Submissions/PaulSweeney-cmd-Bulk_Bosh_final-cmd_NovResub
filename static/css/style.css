@@ -528,8 +528,9 @@ i.fab.fa-facebook-square.center {
 }
 
 /* ------------------------------------ Add recipes Page */
-.placeholder {
-    color: #5ca7e7 !important;
+
+::placeholder {
+    color: #5ca7e7;
 }
 input#meal_name,
 input#meal_description,
