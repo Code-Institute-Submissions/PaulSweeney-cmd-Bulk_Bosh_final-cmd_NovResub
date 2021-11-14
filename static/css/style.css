@@ -17,15 +17,6 @@ body {
     margin: 30px;
     padding: 50px;
 }
-
-.row .col.s12 {
-    width: 50%;
-    margin-left: auto;
-    left: auto;
-    right: auto;
-    margin-bottom: 0;
-}
-
 /* ------------------------------------ nav bar */
 .nav-wrapper.\#0e0e0e.grey.darken-4 {
     width: 100%;
