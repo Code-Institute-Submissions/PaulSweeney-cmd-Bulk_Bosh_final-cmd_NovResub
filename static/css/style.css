@@ -19,7 +19,7 @@ body {
 }
 
 .row .col.s12 {
-    width: 50%;
+    width: 50% !important;
     margin-left: auto;
     left: auto;
     right: auto;
@@ -698,7 +698,7 @@ and (max-device-width : 768px) {
         padding: 10px;
         border-radius: 11px;
         margin-top: 30px;
-        display: table-cell;
+        display: table-cell !important;
     }
     button.add-meal-button {
         padding: 10px;
