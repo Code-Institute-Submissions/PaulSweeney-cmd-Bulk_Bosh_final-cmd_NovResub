@@ -535,7 +535,13 @@ i.fab.fa-facebook-square.center {
 }
 
 /* ------------------------------------ Add recipes Page */
-
+.row .col.s12 {
+    width: 100%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+    margin-bottom: 0;
+}
 h3.form-header{
     color: #fafafa;
     font-family: 'Barlow', sans-serif;
@@ -677,5 +683,11 @@ and (min-device-width : 320px)
 and (max-device-width : 480px) {
     .content-container {
         display: table-cell;
+    }
+    h3.register-header.center-align {
+        font-size: 35px;
+    }
+    h3.form-header {
+        font-size: 35px;
     }
 }
