@@ -8,6 +8,7 @@ Add Meal Before  | Add Meal After | Add Meal Form Guides Added |
 * CSS File updated with classes and font-styling to target the input id's for each field aswell as targeting input[type="text"]. This has also rectified the email address field in the register form to display correct text colour.
 * Also updated Recipe form with a guide on input for each field
 * Register buttons on Home and Who We Are pages updated with some CSS taken from the Login page to display same styling
+* Servings entry not rendering when user adds value to the field, typo fixed to ```"servings": request.form.get("servings")``` as opposed to ```'steps'```.
 #
 Edit Recipe Before  | After |
 :---------------: | :---------------:
