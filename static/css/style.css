@@ -246,16 +246,24 @@ a.btn-large.view-button {
 }
 
 /* ------------------------------------ Full Meal Page */
+hr.meal-page-breaker {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #5ca7e7;
+    margin-bottom: 48px;
+}
+
 h3.view-header {
     font-size: 2.92rem;
     line-height: 110%;
     margin: 1.9466666667rem 0 1.168rem 0;
 }
 
-h2.view-header {
+h2.ingredients-header,
+h2.directions-header {
     font-size: 38px;
     margin-bottom: 16px;
-    margin-top: -6px;
 }
 
 h2.view-instructions {
@@ -642,5 +650,5 @@ button.add-meal-button {
 
 .container-fluid.nutrition-container {
     display: flex;
-    align-items: baseline;
+    align-items: center;
 }

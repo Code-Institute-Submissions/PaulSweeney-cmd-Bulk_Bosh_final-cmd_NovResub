@@ -39,9 +39,9 @@
                         </div>
                     </div>
                 </p>
-                <hr>
+                <hr class="meal-page-breaker">
                 <!-- ingredients -->
-                <h2 class="view-header">Ingredients:</h2>
+                <h2 class="ingredients-header">Ingredients</h2>
                     {% for ingredient in each_meal.meal_ingredients %}
                     <div class="ingredients-list">
                         {{ ingredient.ingredient_quantity }}
@@ -50,7 +50,7 @@
                     </div>
                     {% endfor %}
                     <!-- directions -->
-                    <h2 class="view-instructions">Directions:</h2>
+                    <h2 class="directions-header">Directions</h2>
                 <p class="meal-instructions">{{ each_meal.meal_instructions }}</p>
             </div>
         </div>
