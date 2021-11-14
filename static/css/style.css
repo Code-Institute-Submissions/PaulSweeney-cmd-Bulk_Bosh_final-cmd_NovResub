@@ -19,6 +19,7 @@ body {
 }
 
 .row .col.s12 {
+    width: 50%;
     margin-left: auto;
     left: auto;
     right: auto;
