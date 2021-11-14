@@ -529,6 +529,13 @@ i.fab.fa-facebook-square.center {
 
 /* ------------------------------------ Add recipes Page */
 
+h3.form-header{
+    color: #fafafa;
+    font-family: 'Barlow', sans-serif;
+    font-size: 50px;
+    margin-top: 5rem;
+}
+
 ::placeholder {
     color: #5ca7e7;
 }
