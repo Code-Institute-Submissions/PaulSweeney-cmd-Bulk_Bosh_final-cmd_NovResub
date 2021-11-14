@@ -576,13 +576,15 @@ input[type="number"] {
 }
 
 #ing-btn {
-    font-size: 15px;
+    font-size: 18px;
     padding-top: 4px;
-    background: rgba(255,255,255,.1);
+    background: rgb(35 17 17 / 0%);
     border-radius: 10px;
     box-shadow: 0 5px 5px rgb(0 0 0 / 20%);
     padding: 13px;
     color: #fafafa;
+    border: 1px solid #5ca7e7;
+    cursor: pointer;
 }
 
 label {
@@ -596,13 +598,15 @@ label {
 }
 
 button.add-meal-button {
-    font-size: 15px;
+    font-size: 18px;
     padding-top: 4px;
-    background: rgba(255,255,255,.1);
+    background: rgb(35 17 17 / 0%);
     border-radius: 10px;
-    box-shadow: 0 5px 5px rgb(0,0,0,.2);
+    box-shadow: 0 5px 5px rgb(0 0 0 / 20%);
     padding: 13px;
     color: #fafafa;
+    border: 1px solid #5ca7e7;
+    cursor: pointer;
 }
 
 .input-field.col label {
