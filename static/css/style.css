@@ -676,3 +676,13 @@ button.add-meal-button {
     display: flex;
     align-items: center;
 }
+
+.col.s12.col.m6 {
+    width: 50%;
+}
+
+@media screen and (min-width: 480px) {
+    .col.s12.col.m6 {
+        width: auto;
+    }
+}
