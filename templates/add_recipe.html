@@ -49,7 +49,7 @@
                         Ingredient name must be between 5 and 60 characters long.
                     </div>
                     <div class="input-field col s12">
-                        <input name="ingredient_quantity" minlength="1" maxlength="5" type="number">
+                        <input name="ingredient_quantity" minlength="1" maxlength="5" type="number" min="1" required>
                         <label for="ingredient_quantity">Quantity</label>
                     </div>
                     <div class="form-guide">
@@ -58,7 +58,7 @@
                     <div class="form-guide">
                     </div>
                     <div class="input-field col s12">
-                        <input name="ingredient_unit" minlength="1" maxlength="15" type="text">
+                        <input name="ingredient_unit" minlength="1" maxlength="15" type="text" required>
                         <label for="ingredient_unit">Measurement</label>
                     </div>
                     <div class="form-guide">
@@ -73,7 +73,7 @@
             <h3 class="form-header">Nutrition</h3>
             <div class="row">
                 <div class="input-field col s12">
-                    <input id="calories" name="calories" minlength="1" maxlength="5" type="number" required>
+                    <input id="calories" name="calories" minlength="1" maxlength="5" type="number" min="1" required>
                     <label for="calories">Calories</label>
                 </div>
                 <div class="form-guide">
@@ -99,13 +99,13 @@
             <h3 class="form-header">Prep</h3>
             <div class="row">
                 <div class="input-field col s12">
-                    <input id="cooking_time" name="cooking_time" minlength="1" maxlength="5" type="number" required>
+                    <input id="cooking_time" name="cooking_time" minlength="1" maxlength="5" type="number" min="1" required>
                     <label for="cooking_time">Cooking Time</label>
                 </div>
             </div>
             <div class="row">
                 <div class="input-field col s12">
-                    <input id="servings" name="servings" minlength="1" maxlength="5" type="number" required>
+                    <input id="servings" name="servings" minlength="1" maxlength="5" type="number" min="1" required>
                     <label for="servings">Servings</label>
                 </div>
                 <div class="form-guide">
