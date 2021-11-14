@@ -757,5 +757,7 @@ and (max-device-width : 480px) {
     body {
         height: 100vh;
     }
+    .content-container.login-container {
+        display: block;
+    }
 }
-
