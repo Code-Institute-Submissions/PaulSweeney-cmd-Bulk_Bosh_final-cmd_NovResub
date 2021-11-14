@@ -701,7 +701,29 @@ and (max-device-width : 480px) {
     }
 }
 
-button.add-meal-button {
+a.view-button {
+    font-size: 18px;
+    padding-top: 4px;
+    background: rgb(0 0 0 / 33%);
+    border-radius: 10px;
+    box-shadow: 0 5px 5px rgb(0 0 0 / 20%);
+    padding: 13px;
+    color: #fafafa;
+    border: 1pxsolid #5ca7e7;
+    cursor: pointer;
+}
+a.edit-button {
+    font-size: 18px;
+    padding-top: 4px;
+    background: rgb(0 0 0 / 33%);
+    border-radius: 10px;
+    box-shadow: 0 5px 5px rgb(0 0 0 / 20%);
+    padding: 13px;
+    color: #fafafa;
+    border: 1pxsolid #5ca7e7;
+    cursor: pointer;
+}
+a.delete-button {
     font-size: 18px;
     padding-top: 4px;
     background: rgb(0 0 0 / 33%);
