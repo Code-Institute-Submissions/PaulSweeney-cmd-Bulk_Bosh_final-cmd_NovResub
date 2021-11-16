@@ -526,6 +526,10 @@ i.fas.fa-camera-retro.prefix {
     margin-top: 30px;
 }
 
+.content-container.home-container {
+    margin-top: 20%;
+}
+
 .profile-name-header {
     font-size: 41px;
     line-height: 110%;
