@@ -219,7 +219,8 @@ a.delete-button {
     color: #fafafa;
     border: 2px solid #5ca7e7;
     cursor: pointer;
-    letter-spacing: 1px;
+    letter-spacing: 1px
+
 }
 .card .card-image {
     position: relative; 
@@ -283,6 +284,8 @@ a.btn-large.edit-button {
     background: transparent;
     border: 1px solid #fafafa;
     margin-left: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 a.btn-large.delete-button {
