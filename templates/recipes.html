@@ -23,18 +23,16 @@
                 <!-- short overview of meal -->
                 <hr class="meal-title-divider">
                 <!-- CRUD functionality buttons -->
-                <div class="row">
-                    <a href="{{ url_for('meal_detail', meal_id=meal._id) }}" class="view-button">
-                        View
-                    </a>
-                    {% if session.user|lower == meal.added_by|lower %}
-                    <a href="{{ url_for('edit_meal', meal_id=meal._id) }}" class="edit-button ">
-                        Edit
-                    </a>
-                    <a href="{{ url_for('delete_meal', meal_id=meal._id) }}" class="delete-button">
-                        Remove
-                    </a>
-                </div>
+                <a href="{{ url_for('meal_detail', meal_id=meal._id) }}" class="view-button">
+                    View
+                </a>
+                {% if session.user|lower == meal.added_by|lower %}
+                <a href="{{ url_for('edit_meal', meal_id=meal._id) }}" class="edit-button ">
+                    Edit
+                </a>
+                <a href="{{ url_for('delete_meal', meal_id=meal._id) }}" class="delete-button">
+                    Remove
+                </a>
                 {% endif %}
             </div>
         </div>
