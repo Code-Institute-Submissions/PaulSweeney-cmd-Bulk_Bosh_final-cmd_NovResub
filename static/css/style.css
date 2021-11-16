@@ -274,7 +274,7 @@ a.created-by {
 }
 
 /* C.R.U.D functionality buttons */
-a.btn-large.edit-button {
+a.edit-button {
     color: #5ca7e7;
     font-weight: bold;
     font-size: 20px;
@@ -288,7 +288,7 @@ a.btn-large.edit-button {
     margin-right: 10px;
 }
 
-a.btn-large.delete-button {
+a.delete-button {
     color: #5ca7e7;
     font-weight: bold;
     font-size: 20px;
@@ -300,7 +300,7 @@ a.btn-large.delete-button {
     margin-left: 0px;
 }
 
-a.btn-large.view-button {
+a.view-button {
     color: #5ca7e7;
     font-weight: bold;
     font-size: 20px;
