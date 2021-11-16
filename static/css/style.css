@@ -619,7 +619,7 @@ h3.form-header{
     font-family: 'Barlow', sans-serif;
     font-size: 50px;
     margin-top: 5rem;
-    margin-bottom: 0;
+    margin-bottom: 2rem;
 }
 
 input#meal_name,
@@ -754,7 +754,7 @@ button.add-meal-button {
 label.active {
     color: #5ca7e7 !important;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 20px !important;
 }
 
 @media only screen and (min-device-width : 320px) 
