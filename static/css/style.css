@@ -208,6 +208,8 @@ a.edit-button {
     border: 2px solid #5ca7e7;
     cursor: pointer;
     letter-spacing: 1px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 a.delete-button {
     font-size: 19px;
