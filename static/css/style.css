@@ -665,6 +665,7 @@ button.add-meal-button {
     line-height: 82px;
     text-align: center;
     color: #fafafa;
+    margin-right: 5px;
 }
 
 .carbs-value {
