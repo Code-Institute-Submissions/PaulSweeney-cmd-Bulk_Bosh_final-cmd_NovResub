@@ -39,7 +39,7 @@
                 </div>
             </div>
             <!-- ingredients fields -->
-            <h3 class="register-header">Ingredients</h3>
+            <h3 class="form-header">Ingredients</h3>
             <div id="ingredients-form">
                 <div class="row">
                     {% for ingredient in meal.meal_ingredients %}
@@ -71,7 +71,7 @@
              <div id="more_ingredients">
             </div>
             <!-- nutrition -->
-            <h3 class="register-header">Nutrition</h3>
+            <h3 class="form-header">Nutrition</h3>
             <div class="row">
                 <div class="input-field col s12">
                     <input id="calories" name="calories" minlength="1" maxlength="5"  value="{{ meal.calories }}"
@@ -97,7 +97,7 @@
                 </div>
             </div>
             <!-- prep time & serving -->
-            <h3 class="register-header">Prep</h3>
+            <h3 class="form-header">Prep</h3>
             <div class="row">
                 <div class="input-field col s12">
                     <input id="cooking_time" name="cooking_time" minlength="1" maxlength="5" value="{{ meal.cooking_time }}" 
@@ -116,7 +116,7 @@
                 </div>
             </div>
              <!-- directions -->
-             <h3 class="register-header">Directions</h3>
+             <h3 class="form-header">Directions</h3>
              <div class="row">
                  <div class="input-field col s12">
                      <input id="meal_instructions" name="meal_instructions" minlength="10" maxlength="500"
