@@ -4,7 +4,11 @@
 <div class="content-container">
     <div class="row">
         <div class="col-s12 image-div">
-            <img src="{{ each_meal.url }}" class="meal-pic" height="700" width="600">
+            {% if meals.url %}
+                <img src="{{ each_meal.url }}" class="meal-pic" height="700" width="600">
+            {% else %}
+                <img src="{{ static/images/no-image.png }}" class="meal-pic" height="700" width="600">
+            {% endif %}
         </div>
         <!-- meal details -->
         <div class="profile-info-container col-6">
