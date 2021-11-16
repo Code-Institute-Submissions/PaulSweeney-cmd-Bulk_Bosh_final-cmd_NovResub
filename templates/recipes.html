@@ -10,7 +10,11 @@
         <div class="col s12  col m6">
             <div class="card meal-card">
                 <div class="card-image">
-                    <img alt="meal image" src="{{ meal.url }}">
+                    {% if meal.url %}
+                        <img alt="meal image" src="{{ meal.url }}">
+                    {% else %}
+                        <img alt="" src="">
+                    {% endif %}
                 </div>
                 <span class="card-meal-title">{{ meal.meal_name }}</span>
                 <!-- href link to app route functionality to direct users to the meal creator profile -->
