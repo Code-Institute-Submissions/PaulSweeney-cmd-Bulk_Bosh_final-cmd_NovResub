@@ -20,7 +20,7 @@
              <div class="row">
                 <div class="input-field col s12">
                     <input id="meal_description" name="meal_description" minlength="10" maxlength="300"
-                        value="{{ meal.meal_description }}" type="text" required>
+                        value="{{ meal.meal_description }}" type="text" class="validate" required>
                     <label for="meal_description">Tell Us About It</label>
                 </div>
                 <div class="form-guide">
@@ -31,7 +31,7 @@
             <div class="row">
                 <div class="input-field col s12">
                     <input id="url" name="url" minlength="10" maxlength="600"  value="{{ meal.url }}" 
-                        type="text" required>
+                        type="text" class="validate" required>
                     <label for="url">Feel free to include and image url here</label>
                 </div>
                 <div class="form-guide">
@@ -45,7 +45,7 @@
                     {% for ingredient in meal.meal_ingredients %}
                     <div class="input-field col s12">
                         <input name="ingredient_name" minlength="5" maxlength="60"
-                            value="{{ ingredient.ingredient_name }}" type="text" required>
+                            value="{{ ingredient.ingredient_name }}" type="text" class="validate"required>
                         <label for="name">Name</label>
                     </div>
                     <div class="form-guide">
@@ -53,7 +53,7 @@
                     </div>
                     <div class="input-field col s12">
                         <input name="ingredient_quantity" type="number" min="1" max="100"
-                            value="{{ ingredient.ingredient_quantity }}" type="number" required>
+                            value="{{ ingredient.ingredient_quantity }}" type="number" class="validate" required>
                         <label for="quantity">Quantity</label>
                     </div>
                     <div class="form-guide">
@@ -61,7 +61,7 @@
                     </div>
                     <div class="input-field col s12">
                         <input name="ingredient_unit" minlength="1" maxlength="15"
-                            value="{{ ingredient.ingredient_unit }}" type="text" required>
+                            value="{{ ingredient.ingredient_unit }}" type="text" class="validate" required>
                         <label for="measurement">Measurement</label>
                     </div>
                     <div class="form-guide">
@@ -78,7 +78,7 @@
             <div class="row">
                 <div class="input-field col s12">
                     <input id="calories" name="calories" minlength="1" maxlength="10"  value="{{ meal.calories }}"
-                        type="text" required>
+                        type="text" class="validate" required>
                     <label for="calories">Calories</label>
                 </div>
                 <div class="form-guide">
@@ -88,14 +88,14 @@
             <div class="row">
                 <div class="input-field col s12">
                     <input id="carbs" name="carbs" minlength="1" maxlength="10"  value="{{ meal.carbs }}"
-                        type="text" required>
+                        type="text" class="validate" required>
                     <label for="carbs">Carbs</label>
                 </div>
             </div>
             <div class="row">
                 <div class="input-field col s12">
                     <input id="protein" name="protein" minlength="1" maxlength="10" value="{{ meal.protein }}" 
-                        type="text" required>
+                        type="text" class="validate" required>
                     <label for="protein">Protein</label>
                 </div>
                 <div class="form-guide">
@@ -107,7 +107,7 @@
             <div class="row">
                 <div class="input-field col s12">
                     <input id="cooking_time" name="cooking_time" minlength="1" maxlength="10" value="{{ meal.cooking_time }}" 
-                        type="text" required>
+                        type="text" class="validate" required>
                     <label for="cooking_time">Cooking Time</label>
                 </div>
                 <div class="form-guide">
@@ -117,7 +117,7 @@
             <div class="row">
                 <div class="input-field col s12">
                     <input id="servings" name="servings" minlength="1" maxlength="100" value="{{ meal.servings }}" 
-                        type="number" required>
+                        type="number" class="validate" required>
                     <label for="servings">Servings</label>
                 </div>
                 <div class="form-guide">
@@ -129,7 +129,7 @@
              <div class="row">
                  <div class="input-field col s12">
                      <input id="meal_instructions" name="meal_instructions" minlength="10"
-                            value="{{ meal.meal_instructions }}" type="text" required>
+                            value="{{ meal.meal_instructions }}" type="text" class="validate" required>
                 </div>
                 <div class="form-guide">
                     Directions must be a minumum of 10 characters long.
