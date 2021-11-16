@@ -610,6 +610,7 @@ input[type="number"] {
 }
 .form-guide {
     margin-left: 10px;
+    margin-bottom: 2rem;
 }
 
 #ing-btn {
