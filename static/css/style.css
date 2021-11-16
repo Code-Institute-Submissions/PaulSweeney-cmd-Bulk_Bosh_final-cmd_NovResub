@@ -273,45 +273,6 @@ a.created-by {
     color: #5ca7e7;
 }
 
-/* C.R.U.D functionality buttons */
-a.edit-button {
-    color: #5ca7e7;
-    font-weight: bold;
-    font-size: 20px;
-    font-family: 'barlow';
-    border-radius: 7px;
-    margin: 10px;
-    background: transparent;
-    border: 1px solid #fafafa;
-    margin-left: 0px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-a.delete-button {
-    color: #5ca7e7;
-    font-weight: bold;
-    font-size: 20px;
-    font-family: 'barlow';
-    border-radius: 7px;
-    margin: 10px;
-    background: transparent;
-    border: 1px solid #fafafa;
-    margin-left: 0px;
-}
-
-a.view-button {
-    color: #5ca7e7;
-    font-weight: bold;
-    font-size: 20px;
-    font-family: 'barlow';
-    border-radius: 7px;
-    margin: 10px;
-    background: transparent;
-    border: 1px solid #fafafa;
-    margin-left: 0px;
-}
-
 /* ------------------------------------ Full Meal Page */
 hr.meal-page-breaker {
     display: block;
