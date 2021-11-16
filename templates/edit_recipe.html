@@ -45,18 +45,18 @@
                     {% for ingredient in meal.meal_ingredients %}
                     <div class="input-field col s12">
                         <input name="ingredient_name" minlength="5" maxlength="100"
-                            value="{{ ingredient.ingredient_name }}" type="text" placeholder="Name">
+                            value="{{ ingredient.ingredient_name }}" type="text" required>
                     </div>
                     <div class="form-guide">
                         Ingredient name must be between 5 and 100 characters long.
                     </div>
                     <div class="input-field col s12">
                         <input name="ingredient_quantity" minlength="1" maxlength="5"
-                            value="{{ ingredient.ingredient_quantity }}" type="text" placeholder="Quantity">
+                            value="{{ ingredient.ingredient_quantity }}" type="text" required>
                     </div>
                     <div class="input-field col s12">
                         <input name="ingredient_unit" minlength="1" maxlength="15"
-                            value="{{ ingredient.ingredient_unit }}" type="text" placeholder="Measurement">
+                            value="{{ ingredient.ingredient_unit }}" type="text" required>
                     </div>
                     <div class="form-guide">
                         Please make sure you include numbers only for both the quantity and measurement fields.
