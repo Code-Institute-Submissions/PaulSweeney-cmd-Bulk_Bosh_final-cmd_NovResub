@@ -756,6 +756,7 @@ and (max-device-width : 480px) {
     }
     h3.register-header.center-align {
         font-size: 35px;
+        margin-bottom: 3rem;
     }
     h3.form-header {
         font-size: 35px;
