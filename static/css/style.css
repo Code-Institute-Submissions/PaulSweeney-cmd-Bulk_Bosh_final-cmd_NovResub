@@ -502,7 +502,8 @@ img.profile-image.rounded-circle {
 
 .col-s12.image-div {
     display: flex;
-    margin-top: 105px;
+    margin-top: 30px;
+    margin-bottom: 65px;
     justify-content: center;
 }
 
