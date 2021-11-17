@@ -178,7 +178,7 @@ Re-structured the python app route for adding a meal, had to declare the ingredi
 <br>
 
 # **End User Testing**
-**Home Page**
+### **Home Page**
 |Desktop | Phone | iPad |
 | :---: | :---: | :---: |
 |![](/testing-images/home-desktop.png) |![](testing-images/home-top-phone.png) |![](testing-images/home-tablet.png) |
@@ -187,7 +187,7 @@ Re-structured the python app route for adding a meal, had to declare the ingredi
 <br>
 
 ## *First time Visitor Goals*
-**To find out more about the site.**
+### **To find out more about the site.**
 |Desktop | Phone | iPad |
 | :---: | :---: | :---: |
 |![](/testing-images/about-desktop.png) |![](testing-images/about-top-phone.png) |![](testing-images/about-ipad.png) |
@@ -195,17 +195,15 @@ Re-structured the python app route for adding a meal, had to declare the ingredi
 
 <br>
 
-**To browse the site for a variety of meals.**
+### **To browse the site for a variety of meals.**
 |Desktop | Phone | iPad |
 | :---: | :---: | :---: |
-|![](/testing-images/about-desktop.png) |![](testing-images/about-top-phone.png) |![](testing-images/about-ipad.png) |
-||![](testing-images/about-bottom-phone.png) |
+|![](/testing-images/meals-desktop.png) |![](testing-images/meals-top-phone.png) |![](testing-images/meals-tablet.png) |
+||![](testing-images/meals-bottom-phone.png) |
 
+<br>
 
-
-
-#
-**To create an account and register my information.**
+### **To create an account and register my information.**
 
 #
 **Navigating through a menu**
