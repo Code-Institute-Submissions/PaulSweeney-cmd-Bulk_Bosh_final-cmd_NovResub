@@ -179,7 +179,7 @@ Re-structured the python app route for adding a meal, had to declare the ingredi
 
 # **End User Testing**
 ### **Home Page**
-|Desktop | Phone | iPad |
+|Desktop | Phone | Tablet |
 | :---: | :---: | :---: |
 |![](/testing-images/home-desktop.png) |![](testing-images/home-top-phone.png) |![](testing-images/home-tablet.png) |
 ||![](testing-images/home-bottom-phone.png) |
@@ -188,7 +188,7 @@ Re-structured the python app route for adding a meal, had to declare the ingredi
 
 ## *First time Visitor Goals*
 ### **To find out more about the site.**
-|Desktop | Phone | iPad |
+|Desktop | Phone | Tablet |
 | :---: | :---: | :---: |
 |![](/testing-images/about-desktop.png) |![](testing-images/about-top-phone.png) |![](testing-images/about-ipad.png) |
 ||![](testing-images/about-bottom-phone.png) |
@@ -196,7 +196,7 @@ Re-structured the python app route for adding a meal, had to declare the ingredi
 <br>
 
 ### **To browse the site for a variety of meals.**
-|Desktop | Phone | iPad |
+|Desktop | Phone | Tablet |
 | :---: | :---: | :---: |
 |![](/testing-images/meals-desktop.png) |![](testing-images/meals-top-phone.png) |![](testing-images/meals-tablet.png) |
 ||![](testing-images/meals-bottom-phone.png) |
@@ -204,12 +204,20 @@ Re-structured the python app route for adding a meal, had to declare the ingredi
 <br>
 
 ### **To create an account and register my information.**
+|Desktop | Phone | Tablet |
+| :---: | :---: | :---: |
+|![](/testing-images/register-desktop-top.png) |![](testing-images/register-top-phone.png) |![](testing-images/register-top-tablet.png) |
+|![](/testing-images/register-desktop-bottom.png)|![](testing-images/register-bottom-phone.png) | ![](testing-images/register-bottom-tablet.png) |
 
-#
-**Navigating through a menu**
+<br>
 
+### **Navigating through a menu**
+ *The screenshots only display what the user would see in mobile view as page navigation functionality has already been demonstrated for the main nav bar so far*
+| Phone | Tablet |
+| :---: | :---: |
+|![](/testing-images/side-nav-phone.png) |![](testing-images/side-nav-tablet.png) |
 
-#
+<br>
 
 ## *Bug/Issue?*
 * Meal creator profile not rendering when user clicks on their username
