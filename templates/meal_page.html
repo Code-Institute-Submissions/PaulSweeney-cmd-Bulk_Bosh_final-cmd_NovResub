@@ -19,27 +19,27 @@
                     <i class="fas fa-utensils"></i>{{ each_meal.servings }}
                 </p>
                 <p class="view-description">{{ each_meal.meal_description }}
-                <!-- nutrition -->
-                <div class="row">
-                    <div class="calorie-value">
-                        {{ each_meal.calories }}
-                        <div class="nutrition-info">
-                            Calories
+                    <!-- nutrition -->
+                    <div class="container-fluid nutrition-container">
+                        <div class="calorie-value">
+                            <div class="nutrition-info">
+                                {{ each_meal.calories }}
+                            </div>
                         </div>
-                    </div>
-                    <div class="carbs-value">
-                        {{ each_meal.carbs }}
-                        <div class="nutrition-info">
-                            Carbs
+                        <p>Calories</p>
+                        <div class="carbs-value">
+                            <div class="nutrition-info">
+                                {{ each_meal.carbs }}
+                            </div>
                         </div>
-                    </div>
-                    <div class="protein-value">
-                        {{ each_meal.protein }}
-                        <div class="nutrition-info">
-                            Protein
+                        <p>Carbs</p>
+                        <div class="protein-value">
+                            <div class="nutrition-info">
+                                {{ each_meal.protein }}
+                            </div>
                         </div>
+                        <p>Protein</p>
                     </div>
-                </div>
                 </p>
                 <hr class="meal-page-breaker">
                 <!-- ingredients -->
