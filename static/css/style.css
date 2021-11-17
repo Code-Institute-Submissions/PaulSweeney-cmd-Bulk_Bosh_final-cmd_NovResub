@@ -315,7 +315,6 @@ h2.view-instructions {
 p.view-description {
     font-family: 'Barlow', sans-serif;
     font-size: 22px;
-    margin-bottom: -5px;
 }
 hr {
     display: block;
@@ -327,6 +326,7 @@ hr {
 .nutrition-info {
     margin-right: 7px;
     margin-left: 21px;
+    display: flex;
 }
 
 i.far.fa-hourglass {
@@ -763,6 +763,25 @@ and (max-device-width : 480px) {
     }
     a.brand-logo.left {
         font-size: 33px;
+    }
+    p.center-align {
+        font-family: 'Barlow', sans-serif;
+        font-size: 22px;
+    }
+    h3.home-header.center-align {
+        color: #fafafa;
+        font-family: 'Barlow', sans-serif;
+        font-size: 45px;
+    }
+    i.fas.fa-book,
+    i.fas.fa-user,
+    i.fas.fa-arrow-alt-circle-up {
+        font-size: 50px;
+        color: #5ca7e7;
+    }
+    h3.register-header.center-align {
+        font-size: 35px;
+        margin-bottom: 0;
     }
 }
 

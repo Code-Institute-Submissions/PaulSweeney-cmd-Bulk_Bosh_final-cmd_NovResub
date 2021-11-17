@@ -24,6 +24,7 @@ Bulk Bosh is a Health app focussed targeting the weight training demographic. Us
 - To find out more about the site.
 ## *Registered user goals*
 - To log in and out of my account
+- To easily navigate through the pages
 - Upload my own meals for people to look at and try for themselves
 - To browse meals created by others 
 - To access their profile information and connecvt via their social network links and or email address
@@ -211,7 +212,7 @@ Re-structured the python app route for adding a meal, had to declare the ingredi
 
 <br>
 
-### **Navigating through a menu**
+### **Easily navigate through the site via a well presented navigation menu.**
  *The screenshots only display what the user would see in mobile view as page navigation functionality has already been demonstrated for the main nav bar so far*
 | Phone | Tablet |
 | :---: | :---: |
