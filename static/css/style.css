@@ -700,7 +700,6 @@ button.add-meal-button {
 
 .container-fluid.nutrition-container {
     display: flex;
-    align-items: center;
 }
 
 /* Edit recipe */
@@ -782,6 +781,11 @@ and (max-device-width : 480px) {
     h3.register-header.center-align {
         font-size: 35px;
         margin-bottom: 0;
+    }
+    .container-fluid.nutrition-container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
     }
 }
 
