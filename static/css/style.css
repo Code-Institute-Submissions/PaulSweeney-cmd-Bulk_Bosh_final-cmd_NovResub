@@ -789,6 +789,13 @@ and (max-device-width : 480px) {
     }
     .nutrition-info {
         display: flex;
+        margin: 0;
+    }
+    p.calories,
+    p.carbs,
+    p.protein {
+        margin: 0;
+        color: #5ca7e7;
     }
 }
 
