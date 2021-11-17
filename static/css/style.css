@@ -820,8 +820,9 @@ and (max-device-width : 480px) {
     }
     .content-container.meal-container {
         display: block;
-        margin-top: 6%;
+        margin-top: 10%;
         padding: 4px;
+        border-radius: 0;
     }
     h2.ingredients-header, h2.directions-header {
         font-size: 32px;
@@ -843,6 +844,9 @@ and (max-device-width : 480px) {
     i.far.fa-hourglass,
     i.fas.fa-utensils {
         font-size: 18px;
+    }
+    .col-s12.image-div {
+        margin-top: 1px;
     }
 }
 
