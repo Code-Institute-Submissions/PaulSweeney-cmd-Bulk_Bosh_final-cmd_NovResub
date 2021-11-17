@@ -26,6 +26,12 @@ body {
     margin-top: 25%;
 }
 
+.content-container {
+    background-color: #070707a8;
+    border-radius: 11px;
+    margin: 30px;
+    padding: 50px;
+}
 /* ------------------------------------ nav bar */
 .nav-wrapper.\#0e0e0e.grey.darken-4 {
     width: 100%;
@@ -276,6 +282,18 @@ a.created-by {
 }
 
 /* ------------------------------------ Full Meal Page */
+.content-container.meal-container {
+    display: block;
+    margin-top: 25%;
+}
+
+.content-container {
+    background-color: #070707a8;
+    border-radius: 11px;
+    margin: 30px;
+    padding: 50px;
+}
+
 hr.meal-page-breaker {
     display: block;
     height: 1px;
