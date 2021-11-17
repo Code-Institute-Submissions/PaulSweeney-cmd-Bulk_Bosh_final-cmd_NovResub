@@ -848,6 +848,7 @@ and (max-device-width : 480px) {
     }
     .col-s12.image-div {
         margin-top: 1px;
+        margin-bottom: 35px;
     }
 }
 
