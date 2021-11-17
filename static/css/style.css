@@ -729,15 +729,40 @@ h3.edit-form-header{
 
 @media only screen and (min-device-width : 320px) 
 and (max-device-width : 480px) {
+    /* general */
+    a.brand-logo.left {
+        font-size: 33px;
+    }
     .col.s12.col.m6 {
         width: auto;
     }
     .content-container {
         display: table-cell;
     }
+    p {
+        font-family: 'Barlow', sans-serif;
+        font-size: 21px;
+    }
+    i.fas.fa-book,
+    i.fas.fa-user,
+    i.fas.fa-arrow-alt-circle-up {
+        font-size: 50px;
+        color: #5ca7e7;
+    }
+
+    /* login page & form styling */
+    .content-container.login-container {
+            display: block;
+            margin-top: 30%;
+    }
     h3.register-header.center-align {
         font-size: 35px;
         margin-bottom: 3rem;
+    }
+    p.registered-text.center-align {
+        font-size: 17px;
+        font-weight: 800;
+        margin-top: 30px;
     }
     h3.form-header {
         font-size: 35px;
@@ -746,31 +771,17 @@ and (max-device-width : 480px) {
         font-size: 35px;
         margin-top: 15px;
     }
+
+    /* meal card */
     a.view-button,
     a.edit-button,
     a.delete-button {
         font-size: 16px;
         padding: 7px;
     }
-    .content-container.login-container {
-        display: block;
-        margin-top: 30%;
-    }
-    p {
-        font-family: 'Barlow', sans-serif;
-        font-size: 21px;
-    }
-    p.registered-text.center-align {
-        font-size: 17px;
-        font-weight: 800;
-        margin-top: 30px;
-    }
     .row.benefits.center-align {
         display: flex;
         flex-direction: column;
-    }
-    a.brand-logo.left {
-        font-size: 33px;
     }
     p.center-align {
         font-family: 'Barlow', sans-serif;
@@ -781,16 +792,11 @@ and (max-device-width : 480px) {
         font-family: 'Barlow', sans-serif;
         font-size: 45px;
     }
-    i.fas.fa-book,
-    i.fas.fa-user,
-    i.fas.fa-arrow-alt-circle-up {
-        font-size: 50px;
-        color: #5ca7e7;
-    }
     h3.register-header.center-align {
         font-size: 35px;
         margin-bottom: 0;
     }
+    /* full meal page */
     .container-fluid.nutrition-container {
         display: flex;
         flex-wrap: wrap;
@@ -799,6 +805,7 @@ and (max-device-width : 480px) {
     .nutrition-info {
         display: flex;
         margin: 0;
+        font-size: 20px;
     }
     p.calories,
     p.carbs,
@@ -806,9 +813,36 @@ and (max-device-width : 480px) {
         margin: 0;
         color: #5ca7e7;
         font-weight: 600;
+        font-size: 20px;
     }
     p.protein {
         margin-bottom: 10px;
+    }
+    .content-container.meal-container {
+        display: block;
+        margin-top: 6%;
+        padding: 4px;
+    }
+    h2.ingredients-header, h2.directions-header {
+        font-size: 32px;
+        margin-bottom: 27px;
+    }
+    .ingredients-list {
+        font-size: 18px;
+    }
+    p.view-description {
+        font-family: 'Barlow', sans-serif;
+        font-size: 20px;
+    }
+    h3.view-header {
+        font-size: 30px;
+    }
+    p.cook-prep {
+        font-size: 17px;
+    }
+    i.far.fa-hourglass,
+    i.fas.fa-utensils {
+        font-size: 18px;
     }
 }
 
