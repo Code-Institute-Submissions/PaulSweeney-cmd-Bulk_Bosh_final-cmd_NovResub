@@ -21,6 +21,7 @@ Bulk Bosh is a Health app focussed targeting the weight training demographic. Us
 - Easily navigate through the site via a well presented navigation menu.
 - To have the ability to access the site on a variety of devices on the go if I'm not at a computer desk.
 - To create an account and register my information.
+- To find out more about the site.
 ## *Registered user goals*
 - To log in and out of my account
 - Upload my own meals for people to look at and try for themselves
@@ -132,7 +133,8 @@ Bulk Bosh is a Health app focussed targeting the weight training demographic. Us
 
 <br>
 
-# **Bugs & Fixes - Presentation**
+# **TESTING**
+## **Bugs & Fixes - Presentation**
 ## *Bug/Issue?*
 Icons & text wouldn't center on full screen view
 
@@ -173,7 +175,43 @@ The original idea was to extract the new profile information from a seperate col
 ## *Resolved/Remaining?* - Resolved
 Re-structured the python app route for adding a meal, had to declare the ingredients to a new variable and append to another variable with the value of an empty list, this allowed the cloned html ingredients form to pass the data back to mongo db and then render to the recipe card on the recipe page.
 
-<br> 
+<br>
+
+# **End User Testing**
+**Home Page**
+|Desktop | Phone | iPad |
+| :---: | :---: | :---: |
+|![](/testing-images/home-desktop.png) |![](testing-images/home-top-phone.png) |![](testing-images/home-tablet.png) |
+||![](testing-images/home-bottom-phone.png) |
+
+<br>
+
+## *First time Visitor Goals*
+**To find out more about the site.**
+|Desktop | Phone | iPad |
+| :---: | :---: | :---: |
+|![](/testing-images/about-desktop.png) |![](testing-images/about-top-phone.png) |![](testing-images/about-ipad.png) |
+||![](testing-images/about-bottom-phone.png) |
+
+<br>
+
+**To browse the site for a variety of meals.**
+|Desktop | Phone | iPad |
+| :---: | :---: | :---: |
+|![](/testing-images/about-desktop.png) |![](testing-images/about-top-phone.png) |![](testing-images/about-ipad.png) |
+||![](testing-images/about-bottom-phone.png) |
+
+
+
+
+#
+**To create an account and register my information.**
+
+#
+**Navigating through a menu**
+
+
+#
 
 ## *Bug/Issue?*
 * Meal creator profile not rendering when user clicks on their username
@@ -256,6 +294,8 @@ Create a requirements.txt file type the following into your terminal: pip3 freez
 ## *Assessment Feedback*
 This can be found in a seperate file [Here](/Assessment_feedback.md). This file includes the issues highlighted and what I've done to improve and rectify them. 
 #
+<br>
+
 ## *Credits and Acknowledgements*
 - Recipe card bug was discussed and resolved with Scott from Tutor Support at [Code Institute](https://codeinstitute.net//)
 - Add meal function in python was discussed in depth with Sheryl from Tutor support at [Code Institute](https://codeinstitute.net//)
@@ -264,40 +304,3 @@ This can be found in a seperate file [Here](/Assessment_feedback.md). This file 
 - Preloaded recipes were sourced from [BodyBuilding.com](https://www.bodybuilding.com)
 - Python functionality sourced from Task Manager walkthrough  with Tim Nelson as well as the same functionality code extended for adding recipes and editing recipes discussed with code institute and written by myself.
 - Python code for linking profile to meal cards written by myself.
-
-<br>
-
-# **End User Testing**
-## *First time Visitor Goals*
-**To browse the site for a variety of meals.**
-
-|Meals Page - Desktop  | Phone | Tablet |
-:---------------: | :---------------: | :---------------: |
-![](user_testing_images/desktop_meals.png)  | ![](user_testing_images/phone_meals.png) | ![](user_testing_images/tablet_meals.png)
-
-|Meal Detail Page - Desktop  | Phone-top | Phone-bottom | Tablet-top | Tablet-bottom |
-:---------------: | :---------------: | :---------------: | :---------------: | :---------------: |
-![](user_testing_images/desktop_meal_page.png)  | ![](user_testing_images/phone_meal_page.png) | ![](user_testing_images/phone_meal_page_bottom.png) | ![](user_testing_images/tablet_meal_page_top.png) | ![](user_testing_images/tablet_meal_page_bottom.png)
-
-#
-**To create an account and register my information.**
-
-|Register Account - Desktop  | Phone | Tablet |
-|:---------------: | :---------------: | :---------------: |
-![](user_testing_images/register_desktop.png)  | ![](user_testing_images/phone_register.png) | ![](user_testing_images/tablet_register.png)
-![](user_testing_images/register_desktop_submit.png) |![](user_testing_images/phone_register_submit.png) | ![](user_testing_images/tablet_register_submit.png)
-
-|Registration Success - Desktop  | Phone | Tablet 
-|:---------------: | :---------------: | :---------------: |
-![](user_testing_images/desktop_registration_success.png) |![](user_testing_images/phone_register_success.png) | ![](user_testing_images/tablet_register_success.png)|
-#
-**Navigating through a menu**
-
-| Logged In - Phone | Logged In - Tablet |
-| :---------------: | :---------------: |
-![](user_testing_images/phone_sidenav_logout.png)  | ![](user_testing_images/tablet_sidenav_logout.png) |
-
-| Logged Out - Phone | Logged Out - Tablet |
-| :---------------: | :---------------: |
-![](user_testing_images/phone_sidenav_login.png)  | ![](user_testing_images/tablet_sidenav_login.png) |
-#
