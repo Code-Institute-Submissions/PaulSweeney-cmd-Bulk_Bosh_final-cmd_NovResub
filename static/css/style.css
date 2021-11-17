@@ -105,19 +105,11 @@ p {
     font-size: 20px;
 }
 
-i.fas.fa-user {
-    font-size: 60px;
-    color: #2c6adc;
-}
-
-i.fas.fa-book {
-    font-size: 60px;
-    color: #2c6adc;
-}
-
+i.fas.fa-user,
+i.fas.fa-book,
 i.fas.fa-arrow-alt-circle-up {
     font-size: 60px;
-    color: #2c6adc;
+    color: #5ca7e7;
 }
 
 /*  buttons */
@@ -459,43 +451,17 @@ input#instagram {
 }
 
 /* icons */
+
+i.far.fa-user,
+i.fas.fa-key,
+i.fas.fa-camera-retro.prefix,
+i.fas.fa-user-edit.prefix,
+i.far.fa-envelope.prefix,
+i.far.fa-thumbs-down.prefix,
+i.far.fa-thumbs-up.prefix,
+i.fab.fa-instagram-square.prefix,
+i.fab.fa-facebook-square.prefix,
 i.far.fa-question-circle.prefix {
-    color: #5ca7e7;
-}
-
-i.fab.fa-facebook-square.prefix {
-    color: #5ca7e7;
-}
-
-i.fab.fa-instagram-square.prefix {
-    color: #5ca7e7;
-}
-
-i.far.fa-thumbs-up.prefix {
-    color: #5ca7e7;
-}
-
-i.far.fa-thumbs-down.prefix {
-    color: #5ca7e7;
-}
-
-i.far.fa-envelope.prefix {
-    color: #5ca7e7;
-}
-
-i.fas.fa-user-edit.prefix {
-    color: #5ca7e7;
-}
-
-i.far.fa-user {
-    color: #5ca7e7;
-}
-
-i.fas.fa-key {
-    color: #5ca7e7;
-}
-
-i.fas.fa-camera-retro.prefix {
     color: #5ca7e7;
 }
 
@@ -809,7 +775,7 @@ and (max-device-width : 480px) {
         margin-top: 4%;
     }
     i.fas.fa-book,
-    i.fas.fa-user
+    i.fas.fa-user,
     i.fas.fa-arrow-alt-circle-up {
         font-size: 50px;
         color: #5ca7e7;
