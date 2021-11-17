@@ -787,6 +787,9 @@ and (max-device-width : 480px) {
         flex-wrap: wrap;
         flex-direction: column;
     }
+    .nutrition-info {
+        display: flex;
+    }
 }
 
 @media only screen 
