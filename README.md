@@ -1,11 +1,14 @@
 # Bulk Bosh - Milestone 3 Project.
-Bulk Bosh is a Health app focussed targeting the weight training demographic. Users can log in and upload their recipes. There are nutritional recipes on the home page to follow and try for themselves. Click on the logo below for the live site.
+### [Click here for the Live Site](https://bulk-bosh-final-cmd.herokuapp.com/home)
+<p align="center">
+    <img width="400" height="400" src="static/images/logo.png">
+</p>
 
-[![Am I Responsive?](/static/images/logo.png)](https://bulk-bosh-final-cmd.herokuapp.com/home)
-# **UX**
+### *Bulk Bosh is a Health app focussed targeting the weight training demographic. Users can log in and upload their recipes. There are nutritional recipes on the home page to follow and try for themselves. Click on the logo below for the live site.* ###
 
-![Am I Responsive?](/static/images/am-i-responsive.png)
+<br>
 
+![Am I Responsive?](/static/images/responsive.png)
 <br>
 
 # **Site Creator Overview** - UX
@@ -209,8 +212,8 @@ Re-structured the python app route for adding a meal, had to declare the ingredi
 ### **Home Page**
 |Desktop | Phone | Tablet |
 | :---: | :---: | :---: |
-|![](/testing-images/home-desktop.png) |![](testing-images/home-top-phone.png) |![](testing-images/home-tablet.png) |
-||![](testing-images/home-bottom-phone.png) |
+|![](/test-images/desktop-home.png) |![](test-images/home-phone-top.png) |![](test-images/tablet-home.png) |
+||![](test-images/home-phone-bottom.png) |
 
 <br>
 
@@ -218,30 +221,31 @@ Re-structured the python app route for adding a meal, had to declare the ingredi
 ### **To find out more about the site.**
 |Desktop | Phone | Tablet |
 | :---: | :---: | :---: |
-|![](/testing-images/about-desktop.png) |![](testing-images/about-top-phone.png) |![](testing-images/about-ipad.png) |
-||![](testing-images/about-bottom-phone.png) |
+|![](/test-images/desktop-about.png) |![](test-images/about-phone-top.png) |![](test-images/tablet-about.png) |
+||![](test-images/about-phone-bottom.png) |
+
 
 <br>
 
 ### **To browse the site for a variety of meals.**
 |Desktop | Phone | Tablet |
 | :---: | :---: | :---: |
-|![](/testing-images/meals-desktop.png) |![](testing-images/meals-top-phone.png) |![](testing-images/meals-tablet.png) |
-||![](testing-images/meals-bottom-phone.png) |
+|![](/test-images/desktop-meals.png) |![](test-images/phone-meals.png) |![](test-images/tablet-meals.png) |
+
 
 ### **Meal Details**
 |Desktop | Phone | Tablet |
 | :---: | :---: | :---: |
-|![](/testing-images/meal-desktop.png) |![](testing-images/meal-top-phone.png) |![](testing-images/meal-top-tablet.png) |
-||![](testing-images/meal-bottom-phone.png) | ![](testing-images/meal-bottom-tablet.png) |
+|![](/test-images/desktop-meal.png) |![](test-images/meal-phone-top.png) |![](test-images/meal-tablet-top.png) |
+||![](test-images/meal-phone-bottom.png) | ![](test-images/meal-tablet-bottom.png) |
 
 <br>
 
 ### **To create an account and register my information.**
 |Desktop | Phone | Tablet |
 | :---: | :---: | :---: |
-|![](/testing-images/register-desktop.png) |![](testing-images/register-top-phone.png) |![](testing-images/register-top-tablet.png) |
-|![](/testing-images/register-desktop-bottom.png)|![](testing-images/register-bottom-phone.png) |![](testing-images/register-bottom-tablet.png) |
+|![](/test-images/desktop-register-top.png) |![](test-images/register-phone-top.png) |![](test-images/register-tablet-top.png) |
+|![](/test-images/desktop-register-bottom.png)|![](test-images/register-phone-bottom.png) |![](test-images/register-tablet-bottom.png) |
 
 <br>
 
@@ -249,7 +253,7 @@ Re-structured the python app route for adding a meal, had to declare the ingredi
  *The screenshots only display what the user would see in mobile view as page navigation functionality has already been demonstrated for the main nav bar so far*
 | Phone | Tablet |
 | :---: | :---: |
-|![](/testing-images/side-nav-phone.png) |![](testing-images/side-nav-tablet.png) |
+|![](/test-images/side-nav-phone.png) |![](test-images/side-nav-tablet.png) |
 
 <br>
 
