@@ -23,7 +23,7 @@
         <strong>{{ username.profile_about }}</strong>
     </div>
     <!-- users contact info and social links -->
-    {% if session.user}
+    {% if session.user %}
     <div class="row contact-info">
         <p class="email">Email <strong>{{ username.email_address }}
                 <a target="_blank" href="{{ username.social_links[0].facebook }}">
