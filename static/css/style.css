@@ -727,6 +727,7 @@ h3.edit-form-header{
     margin-bottom: 2rem;
 }
 
+/* iPhone 5 */
 @media only screen and (min-width : 320px) 
 and (max-width : 480px) {
     /* general */
@@ -888,6 +889,28 @@ and (max-width : 480px) {
         font-size: 30px;
         margin: 0;
     }
+
+}
+
+/* iPhone 6,7,8 */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    .card .card-image img {
+        height: 35vh;
+        width: 323px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) {
+    .card .card-image img {
+        height: 35vh;
+        width: 360px;
+    } 
 
 }
 
