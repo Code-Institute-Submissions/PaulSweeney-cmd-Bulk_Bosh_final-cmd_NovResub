@@ -474,7 +474,10 @@ input#instagram {
     border-radius: 11px;
     margin-top: 30px;
 }
-
+.content-container.creator-container {
+    display: block;
+    margin-top: 5%;
+}
 .content-container.profile-container {
     margin-top: 10%;
 }
@@ -888,6 +891,9 @@ and (max-width : 480px) {
     p.email {
         font-size: 30px;
         margin: 0;
+    }
+    .content-container.creator-container {
+        display: block;
     }
 
 }
