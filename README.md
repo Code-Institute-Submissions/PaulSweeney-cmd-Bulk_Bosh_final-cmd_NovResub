@@ -27,7 +27,7 @@ Bulk Bosh is a Health app focussed targeting the weight training demographic. Us
 - To easily navigate through the pages
 - Upload my own meals for people to look at and try for themselves
 - To browse meals created by others 
-- To access their profile information and connecvt via their social network links and or email address
+- To access their profile information and connect via their social network links and or email address
 - To check the site for any new recipes for me to follow
 ## *Site Owner goals*
 - To attract more people to eat healthily with straight forward information, macros belong on Google!. 
