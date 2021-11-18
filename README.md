@@ -177,7 +177,11 @@ The original idea was to extract the new profile information from a seperate col
 Re-structured the python app route for adding a meal, had to declare the ingredients to a new variable and append to another variable with the value of an empty list, this allowed the cloned html ingredients form to pass the data back to mongo db and then render to the recipe card on the recipe page.
 
 <br>
-
+<style>
+td, th {
+   border: none!important;
+}
+</style>
 # **End User Testing**
 ### **Home Page**
 |Desktop | Phone | Tablet |
