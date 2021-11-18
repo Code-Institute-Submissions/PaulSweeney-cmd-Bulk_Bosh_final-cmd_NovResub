@@ -101,31 +101,43 @@ Bulk Bosh is a Health app focussed targeting the weight training demographic. Us
 
 * Font Icons from [Font-Awesome](https://fontawesome.com/)
 * I used Barlow & Big Shoulders fonts from [Google Fonts](https://fonts.google.com/)
-#
+
+<br>
+
 ## *Wireframes*
 * [Desktop View](/static/images/MONITOR.png)
 * [Mobile View](/static/images/PHONE.png)
 * [Tablet View](/static/images/TABLET.png)
-#
+
+<br>
+
 ## *Imagery & Presentation*
 - Background imagery spanning across all pages courtesy of [Cottonbro @ Pexels](https://www.pexels.com/@cottonbro)
 - Images for pre loaded meals were sourced from the same recipes at [BodyBuilding.com](https://www.bodybuilding.com)
-#
+
+ <br>
+
 ## *Programming languages*
 * [HTML](https://en.wikipedia.org/wiki/HTML/) for the building blocks
 * [CSS](https://en.wikipedia.org/wiki/CSS/) for the makeup
 * [JavaScript](https://www.javascript.com/) for the moving parts
 * [Python](https://www.python.org/) for the functionality
-#
+
+<br>
+
 ## *Libraries & Frameworks*
 * [Materialize](https://materializecss.com/getting-started.html)
 * [JQuery](https://jquery.com/)  
 * [Flask](https://flask.palletsprojects.com/en/2.0.x/)
 * [Werkzeug](https://werkzeug.palletsprojects.com/en/2.0.x/)
-#
+
+<br>
+
 ## *MongoDB Python Driver*
 * [PyMongo](https://docs.mongodb.com/drivers/pymongo/)  
-#
+
+<br>
+
 ## *Resources*
 - W3Schools for syntax references
 - Slack for tutor support
@@ -135,21 +147,27 @@ Bulk Bosh is a Health app focussed targeting the weight training demographic. Us
 <br>
 
 # **TESTING**
-## **Bugs & Fixes - Presentation**
+## **Production Bugs & Fixes - PRESENTATION**
+
+<br>
+
 ## *Bug/Issue?*
 Icons & text wouldn't center on full screen view
 
 ![Am I Responsive?](static/images/icon_position.png)
 ## *Resolved/Remaining?* - Resolved
 ```div class="col m4 s12"``` to re-position them.
-#
+
+<br>
+
 ## *Bug/Issue?*
 * Meals template in the recipes.html file not rendering after new meal is added in the add_recipe template.
 
 ![Am I Responsive?](static/images/recipe-card.png)
 ## *Resolved/Remaining?* - Resolved
 Removed for loop in ```add_meal()``` - code commented out.
-#
+
+<br>
 
 ## *Bug/Issue?* 
 * Recipe cards not positioning horizontally next to each other, tried altering grid sizes and applying container outside the for loop in the recipes.html file.
@@ -158,7 +176,9 @@ Removed for loop in ```add_meal()``` - code commented out.
 ## *Resolved/Remaining?* - Resolved
 
 Moved the row div above the for loop and below the endfor in the recipes.html file to allow cards to sit horizontally.
-#
+
+<br>
+
 ## *Bug/Issue?* 
 
 * New users profile information isn't being displayed when the profile page renders
@@ -169,7 +189,10 @@ The original idea was to extract the new profile information from a seperate col
 
 <br>
 
-# **Bugs & Fixes - Data**
+## **Production Bugs & Fixes - DATA**
+
+<br>
+
 ## *Bug/Issue?*
 * Data sent to MongoDB from the add recipe form not being displayed.
 
