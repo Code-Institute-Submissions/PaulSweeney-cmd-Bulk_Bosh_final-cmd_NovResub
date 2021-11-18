@@ -949,6 +949,9 @@ and (max-width : 480px) {
         margin-left: 40px;
         margin-right: 13px;
     }
+    i.fab.fa-instagram {
+        margin-left: 14px;
+    }
 
 }
 

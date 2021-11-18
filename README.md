@@ -31,7 +31,7 @@
 - Upload my own meals for people to look at and try for themselves
 - Edit my own meals
 - To browse meals created by others 
-- To access their profile information and connect via their social network links and or email address
+- To access users profile information and connect via their social network links and or email address
 - To check the site for any new recipes for me to follow
 ## *Site Owner goals*
 - To attract more people to eat healthily with straight forward information, macros belong on Google!. 
@@ -264,7 +264,7 @@ Re-structured the python app route for adding a meal, had to declare the ingredi
 <br>
 
 ## *Registered User Goals*
-### *To log in and out of my account.* ###
+### **To log in and out of my account.** ###
 |Desktop | Phone | Tablet |
 | :---: | :---: | :---: |
 |![](/test-images/desktop-login.png) |![](test-images/phone-login.png) |![](test-images/tablet-login.png) |
@@ -273,11 +273,15 @@ Re-structured the python app route for adding a meal, had to declare the ingredi
 |Logged Out | Logged Out | Logged Out |                                                                                                     
 |![](/test-images/desktop-logout.png) |![](test-images/phone-logout.png) |![](test-images/tablet-logout.png) |
 
-### *Upload my own meals for people to look at and try for themselves.* ###
+<br>
+
+### **Upload my own meals for people to look at and try for themselves.** ###
 |Desktop | Phone | Tablet |
 | :---: | :---: | :---: |
 |![](/test-images/desktop-add_meal-top.png) | ![](test-images/phone-add_meal_top.png) | ![](test-images/tablet-add_meal-top.png) |
 |![](/test-images/desktop-add_meal-bottom.png)|![](test-images/phone-add_meal-bottom.png) |![](test-images/tablet-add_meal-bottom.png) |
+
+<br>
 
 ### *Meal Added*
 |Desktop | Phone | Tablet |
@@ -285,13 +289,22 @@ Re-structured the python app route for adding a meal, had to declare the ingredi
 |![](/test-images/desktop-added_meal-top.png) | ![](test-images/phone-meal_added-top.png) | ![](test-images/tablet-meal_added-top.png) |
 |![](/test-images/desktop-added_meal-bottom.png)|![](test-images/phone-meal_added-bottom.png) |![](test-images/tablet-meal_added-bottom.png) |
 
+<br>
+
 ### *New Meal Details*
 |Desktop | Phone | Tablet |
 | :---: | :---: | :---: |
 |![](/test-images/desktop-new_meal.png) | ![](test-images/phone-new_meal-top.png) | ![](test-images/tablet-new_meal-top.png) |
 ||![](test-images/phone-new_meal-bottom.png) |![](test-images/tablet-new_meal-bottom.png) |
 
+<br>
 
+### **To access users profile information and connect via their social network links and or email address.**
+|Click on username, only users that have created an account can view other users contact info and social media links. | Desktop | Phone | Tablet | 
+| :---: | :---: | :---: | :---: |
+|![](/test-images/user-profile-name.png) | ![](test-images/desktop-user-profile.png) | ![](test-images/phone-user-profile.png) | ![](test-images/tablet-user-profile.png) |
+
+<br>
 
 - To easily navigate through the pages
 - Upload my own meals for people to look at and try for themselves
