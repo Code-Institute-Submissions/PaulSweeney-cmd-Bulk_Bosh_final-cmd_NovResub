@@ -896,6 +896,14 @@ and (max-width : 480px) {
         display: block;
     }
 
+    i.fab.fa-facebook-square.center,
+    i.fab.fa-instagram {
+        font-size: 27px;
+    }
+    i.fab.fa-facebook-square.center {
+        margin-left: 40px;
+    }
+
 }
 
 /* iPhone 6,7,8 */
@@ -911,6 +919,14 @@ and (max-width : 480px) {
         max-width: 100%;
         height: 30vh;
     }
+    i.fab.fa-facebook-square.center,
+    i.fab.fa-instagram {
+        font-size: 27px;
+    }
+    i.fab.fa-facebook-square.center {
+        margin-left: 40px;
+        margin-right: 13px;
+    }
 }
 
 @media only screen 
@@ -925,6 +941,14 @@ and (max-width : 480px) {
         max-width: 100%;
         height: 30vh;
     }
+    i.fab.fa-facebook-square.center,
+    i.fab.fa-instagram {
+        font-size: 27px;
+    }
+    i.fab.fa-facebook-square.center {
+        margin-left: 40px;
+        margin-right: 13px;
+    }
 
 }
 
@@ -936,12 +960,6 @@ and (max-width : 480px) {
     .content-container.about-container,
     .content-container.home-container {
         margin-top: 5%;
-    }
-    i.fas.fa-book,
-    i.fas.fa-user,
-    i.fas.fa-arrow-alt-circle-up {
-        font-size: 50px;
-        color: #5ca7e7;
     }
     .meal-pic {
         max-width: 100%;
