@@ -158,7 +158,11 @@ Icons & text wouldn't center on full screen view
 ## *Resolved/Remaining?* - Resolved
 ```div class="col m4 s12"``` to re-position them.
 
-<br>
+## *Bug/Issue?*
+* Meal creator profile not rendering when user clicks on their username
+## *Resolved/Remaining?* - Resolved
+Syntaxt incoerrect in the app route, tried targeting user Id instead of username.
+
 
 ## *Bug/Issue?*
 * Meals template in the recipes.html file not rendering after new meal is added in the add_recipe template.
@@ -246,13 +250,6 @@ Re-structured the python app route for adding a meal, had to declare the ingredi
 | Phone | Tablet |
 | :---: | :---: |
 |![](/testing-images/side-nav-phone.png) |![](testing-images/side-nav-tablet.png) |
-
-<br>
-
-## *Bug/Issue?*
-* Meal creator profile not rendering when user clicks on their username
-## *Resolved/Remaining?* - Resolved
-Syntaxt incoerrect in the app route, tried targeting user Id instead of username.
 
 <br>
 
