@@ -1,36 +1,38 @@
 {% extends "index.html" %}
 {% block content %}
 
-<div class="content-container login-container">
-    <h3 class="register-header center-align">User Login</h3>
-    <!-- login form -->
-    <div class="row">
-        <form class="col s12 m8 offset-m2" method="POST" action="{{ url_for('login') }}">
-             <!-- username -->
-             <div class="row">
-                <div class="input-field col s12">
-                    <input id="username" name="username" type="text" minlength="5" maxlength="15"
-                        pattern="^[a-zA-Z0-9]{5,15}$" class="validate" required>
-                    <label for="username">Username</label>
+<div class="container">
+    <div class="content-container login-container">
+        <h3 class="register-header center-align">User Login</h3>
+        <!-- login form -->
+        <div class="row">
+            <form class="col s12 m8 offset-m2" method="POST" action="{{ url_for('login') }}">
+                <!-- username -->
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="username" name="username" type="text" minlength="5" maxlength="15"
+                            pattern="^[a-zA-Z0-9]{5,15}$" class="validate" required>
+                        <label for="username">Username</label>
+                    </div>
                 </div>
-            </div>
-            <!-- password -->
-            <div class="row">
-                <div class="input-field col s12">
-                    <input id="password" name="password" type="password" minlength="5" maxlength="15"
-                        pattern="^[a-zA-Z0-9]{5,15}$" class="validate" required>
-                    <label for="password">Password</label>
+                <!-- password -->
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="password" name="password" type="password" minlength="5" maxlength="15"
+                            pattern="^[a-zA-Z0-9]{5,15}$" class="validate" required>
+                        <label for="password">Password</label>
+                    </div>
                 </div>
-            </div>
-            <!-- login button -->
-            <div class="row">
-                <div class="col s12 center-align">
-                    <button type="submit" class="submit-button">
-                        Let's Go
-                    </button>
+                <!-- login button -->
+                <div class="row">
+                    <div class="col s12 center-align">
+                        <button type="submit" class="submit-button">
+                            Let's Go
+                        </button>
+                    </div>
                 </div>
-            </div>
-        </form>
+            </form>
+        </div>
     </div>
 </div>
 {% endblock %}
