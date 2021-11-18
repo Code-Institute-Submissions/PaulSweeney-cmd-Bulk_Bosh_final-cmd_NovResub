@@ -24,7 +24,7 @@ body {
 
 .content-container.login-container {
     display: block;
-    margin-top: 25%;
+    margin-top: 10%;
 }
 
 /* ------------------------------------ nav bar */
@@ -76,7 +76,7 @@ img.logo-image {
 
 /* ------------------------------------ Home Page */
 .content-container.home-container {
-    margin-top: 20%;
+    margin-top: 10%;
 }
 
 .row.benefits.center-align {
@@ -143,7 +143,7 @@ p.registered-text.center-align {
 }
 /* ------------------------------------ About Page */
 .content-container.about-container {
-    margin-top: 20%;
+    margin-top: 10%;
 }
 button.submit-button {
     font-size: 25px;
@@ -464,7 +464,7 @@ input#instagram {
 }
 
 .content-container.profile-container {
-    margin-top: 20%;
+    margin-top: 10%;
 }
 
 .profile-name-header {
