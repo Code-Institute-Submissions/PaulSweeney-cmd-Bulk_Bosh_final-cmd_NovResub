@@ -369,7 +369,7 @@ p.cook-prep {
 
 /* ------------------------------------ Register Page */
 .register-form-guide {
-    margin-left: 56px;
+    margin-left: 11px;
     font-size: 15px;
     letter-spacing: 1px;
 }
@@ -408,9 +408,8 @@ button.submit-button {
 }
 
 .password-guide {
-    margin-left: 42px;
+    margin-left: 11px;
     font-size: 15px;
-    margin-bottom: -15px;
     letter-spacing: 1px;
 }
 
@@ -503,7 +502,6 @@ p.profile-age {
 }
 
 p.about {
-    margin-bottom: -15px;
     font-weight: 600;
     font-size: 35px;
 }
