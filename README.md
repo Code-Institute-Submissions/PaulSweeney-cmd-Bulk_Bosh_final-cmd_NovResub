@@ -97,7 +97,11 @@
 
 <br>
 
-![Am I Responsive?](/static/images/final-schema.png)
+
+<p align="left">
+    <img width="900" height="500" src="static/images/final-schema.png">
+</p>
+
 
 <br>
 
