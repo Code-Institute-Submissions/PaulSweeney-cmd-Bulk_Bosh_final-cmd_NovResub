@@ -840,6 +840,7 @@ and (max-width : 480px) {
     }
 }
 
+/* Monitors */
 @media only screen 
   and (min-width: 768px) 
   and (max-width: 1024px) 
@@ -853,5 +854,15 @@ and (max-width : 480px) {
     i.fas.fa-arrow-alt-circle-up {
         font-size: 50px;
         color: #5ca7e7;
+    }
+}
+
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+    .content-container.home-container,
+    .content-container.about-container {
+        margin-top: 5%;
     }
 }
