@@ -459,21 +459,6 @@ input#instagram {
     color: #fafafa;
 }
 
-/* icons */
-
-i.far.fa-user,
-i.fas.fa-key,
-i.fas.fa-camera-retro.prefix,
-i.fas.fa-user-edit.prefix,
-i.far.fa-envelope.prefix,
-i.far.fa-thumbs-down.prefix,
-i.far.fa-thumbs-up.prefix,
-i.fab.fa-instagram-square.prefix,
-i.fab.fa-facebook-square.prefix,
-i.far.fa-question-circle.prefix {
-    color: #5ca7e7;
-}
-
 /* ------------------------------------ Profile Page */
 .content-container {
     background-color: #070707a8;
