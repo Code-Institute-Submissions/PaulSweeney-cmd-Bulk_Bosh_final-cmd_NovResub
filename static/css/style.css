@@ -847,22 +847,12 @@ and (max-width : 480px) {
   and (-webkit-min-pixel-ratio: 1) {
     .content-container.about-container,
     .content-container.home-container {
-        margin-top: 4%;
+        margin-top: 5%;
     }
     i.fas.fa-book,
     i.fas.fa-user,
     i.fas.fa-arrow-alt-circle-up {
         font-size: 50px;
         color: #5ca7e7;
-    }
-}
-
-@media screen 
-  and (min-device-width: 1200px) 
-  and (max-device-width: 1600px) 
-  and (-webkit-min-device-pixel-ratio: 1) { 
-    .content-container.home-container,
-    .content-container.about-container {
-        margin-top: 5%;
     }
 }
