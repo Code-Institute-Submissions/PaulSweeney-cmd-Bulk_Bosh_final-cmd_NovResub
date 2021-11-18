@@ -29,6 +29,7 @@
 - To log in and out of my account
 - To easily navigate through the pages
 - Upload my own meals for people to look at and try for themselves
+- Edit my own meals
 - To browse meals created by others 
 - To access their profile information and connect via their social network links and or email address
 - To check the site for any new recipes for me to follow
@@ -274,6 +275,17 @@ Re-structured the python app route for adding a meal, had to declare the ingredi
 |![](/test-images/desktop-add_meal-top.png) | ![](test-images/phone-add_meal_top.png) | ![](test-images/tablet-add_meal-top.png) |
 |![](/test-images/desktop-add_meal-bottom.png)|![](test-images/phone-add_meal-bottom.png) |![](test-images/tablet-add_meal-bottom.png) |
 
+### *Meal Added*
+|Desktop | Phone | Tablet |
+| :---: | :---: | :---: |
+|![](/test-images/desktop-added_meal-top.png) | ![](test-images/phone-meal_added-top.png) | ![](test-images/tablet-meal_added-top.png) |
+|![](/test-images/desktop-added_meal-bottom.png)|![](test-images/phone-meal_added-bottom.png) |![](test-images/tablet-meal_added-bottom.png) |
+
+### *New Meal Details*
+|Desktop | Phone | Tablet |
+| :---: | :---: | :---: |
+|![](/test-images/desktop-new_meal.png) | ![](test-images/phone-new_meal-top.png) | ![](test-images/tablet-new_meal-top.png) |
+||![](test-images/phone-new_meal-bottom.png) |![](test-images/tablet-new_meal-bottom.png) |
 
 
 
