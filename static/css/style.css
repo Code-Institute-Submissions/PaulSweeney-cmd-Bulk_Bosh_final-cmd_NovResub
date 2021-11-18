@@ -24,9 +24,6 @@ body {
 .content-container.login-container {
     display: block;
     margin-top: 25%;
-    background: url(/static/images/cooking-two.jpg);
-    height: 100vh;
-    background-repeat: no-repeat;
 }
 
 .content-container {
