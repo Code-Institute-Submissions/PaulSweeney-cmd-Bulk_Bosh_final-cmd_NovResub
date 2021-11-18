@@ -202,13 +202,19 @@ Re-structured the python app route for adding a meal, had to declare the ingredi
 |![](/testing-images/meals-desktop.png) |![](testing-images/meals-top-phone.png) |![](testing-images/meals-tablet.png) |
 ||![](testing-images/meals-bottom-phone.png) |
 
+### **Meal Details**
+|Desktop | Phone | Tablet |
+| :---: | :---: | :---: |
+|![](/testing-images/meal-desktop.png) |![](testing-images/meal-top-phone.png) |![](testing-images/meal-top-tablet.png) |
+||![](testing-images/meal-bottom-phone.png) | ![](testing-images/meal-bottom-tablet.png) |
+
 <br>
 
 ### **To create an account and register my information.**
 |Desktop | Phone | Tablet |
 | :---: | :---: | :---: |
 |![](/testing-images/register-desktop-top.png) |![](testing-images/register-top-phone.png) |![](testing-images/register-top-tablet.png) |
-|![](/testing-images/register-desktop-bottom.png)|![](testing-images/register-bottom-phone.png) | ![](testing-images/register-bottom-tablet.png) |
+|![](/testing-images/register-desktop-bottom.png)|![](testing-images/register-bottom-phone.png) |![](testing-images/register-bottom-tablet.png) |
 
 <br>
 
