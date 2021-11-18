@@ -10,11 +10,19 @@ Add Meal Before  | Add Meal After | Add Meal Form Guides Added |
 * Register buttons on Home and Who We Are pages updated with some CSS taken from the Login page to display same styling
 * Servings entry not rendering when user adds value to the field, typo fixed to ```"servings": request.form.get("servings")``` as opposed to ```'steps'```.
 * Image wasnt rendering when user updates recipe, syntax fixed. Value wasn't passed in to the url section therefore no data rendering back when form updated = ```value="{{ meal.url }}"```. Issue now rectified.
-* Populated fields on a new meal entry were'nt rendering back to the page when user wants to edit their meal which resulted in bad UX, values passed back from MongoDB in jinja templating to rectify this issue. 
+* Populated fields on a new meal entry were'nt rendering back to the page when user wants to edit their meal which resulted in bad UX, values passed back from MongoDB in jinja templating to rectify this issue.
+
+
+* Decided to removed font icons from the reguister for due to bad UX in iPhone5 view, font icons were pushing form input titles too far forward therefore overlapping the form input field. I couldve reduced the font size for the icons but this would've meant reducing them to a size small enough that there wouldve been no point in having them there. The form now looks cleaner, see below:
+
+|Icon UX Before  | After |
+|:---------------: | :---------------: |
+|![](assessment-images/font-icon-UX.png)|![](assessment-images/font-icon-UX-after.png)|
+
 #
 Edit Recipe Before  | After |
-:---------------: | :---------------:
-![](assessment-images/button-style-before.png)  | ![](assessment-images/.png) |
+:---------------: | :---------------:|
+|![](assessment-images/button-style-before.png)  | ![](assessment-images/.png) |
 #
 ## 1.1	Missing UX and/or issues in navigation
 ## Resolution
