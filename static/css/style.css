@@ -27,12 +27,6 @@ body {
     margin-top: 25%;
 }
 
-.content-container {
-    background-color: #070707a8;
-    border-radius: 11px;
-    margin: 30px;
-    padding: 50px;
-}
 /* ------------------------------------ nav bar */
 .nav-wrapper.\#0e0e0e.grey.darken-4 {
     width: 100%;
@@ -290,7 +284,7 @@ p.protein {
 }
 
 .content-container {
-    background-color: #070707a8;
+    background-color: #070707e3;
     border-radius: 11px;
     margin: 30px;
     padding: 50px;
@@ -463,7 +457,7 @@ input#instagram {
 
 /* ------------------------------------ Profile Page */
 .content-container {
-    background-color: #070707a8;
+    background-color: #070707e3;
     padding: 10px;
     border-radius: 11px;
     margin-top: 30px;
