@@ -854,6 +854,13 @@ and (max-device-width : 480px) {
         margin-top: 1px;
         margin-bottom: 35px;
     }
+
+    /* login */
+    button.submit-button {
+        font-size: 16px;
+        font-weight: 100;
+        padding: 6px;
+    }
 }
 
 @media only screen 
