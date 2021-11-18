@@ -526,7 +526,7 @@ hr.profile-hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #2c6adc;
+    border-top: 1px solid #5ca7e7;
     margin-top: 0px;
 }
 
@@ -537,14 +537,14 @@ i.far.fa-heart {
 
 /* social links */
 i.fab.fa-instagram {
-    color: #fafafa;
+    color: #5ca7e7;
     margin-left: 5px;
     font-size: 29px;
 }
 
 i.fab.fa-facebook-square.center {
     margin-left: 70px;
-    color: #fafafa;
+    color: #5ca7e7;
     font-size: 29px;
 }
 
@@ -838,6 +838,26 @@ and (max-width : 480px) {
         font-weight: 100;
         padding: 6px;
     }
+
+    /* profile */
+    .profile-name-header {
+        font-size: 30px;
+    }
+    strong {
+        font-size: 20px;
+    }
+    i.far.fa-heart,
+    i.far.fa-thumbs-down {
+        font-size: 30px;
+    }
+    p.about {
+        font-size: 30px;
+    }
+    p.email {
+        font-size: 30px;
+        margin: 0;
+    }
+
 }
 
 /* Monitors */
