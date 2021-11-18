@@ -251,11 +251,29 @@ Re-structured the python app route for adding a meal, had to declare the ingredi
 
 ### **Easily navigate through the site via a well presented navigation menu.**
  *The screenshots only display what the user would see in mobile view as page navigation functionality has already been demonstrated for the main nav bar so far*
-| Phone | Tablet |
-| :---: | :---: |
-|![](/test-images/side-nav-phone.png) |![](test-images/side-nav-tablet.png) |
+
+| Logged In  | Logged Out | Logged In | Logged Out |
+| :---: | :---: | :---: | :---: |
+| ![](test-images/phone-side-nav.png)  | ![](test-images/side-nav-phone.png)  | ![](test-images/tablet-side-nav.png)  | ![](test-images/side-nav-tablet.png)
 
 <br>
+
+## *Registered User Goals*
+### *To log in and out of my account.* ###
+|Desktop | Phone | Tablet |
+| :---: | :---: | :---: |
+|![](/test-images/desktop-login.png) |![](test-images/phone-login.png) |![](test-images/tablet-login.png) |
+|Profile | Profile | Profile | Profile |                                                                                  
+|![](/test-images/desktop-profile.png) |![](test-images/phone-profile.png) |![](test-images/tablet-profile.png) |
+|Logged Out | Logged Out | Logged Out |                                                                                                     
+|![](/test-images/desktop-logout.png) |![](test-images/phone-logout.png) |![](test-images/tablet-logout.png) |
+
+
+- To easily navigate through the pages
+- Upload my own meals for people to look at and try for themselves
+- To browse meals created by others 
+- To access their profile information and connect via their social network links and or email address
+- To check the site for any new recipes for me to follow
 
 # **Deployment**
 
