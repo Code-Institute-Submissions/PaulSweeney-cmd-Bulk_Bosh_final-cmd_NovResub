@@ -268,6 +268,14 @@ Re-structured the python app route for adding a meal, had to declare the ingredi
 |Logged Out | Logged Out | Logged Out |                                                                                                     
 |![](/test-images/desktop-logout.png) |![](test-images/phone-logout.png) |![](test-images/tablet-logout.png) |
 
+### *Upload my own meals for people to look at and try for themselves.* ###
+|Desktop | Phone | Tablet |
+| :---: | :---: | :---: |
+|![](/test-images/desktop-add_meal-top.png) | ![](test-images/phone-add_meal_top.png) | ![](test-images/tablet-add_meal-top.png) |
+|![](/test-images/desktop-add_meal-bottom.png)|![](test-images/phone-add_meal-bottom.png) |![](test-images/tablet-add_meal-bottom.png) |
+
+
+
 
 - To easily navigate through the pages
 - Upload my own meals for people to look at and try for themselves
