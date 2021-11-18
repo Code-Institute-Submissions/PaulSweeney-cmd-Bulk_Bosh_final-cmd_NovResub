@@ -468,7 +468,7 @@ input#instagram {
 }
 
 .profile-name-header {
-    font-size: 41px;
+    font-size: 38px;
     line-height: 110%;
     margin: 1.9466666667rem 0 1.168rem 0;
     font-weight: 600;
@@ -500,7 +500,8 @@ p.profile-age {
 
 p.about {
     font-weight: 600;
-    font-size: 35px;
+    font-size: 38px;
+    margin: 0;
 }
 
 p.email {
@@ -531,8 +532,14 @@ hr.profile-hr {
 }
 
 i.far.fa-heart {
-    color: #2c6adc;
-    font-size: 43px;
+    color: #5ca7e7;
+    font-size: 40px;
+    margin-right: 5px;
+}
+i.far.fa-thumbs-down {
+    color: #5ca7e7;
+    font-size: 40px;
+    margin-right: 5px;
 }
 
 /* social links */
