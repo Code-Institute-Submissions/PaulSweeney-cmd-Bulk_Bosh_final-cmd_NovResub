@@ -780,7 +780,7 @@ and (max-width : 480px) {
     }
     h3.register-header.center-align {
         font-size: 35px;
-        margin-bottom: 50px;
+        margin-bottom: 0;
     }
     /* full meal page */
     .container-fluid.nutrition-container {
