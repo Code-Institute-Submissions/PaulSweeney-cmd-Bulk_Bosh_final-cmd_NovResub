@@ -240,7 +240,7 @@ Re-structured the python app route for adding a meal, had to declare the ingredi
 ### **To create an account and register my information.**
 |Desktop | Phone | Tablet |
 | :---: | :---: | :---: |
-|![](/testing-images/register-desktop-top.png) |![](testing-images/register-top-phone.png) |![](testing-images/register-top-tablet.png) |
+|![](/testing-images/register-desktop.png) |![](testing-images/register-top-phone.png) |![](testing-images/register-top-tablet.png) |
 |![](/testing-images/register-desktop-bottom.png)|![](testing-images/register-bottom-phone.png) |![](testing-images/register-bottom-tablet.png) |
 
 <br>
