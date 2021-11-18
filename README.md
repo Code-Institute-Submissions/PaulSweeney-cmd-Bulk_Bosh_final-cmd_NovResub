@@ -282,8 +282,12 @@ Re-structured the python app route for adding a meal, had to declare the ingredi
 
 <br>
 
-![Am I Responsive?](static/images/BULK.png)
-#
+<p align="left">
+    <img width="400" height="400" src="static/images/BULK.png">
+</p>
+
+<br>
+
 ## *Run Local*
 
 Log in to GitHub
