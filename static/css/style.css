@@ -14,7 +14,6 @@ body {
 
 .content-container {
     background-color: #070707e3;
-    border-radius: 11px;
     margin: 30px;
     padding: 50px;
 }
@@ -306,13 +305,6 @@ p.protein {
     margin-top: 6%;
 }
 
-.content-container {
-    background-color: #070707e3;
-    border-radius: 11px;
-    margin: 30px;
-    padding: 50px;
-}
-
 hr.meal-page-breaker {
     display: block;
     height: 1px;
@@ -482,7 +474,6 @@ input#instagram {
 .content-container {
     background-color: #070707e3;
     padding: 10px;
-    border-radius: 11px;
     margin-top: 30px;
 }
 .content-container.creator-container {
@@ -768,7 +759,7 @@ and (max-width : 480px) {
     /* login page & form styling */
     .content-container.login-container {
             display: block;
-            margin-top: 30%;
+            margin-top: 55px;
     }
     h3.register-header.center-align {
         font-size: 35px;
@@ -822,7 +813,7 @@ and (max-width : 480px) {
     }
     h3.register-header.center-align {
         font-size: 35px;
-        margin-bottom: 45px;
+        margin-bottom: 0;
     }
     /* full meal page */
     .container-fluid.nutrition-container {
@@ -916,7 +907,7 @@ and (max-width : 480px) {
     }
 
     .row.flashes {
-        margin-bottom: 36px;
+        margin-bottom: 22px;
     }
 
     h2.center-align.flash-header {
