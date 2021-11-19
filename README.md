@@ -330,9 +330,9 @@ I like the fact my meal has been added to the rest of the meals instead of separ
 <br>
 
 ### *New Meal Details*
-| Select button from meals page | Desktop | Phone | Tablet |
+| Select view button | Desktop | Phone | Tablet |
 | :---: | :---: | :---: | :---: |
-| ![](/test-images/view-button.png)|![](/test-images/desktop-new_meal.png) | ![](test-images/phone-new_meal-top.png) | ![](test-images/tablet-new_meal-top.png) |
+| ![](/test-images/user-meal.png) |![](/test-images/desktop-new_meal.png) | ![](test-images/phone-new_meal-top.png) | ![](test-images/tablet-new_meal-top.png) |
 || |![](test-images/phone-new_meal-bottom.png) |![](test-images/tablet-new_meal-bottom.png) |
 
 **User Feedback**
@@ -344,7 +344,7 @@ My meal looks great in detail, I can see all my information just like the ones t
 ### **To access users profile information and connect via their social network links and or email address.**
 *Only users that have created an account can view other users contact info and social media links.*
 
-| Click on username,  | Desktop | Phone | Tablet | 
+| Click on 'Creator' username  | Desktop | Phone | Tablet | 
 | :---: | :---: | :---: | :---: |
 | ![](/test-images/user-profile-name.png) | ![](test-images/desktop-user-profile.png) | ![](test-images/phone-user-profile.png) | ![](test-images/tablet-user-profile.png) |
 
@@ -355,9 +355,9 @@ I think this is a great feature to have on a recipe site. It targets people that
 <br>
 
 ### **Edit my own meals.**
-| Select button from meals page | Desktop | Phone | Tablet |
+| Select edit button | Desktop | Phone | Tablet |
 | :---: | :---: | :---: | :---: |
-| ![](/test-images/edit-button.png) | ![](/test-images/desktop-edit_meal-top.png) | ![](test-images/phone-edit_meal-top.png) | ![](test-images/tablet-edit_meal-top.png) |
+| ![](/test-images/user-meal.png) | ![](/test-images/desktop-edit_meal-top.png) | ![](test-images/phone-edit_meal-top.png) | ![](test-images/tablet-edit_meal-top.png) |
 || ![](/test-images/desktop-edit_meal-bottom.png) | ![](test-images/phone-edit_meal-bottom.png) | ![](test-images/tablet-edit_meal-bottom.png) |
 || ![](/test-images/desktop-meal_updated.png) | ![](test-images/phone-meal_updated.png) | ![](test-images/tablet-meal_updated.png) |
 
@@ -367,15 +367,23 @@ The site brought up all my current meal information which works well as I can se
 
 <br>
 
+
 ### **Delete my meals if I want to.**
-| Select button from meals page | Desktop | Phone | Tablet |
+| Select remove button | Desktop | Phone | Tablet |
 | :---: | :---: | :---: | :---: |
-| ![](/test-images/remove-button.png) | ![](/test-images/desktop-meal_deleted.png) | ![](test-images/phone-meal_deleted.png) | ![](test-images/tablet-meal_deleted.png) |
+| ![](/test-images/user-meal.png) | ![](/test-images/desktop-meal_deleted.png) | ![](test-images/phone-meal_deleted.png) | ![](test-images/tablet-meal_deleted.png) |
 
 **User Feedback**
 
 I was able to delete my meal instantly with no problems.
 <br>
+
+# **TESTING - Responsivness & Devices Used**
+
+Devices
+
+
+
 
 # **Deployment**
 
