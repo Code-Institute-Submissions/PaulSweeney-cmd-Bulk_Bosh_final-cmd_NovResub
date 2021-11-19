@@ -220,6 +220,10 @@ Re-structured the python app route for adding a meal, had to declare the ingredi
 |![](/test-images/desktop-home.png) |![](test-images/home-phone-top.png) |![](test-images/tablet-home.png) |
 ||![](test-images/home-phone-bottom.png) |
 
+**User Feeedback** 
+
+When I come on to the site the first thing I see is a well laid out home page. The colours are eye catching and I can see all the available pages at the top. The page has a great structure. The background looks really good with the colours.
+
 <br>
 
 ## *First time Visitor Goals*
@@ -229,6 +233,9 @@ Re-structured the python app route for adding a meal, had to declare the ingredi
 |![](/test-images/desktop-about.png) |![](test-images/about-phone-top.png) |![](test-images/tablet-about.png) |
 ||![](test-images/about-phone-bottom.png) |
 
+**User Feeedback**
+
+The information on the page is thorough and interesting. It explains what the site is about and why they have created it. It also explains what they are looking to do to the site in future and lets you know there are people to connect with. It also has a button you can click on to register or log in which informs me that I can create an account if I wanted to.|
 
 <br>
 
@@ -237,12 +244,21 @@ Re-structured the python app route for adding a meal, had to declare the ingredi
 | :---: | :---: | :---: |
 |![](/test-images/desktop-meals.png) |![](test-images/phone-meals.png) |![](test-images/tablet-meals.png) |
 
+**User Feedback**
+
+The page is really well laid out, everything is the same size and the pictures look really appealing and colourful. I also like the way the creators have made it to look like a menu from a restaurant. It's a nice touch and finishes off the theme of the site nicely.
+
+<br>
 
 ### **Meal Details**
 |Desktop | Phone | Tablet |
 | :---: | :---: | :---: |
 |![](/test-images/desktop-meal.png) |![](test-images/meal-phone-top.png) |![](test-images/meal-tablet-top.png) |
 ||![](test-images/meal-phone-bottom.png) | ![](test-images/meal-tablet-bottom.png) |
+
+**User Feedback**
+
+When I access the site on my phone the menu has a really eye catching icon at the top, the colours look great and they match the rest of the site, the name stands out in a good way for a food based website. The page title text looks good.
 
 <br>
 
@@ -252,14 +268,22 @@ Re-structured the python app route for adding a meal, had to declare the ingredi
 |![](/test-images/desktop-register-top.png) |![](test-images/register-phone-top.png) |![](test-images/register-tablet-top.png) |
 |![](/test-images/desktop-register-bottom.png)|![](test-images/register-phone-bottom.png) |![](test-images/register-tablet-bottom.png) |
 
+**User Feedback**
+
+I like that the register form asks you what your likes and dislikes are which adds a personal touch to my account. It also asks for my contact infomation which is great for me to connect with other people that like staying healthy. This could also be a way for me to connect with people that go to the gym in my area. The guides are good as they tell you what you can and can't write.
+
 <br>
 
 ### **Easily navigate through the site via a well presented navigation menu.**
- *The screenshots only display what the user would see in mobile view as page navigation functionality has already been demonstrated for the main nav bar so far*
+*The screenshots only display what the user would see in mobile view as page navigation functionality has already been demonstrated for the main nav bar so far*
 
 | Logged In  | Logged Out | Logged In | Logged Out |
 | :---: | :---: | :---: | :---: |
 | ![](test-images/phone-side-nav.png)  | ![](test-images/side-nav-phone.png)  | ![](test-images/tablet-side-nav.png)  | ![](test-images/side-nav-tablet.png)
+
+**User Feedback**
+
+
 
 <br>
 
@@ -300,17 +324,16 @@ Re-structured the python app route for adding a meal, had to declare the ingredi
 <br>
 
 ### **To access users profile information and connect via their social network links and or email address.**
-|Click on username, only users that have created an account can view other users contact info and social media links. | Desktop | Phone | Tablet | 
+*Only users that have created an account can view other users contact info and social media links.*
+
+|Click on username,  | Desktop | Phone | Tablet | 
 | :---: | :---: | :---: | :---: |
 |![](/test-images/user-profile-name.png) | ![](test-images/desktop-user-profile.png) | ![](test-images/phone-user-profile.png) | ![](test-images/tablet-user-profile.png) |
 
 <br>
 
-- To easily navigate through the pages
-- Upload my own meals for people to look at and try for themselves
-- To browse meals created by others 
-- To access their profile information and connect via their social network links and or email address
-- To check the site for any new recipes for me to follow
+
+
 
 # **Deployment**
 
