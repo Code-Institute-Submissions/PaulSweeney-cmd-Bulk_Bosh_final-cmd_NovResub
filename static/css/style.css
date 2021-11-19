@@ -920,7 +920,14 @@ and (max-width : 480px) {
     }
 
     h2.center-align.flash-header {
-        font-size: 19px;
+        font-size: 18px;
+    }
+
+    .card-panel {
+        margin-top: 0;
+    }
+    .content-container.login-container {
+        margin-top: 6px;
     }
 
 }
@@ -948,13 +955,15 @@ and (max-width : 480px) {
     }
 }
 
+/* iPhone 6,7,8+ */
+
 @media only screen 
   and (min-device-width: 414px) 
   and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 3) {
     .card .card-image img {
         height: 28vh;
-        width: 348px;
+        width: 302px;
     }
     .meal-pic {
         max-width: 100%;
