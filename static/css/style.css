@@ -898,6 +898,11 @@ and (max-width : 480px) {
         display: block;
     }
 
+    .content-container.profile-container {
+        margin-top: 4%;
+        display: block;
+    }
+
     i.fab.fa-facebook-square.center,
     i.fab.fa-instagram {
         font-size: 27px;
@@ -972,6 +977,9 @@ and (max-width : 480px) {
     i.fab.fa-instagram {
         margin-left: 14px;
     }
+    .content-container.login-container {
+        margin-top: 30%;
+    }
 
 }
 
@@ -1000,5 +1008,8 @@ and (max-width : 480px) {
         height: 20vh;
         width: 100%;
 
+    }
+    h3.register-header.center-align {
+        margin-bottom: 0;
     }
 }
