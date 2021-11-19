@@ -217,10 +217,10 @@ Re-structured the python app route for adding a meal, had to declare the ingredi
 
 # **End User Testing**
 ### **Home Page**
-|Desktop | Phone | Tablet |
+| Desktop | Phone | Tablet |
 | :---: | :---: | :---: |
-|![](/test-images/desktop-home.png) |![](test-images/home-phone-top.png) |![](test-images/tablet-home.png) |
-||![](test-images/home-phone-bottom.png) |
+| ![](/test-images/desktop-home.png) | ![](test-images/home-phone-top.png) | ![](test-images/tablet-home.png) |
+|| ![](test-images/home-phone-bottom.png) |
 
 **User Feeedback** 
 
@@ -230,9 +230,9 @@ When I come on to the site the first thing I see is a well laid out home page. T
 
 ## *First time Visitor Goals*
 ### **To find out more about the site.**
-|Desktop | Phone | Tablet |
+| Desktop | Phone | Tablet |
 | :---: | :---: | :---: |
-|![](/test-images/desktop-about.png) |![](test-images/about-phone-top.png) |![](test-images/tablet-about.png) |
+| ![](/test-images/desktop-about.png) | ![](test-images/about-phone-top.png) | ![](test-images/tablet-about.png) |
 ||![](test-images/about-phone-bottom.png) |
 
 **User Feeedback**
@@ -242,9 +242,9 @@ The information on the page is thorough and interesting. It explains what the si
 <br>
 
 ### **To browse the site for a variety of meals.**
-|Desktop | Phone | Tablet |
+| Desktop | Phone | Tablet |
 | :---: | :---: | :---: |
-|![](/test-images/desktop-meals.png) |![](test-images/phone-meals.png) |![](test-images/tablet-meals.png) |
+| ![](/test-images/desktop-meals.png) | ![](test-images/phone-meals.png) | ![](test-images/tablet-meals.png) |
 
 **User Feedback**
 
@@ -253,10 +253,10 @@ The page is really well laid out, everything is the same size and the pictures l
 <br>
 
 ### **Meal Details**
-|Desktop | Phone | Tablet |
-| :---: | :---: | :---: |
-|![](/test-images/desktop-meal.png) |![](test-images/meal-phone-top.png) |![](test-images/meal-tablet-top.png) |
-||![](test-images/meal-phone-bottom.png) | ![](test-images/meal-tablet-bottom.png) |
+| Select button from meals page | Desktop | Phone | Tablet |
+| :---: | :---: | :---: | :---: |
+| ![](/test-images/view-button.png) | ![](/test-images/desktop-meal.png) | ![](test-images/meal-phone-top.png) | ![](test-images/meal-tablet-top.png) |
+|| |![](test-images/meal-phone-bottom.png) | ![](test-images/meal-tablet-bottom.png) |
 
 **User Feedback**
 
@@ -265,10 +265,10 @@ The page is full of useful information, it's clear and simple for me to read. Th
 <br>
 
 ### **To create an account and register my information.**
-|Desktop | Phone | Tablet |
+| Desktop | Phone | Tablet |
 | :---: | :---: | :---: |
-|![](/test-images/desktop-register-top.png) |![](test-images/register-phone-top.png) |![](test-images/register-tablet-top.png) |
-|![](/test-images/desktop-register-bottom.png)|![](test-images/register-phone-bottom.png) |![](test-images/register-tablet-bottom.png) |
+| ![](/test-images/desktop-register-top.png) | ![](test-images/register-phone-top.png) | ![](test-images/register-tablet-top.png) |
+| ![](/test-images/desktop-register-bottom.png) | ![](test-images/register-phone-bottom.png) | ![](test-images/register-tablet-bottom.png) |
 
 **User Feedback**
 
@@ -291,13 +291,13 @@ When I access the site on my phone the menu has a really eye catching icon at th
 
 ## *Registered User Goals*
 ### **To log in and out of my account.** ###
-|Desktop | Phone | Tablet |
+| Desktop | Phone | Tablet |
 | :---: | :---: | :---: |
-|![](/test-images/desktop-login.png) |![](test-images/phone-login.png) |![](test-images/tablet-login.png) |
-|Profile | Profile | Profile | Profile |                                                                                  
-|![](/test-images/desktop-profile.png) |![](test-images/phone-profile.png) |![](test-images/tablet-profile.png) |
-|Logged Out | Logged Out | Logged Out |                                                                                                     
-|![](/test-images/desktop-logout.png) |![](test-images/phone-logout.png) |![](test-images/tablet-logout.png) |
+| ![](/test-images/desktop-login.png) | ![](test-images/phone-login.png) | ![](test-images/tablet-login.png) |
+| Profile | Profile | Profile | Profile |                                                                                  
+| ![](/test-images/desktop-profile.png) | ![](test-images/phone-profile.png) | ![](test-images/tablet-profile.png) |
+| Logged Out | Logged Out | Logged Out |                                                                                                     
+| ![](/test-images/desktop-logout.png) | ![](test-images/phone-logout.png) | ![](test-images/tablet-logout.png) |
 
 **User Feedback**
 
@@ -306,10 +306,10 @@ I like the way my profile page shows straight away when I log in to my account.
 <br>
 
 ### **Create my own meals for people to look at and try for themselves.** ###
-|Desktop | Phone | Tablet |
+| Desktop | Phone | Tablet |
 | :---: | :---: | :---: |
-|![](/test-images/desktop-add_meal-top.png) | ![](test-images/phone-add_meal_top.png) | ![](test-images/tablet-add_meal-top.png) |
-|![](/test-images/desktop-add_meal-bottom.png)|![](test-images/phone-add_meal-bottom.png) |![](test-images/tablet-add_meal-bottom.png) |
+| ![](/test-images/desktop-add_meal-top.png) | ![](test-images/phone-add_meal_top.png) | ![](test-images/tablet-add_meal-top.png) |
+| ![](/test-images/desktop-add_meal-bottom.png) | ![](test-images/phone-add_meal-bottom.png) | ![](test-images/tablet-add_meal-bottom.png) |
 
 **User Feedback**
 
@@ -318,10 +318,10 @@ The form is really thorough, it asks me for all kinds of information I need to p
 <br>
 
 ### *Meal Added*
-|Desktop | Phone | Tablet |
+| Desktop | Phone | Tablet |
 | :---: | :---: | :---: |
-|![](/test-images/desktop-added_meal-top.png) | ![](test-images/phone-meal_added-top.png) | ![](test-images/tablet-meal_added-top.png) |
-|![](/test-images/desktop-added_meal-bottom.png)|![](test-images/phone-meal_added-bottom.png) |![](test-images/tablet-meal_added-bottom.png) |
+| ![](/test-images/desktop-meal_added-top.png) | ![](test-images/phone-meal_added-top.png) | ![](test-images/tablet-meal_added-top.png) |
+| ![](/test-images/desktop-added_meal-bottom.png) | ![](test-images/phone-meal_added-bottom.png) | ![](test-images/tablet-meal_added-bottom.png) |
 
 **User Feedback**
 
@@ -330,10 +330,10 @@ I like the fact my meal has been added to the rest of the meals instead of separ
 <br>
 
 ### *New Meal Details*
-|Desktop | Phone | Tablet |
-| :---: | :---: | :---: |
-|![](/test-images/desktop-new_meal.png) | ![](test-images/phone-new_meal-top.png) | ![](test-images/tablet-new_meal-top.png) |
-||![](test-images/phone-new_meal-bottom.png) |![](test-images/tablet-new_meal-bottom.png) |
+| Select button from meals page | Desktop | Phone | Tablet |
+| :---: | :---: | :---: | :---: |
+| ![](/test-images/view-button.png)|![](/test-images/desktop-new_meal.png) | ![](test-images/phone-new_meal-top.png) | ![](test-images/tablet-new_meal-top.png) |
+|| |![](test-images/phone-new_meal-bottom.png) |![](test-images/tablet-new_meal-bottom.png) |
 
 **User Feedback**
 
@@ -344,9 +344,9 @@ My meal looks great in detail, I can see all my information just like the ones t
 ### **To access users profile information and connect via their social network links and or email address.**
 *Only users that have created an account can view other users contact info and social media links.*
 
-|Click on username,  | Desktop | Phone | Tablet | 
+| Click on username,  | Desktop | Phone | Tablet | 
 | :---: | :---: | :---: | :---: |
-|![](/test-images/user-profile-name.png) | ![](test-images/desktop-user-profile.png) | ![](test-images/phone-user-profile.png) | ![](test-images/tablet-user-profile.png) |
+| ![](/test-images/user-profile-name.png) | ![](test-images/desktop-user-profile.png) | ![](test-images/phone-user-profile.png) | ![](test-images/tablet-user-profile.png) |
 
 **User Feedback**
 
@@ -355,20 +355,27 @@ I think this is a great feature to have on a recipe site. It targets people that
 <br>
 
 ### **Edit my own meals.**
-|Desktop | Phone | Tablet |
-| :---: | :---: | :---: |
-|![](/test-images/desktop-edit_meal-top.png) | ![](test-images/phone-edit_meal-top.png) | ![](test-images/tablet-edit_meal-top.png) |
-|![](/test-images/desktop-edit_meal-bottom.png)|![](test-images/phone-edit_meal-bottom.png) |![](test-images/tablet-edit_meal-bottom.png) |
-|![](/test-images/desktop-meal_updated.png)|![](test-images/phone-meal_updated.png) |![](test-images/tablet-meal_updated.png) |
+| Select button from meals page | Desktop | Phone | Tablet |
+| :---: | :---: | :---: | :---: |
+| ![](/test-images/edit-button.png) | ![](/test-images/desktop-edit_meal-top.png) | ![](test-images/phone-edit_meal-top.png) | ![](test-images/tablet-edit_meal-top.png) |
+|| ![](/test-images/desktop-edit_meal-bottom.png) | ![](test-images/phone-edit_meal-bottom.png) | ![](test-images/tablet-edit_meal-bottom.png) |
+|| ![](/test-images/desktop-meal_updated.png) | ![](test-images/phone-meal_updated.png) | ![](test-images/tablet-meal_updated.png) |
 
+**User Feedback**
 
+The site brought up all my current meal information which works well as I can select everything I want to edit there and then. I can make slight adjustments to what I want without having to type everything out again. This is really convenient and I can even change my image to an updated one if my recipe changes in looks.
 
+<br>
 
+### **Delete my meals if I want to.**
+| Select button from meals page | Desktop | Phone | Tablet |
+| :---: | :---: | :---: | :---: |
+| ![](/test-images/remove-button.png) | ![](/test-images/desktop-meal_deleted.png) | ![](test-images/phone-meal_deleted.png) | ![](test-images/tablet-meal_deleted.png) |
 
+**User Feedback**
 
-
-
-- Delete my meals if I want to.
+I was able to delete my meal instantly with no problems.
+<br>
 
 # **Deployment**
 
