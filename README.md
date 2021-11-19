@@ -28,8 +28,9 @@
 ## *Registered user goals*
 - To log in and out of my account
 - To easily navigate through the pages
-- Upload my own meals for people to look at and try for themselves
+- Create my own meals for people to look at and try for themselves
 - Edit my own meals
+- Delete my meals if I want to
 - To browse meals created by others 
 - To access users profile information and connect via their social network links and or email address
 - To check the site for any new recipes for me to follow
@@ -258,7 +259,7 @@ The page is really well laid out, everything is the same size and the pictures l
 
 **User Feedback**
 
-When I access the site on my phone the menu has a really eye catching icon at the top, the colours look great and they match the rest of the site, the name stands out in a good way for a food based website. The page title text looks good.
+The page is full of useful information, it's clear and simple for me to read. The nutrition infomation can come in handy if I'm following a strict diet as it gives me an idea of what I can and can't have. The directions are simple to follow and I also like that I can see how long a meal would take to cook and how many people I can cook it for.
 
 <br>
 
@@ -283,7 +284,7 @@ I like that the register form asks you what your likes and dislikes are which ad
 
 **User Feedback**
 
-
+When I access the site on my phone the menu has a really eye catching icon at the top, the colours look great and they match the rest of the site, the name stands out in a good way for a food based website. The page title text looks good.
 
 <br>
 
@@ -297,13 +298,21 @@ I like that the register form asks you what your likes and dislikes are which ad
 |Logged Out | Logged Out | Logged Out |                                                                                                     
 |![](/test-images/desktop-logout.png) |![](test-images/phone-logout.png) |![](test-images/tablet-logout.png) |
 
+**User Feedback**
+
+I like the way my profile page shows straight away when I log in to my account.
+
 <br>
 
-### **Upload my own meals for people to look at and try for themselves.** ###
+### **Create my own meals for people to look at and try for themselves.** ###
 |Desktop | Phone | Tablet |
 | :---: | :---: | :---: |
 |![](/test-images/desktop-add_meal-top.png) | ![](test-images/phone-add_meal_top.png) | ![](test-images/tablet-add_meal-top.png) |
 |![](/test-images/desktop-add_meal-bottom.png)|![](test-images/phone-add_meal-bottom.png) |![](test-images/tablet-add_meal-bottom.png) |
+
+**User Feedback**
+
+The form is really thorough, it asks me for all kinds of information I need to put for my recipe. I like that I can add a picture and that it has to be a certain size. There is a button at the bottom of the page that allows me to add more ingredients which is great if I needed to add a recipe for a good meal. The guidelines on what you can write and hoe much you can write shows the page is structured and has to be a certain way for it to work.
 
 <br>
 
@@ -313,6 +322,10 @@ I like that the register form asks you what your likes and dislikes are which ad
 |![](/test-images/desktop-added_meal-top.png) | ![](test-images/phone-meal_added-top.png) | ![](test-images/tablet-meal_added-top.png) |
 |![](/test-images/desktop-added_meal-bottom.png)|![](test-images/phone-meal_added-bottom.png) |![](test-images/tablet-meal_added-bottom.png) |
 
+**User Feedback**
+
+I like the fact my meal has been added to the rest of the meals instead of separately, they look part of the page as if the site creators have added it themselves. It's exciting to see it there and to know that I've made a contribution to the site to help others learn new meals and ways of cooking.
+
 <br>
 
 ### *New Meal Details*
@@ -320,6 +333,10 @@ I like that the register form asks you what your likes and dislikes are which ad
 | :---: | :---: | :---: |
 |![](/test-images/desktop-new_meal.png) | ![](test-images/phone-new_meal-top.png) | ![](test-images/tablet-new_meal-top.png) |
 ||![](test-images/phone-new_meal-bottom.png) |![](test-images/tablet-new_meal-bottom.png) |
+
+**User Feedback**
+
+My meal looks great in detail, I can see all my information just like the ones that are on the site. The picture shows perfectly and it's all laid out and clear to read.
 
 <br>
 
@@ -330,10 +347,11 @@ I like that the register form asks you what your likes and dislikes are which ad
 | :---: | :---: | :---: | :---: |
 |![](/test-images/user-profile-name.png) | ![](test-images/desktop-user-profile.png) | ![](test-images/phone-user-profile.png) | ![](test-images/tablet-user-profile.png) |
 
+**User Feedback**
+
+I think this is a great feature to have on a recipe site. It targets people that are in to the same thing. If any of the users are personal trainers of dieticians this can take a lot of headache out of contacting them as their contact information is right there. I can also learn about them a little though their likes and dislikes. We can all follow each other on social media and take inspiration from workouts and nutrition. It's a great thing to have on this site. Impressive.
+
 <br>
-
-
-
 
 # **Deployment**
 
