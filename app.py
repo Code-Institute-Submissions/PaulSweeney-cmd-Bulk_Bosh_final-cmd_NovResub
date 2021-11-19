@@ -195,7 +195,7 @@ def add_meal():
             "url": request.form.get("url")
         }
         mongo.db.meals.insert_one(new_meal)
-        flash("Updated! Thanks for sharing")
+        flash("Your meal has been added! Thanks for sharing")
         return redirect(url_for("get_meals"))
 
     return render_template("add_recipe.html")
@@ -252,7 +252,7 @@ def delete_meal(meal_id):
     """
     # targeting meal id in database
     mongo.db.meals.remove({"_id": ObjectId(meal_id)})
-    flash("Meal deleted")
+    flash("Your meal has been deleted.")
     return redirect(url_for("get_meals"))
 
 # ------------------------------------------------- logout
