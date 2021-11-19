@@ -27,6 +27,17 @@ body {
     margin-top: 10%;
 }
 
+.row.flashes {
+    background-color: #070707e3;
+}
+
+
+h2.center-align.flash-header {
+    text-align: center;
+    font-size: 28px;
+    padding-top: 11px;
+}
+
 /* ------------------------------------ nav bar */
 .nav-wrapper.\#0e0e0e.grey.darken-4 {
     width: 100%;
@@ -902,6 +913,14 @@ and (max-width : 480px) {
     }
     i.fab.fa-facebook-square.center {
         margin-left: 40px;
+    }
+
+    .row.flashes {
+        margin-bottom: 36px;
+    }
+
+    h2.center-align.flash-header {
+        font-size: 19px;
     }
 
 }

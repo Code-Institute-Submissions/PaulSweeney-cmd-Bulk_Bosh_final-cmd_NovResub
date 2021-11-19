@@ -14,7 +14,7 @@
 # **Site Creator Overview** - UX
 ## Presentation 
  * I wanted to create a site that gives users a meaningful and relevant experience. This needed to be visually and physically practical. The site layout works perfectly as it's not too overwhelming in regards to styling. Some sites can be noisy on a visual level, my colour scheme for pretty much every project I've made up to this point follow a similar pattern and I've based it on my own preferences as if I was acting as the end user. I feel the site could improve as time goes and theres always room for more functionality and styling on but for now I've kept it simple and to the point. a black white and yellow colour scheme works perfectly for my target demographic. It's eye catching, sharp and well structured.
- * The text content backdrop works well against the image, the page image would not have been viable to use if I didn't style the containers with HEX code: ```#070707a8```, the original idea was to have a plain black backdrop but I felt this would've de-valued the site and made it too basic, this way the content stands out better and gives the user a positive experience as it shows effort. This style also works well across the rest of the site in regards to containers, forms etc as it looks more structured and professional.
+ * The text content backdrop works well against the image, the page image would not have been viable to use if I didn't style the containers with HEX code: ```#070707e3```, the original idea was to have a plain black backdrop but I felt this would've de-valued the site and made it too basic, this way the content stands out better and gives the user a positive experience as it shows effort. This style also works well across the rest of the site in regards to containers, forms etc as it looks more structured and professional.
  * This section is just a site creators overview, functionality from an end user point can be found in the end user testing section.
 
 
@@ -25,26 +25,27 @@
 - To have the ability to access the site on a variety of devices on the go if I'm not at a computer desk.
 - To create an account and register my information.
 - To find out more about the site.
+- To check the site for any new recipes for me to follow.
 ## *Registered user goals*
-- To log in and out of my account
-- To easily navigate through the pages
-- Create my own meals for people to look at and try for themselves
-- Edit my own meals
-- Delete my meals if I want to
-- To browse meals created by others 
-- To access users profile information and connect via their social network links and or email address
-- To check the site for any new recipes for me to follow
+- To log in and out of my account.
+- To easily navigate through the pages.
+- Create my own meals for people to look at and try for themselves.
+- Edit my own meals.
+- Delete my meals if I want to.
+- To browse meals created by others.
+- To access users profile information and connect via their social network links and or email address.
+- To check the site for any new recipes for me to follow.
 ## *Site Owner goals*
 - To attract more people to eat healthily with straight forward information, macros belong on Google!. 
-- This is a straight talking recipe app (break away from the 5 shakes a day lifestyle)
+- This is a straight talking recipe app (break away from the 5 shakes a day lifestyle).
 ## *Future site goals*
-- Add functionalioty for users to be able to update their profile information
-- Add functionality to share recipes to external platforms like WhatsApp, Facebook and Instagram
+- Add functionalioty for users to be able to update their profile information.
+- Add functionality to share recipes to external platforms like WhatsApp, Facebook and Instagram.
 - Add more functionality to allow the user to share their profile to their external platforms if they wanted to use their profile to network.
-- Chop and change the recipes on the recipe page on a regular basis
-- Allow the user to download recipes from the site
-- Add a category function once the site has gained enough following to allow for easier navigation
-- Allow user to upload thjeir own images for the profile and meals
+- Chop and change the recipes on the recipe page on a regular basis.
+- Allow the user to download recipes from the site.
+- Add a category function once the site has gained enough following to allow for easier navigation.
+- Allow user to upload thjeir own images for the profile and meals.
 
 <br>
 
@@ -352,6 +353,22 @@ My meal looks great in detail, I can see all my information just like the ones t
 I think this is a great feature to have on a recipe site. It targets people that are in to the same thing. If any of the users are personal trainers of dieticians this can take a lot of headache out of contacting them as their contact information is right there. I can also learn about them a little though their likes and dislikes. We can all follow each other on social media and take inspiration from workouts and nutrition. It's a great thing to have on this site. Impressive.
 
 <br>
+
+### **Edit my own meals.**
+|Desktop | Phone | Tablet |
+| :---: | :---: | :---: |
+|![](/test-images/desktop-edit_meal-top.png) | ![](test-images/phone-edit_meal-top.png) | ![](test-images/tablet-edit_meal-top.png) |
+|![](/test-images/desktop-edit_meal-bottom.png)|![](test-images/phone-edit_meal-bottom.png) |![](test-images/tablet-edit_meal-bottom.png) |
+|![](/test-images/desktop-meal_updated.png)|![](test-images/phone-meal_updated.png) |![](test-images/tablet-meal_updated.png) |
+
+
+
+
+
+
+
+
+- Delete my meals if I want to.
 
 # **Deployment**
 
