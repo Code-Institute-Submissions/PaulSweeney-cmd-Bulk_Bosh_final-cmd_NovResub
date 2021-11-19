@@ -60,6 +60,7 @@
 - Incorporate sponsorship from supplement companies to promote their products
 - Link up the app to a fitness app
 - Share their recipes on social media and incorp[orate reaction buttons to each recipe
+- Add an image upload form so they dont have to copy and paste a URL
 
 <br>
 
