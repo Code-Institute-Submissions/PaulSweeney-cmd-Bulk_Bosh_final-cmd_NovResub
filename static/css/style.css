@@ -939,7 +939,6 @@ and (max-width : 480px) {
   and (-webkit-min-device-pixel-ratio: 2) { 
     .card .card-image img {
         height: 35vh;
-        width: 372px;
     }
     .meal-pic {
         max-width: 100%;
@@ -963,7 +962,7 @@ and (max-width : 480px) {
   and (-webkit-min-device-pixel-ratio: 3) {
     .card .card-image img {
         height: 28vh;
-        width: 372px;
+
     }
     .meal-pic {
         max-width: 100%;
