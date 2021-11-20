@@ -943,7 +943,7 @@ and (max-width : 480px) {
         margin-right: 13px;
     }
     .content-container.login-container {
-        margin-top: 30%;
+        margin-top: 12%;
     }
 }
 
@@ -974,7 +974,7 @@ and (max-width : 480px) {
         margin-left: 14px;
     }
     .content-container.login-container {
-        margin-top: 30%;
+        margin-top: 12%;
     }
 
 }
@@ -1004,9 +1004,14 @@ and (max-width : 480px) {
     .card .card-image img {
         height: 20vh;
         width: 100%;
-
     }
     .content-container.login-container {
         margin-top: 30%;
+    }
+    .content-container.home-container {
+        margin-top: 4%;
+    }
+    .content-container.about-container {
+        margin-top: 5%;
     }
 }
