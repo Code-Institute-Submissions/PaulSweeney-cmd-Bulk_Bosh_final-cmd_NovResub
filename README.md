@@ -119,6 +119,9 @@
 * [Desktop View](/static/images/MONITOR.png)
 * [Mobile View](/static/images/PHONE.png)
 * [Tablet View](/static/images/TABLET.png)
+* [Edit Meal](/static/images/EDIT-MEAL.png)
+* [Full Meal Page](/static/images/MEAL-PAGE.png)
+
 
 <br>
 
