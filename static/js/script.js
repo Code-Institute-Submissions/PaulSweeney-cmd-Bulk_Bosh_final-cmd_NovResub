@@ -1,8 +1,15 @@
+const nav = document.getElementsByName(".sidenav");
+
+const button = document.querySelector("#ing-btn");
+const form = document.getElementsById("#ingredients-form:last");
+
+
 $(document).ready(function(){
-    $('.sidenav').sidenav();
+  nav.sidenav();
     
 // cloning the ingredient html fields
-    $("body").on("click", "#ing-btn", function() {
-      $("#ingredients-form:last").clone().appendTo("#more_ingredients").find("input[type='text']").val("");
+    button.addEventListener("click", function() {
+      form.clone().appendTo("#more_ingredients").find("input[type='text']").val("");
     });
 });
+
