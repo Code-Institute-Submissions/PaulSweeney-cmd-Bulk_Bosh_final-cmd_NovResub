@@ -899,7 +899,7 @@ and (max-width : 480px) {
         font-size: 27px;
     }
     i.fab.fa-facebook-square.center {
-        margin-left: 40px;
+        margin-left: 5px;
     }
 
     .row.flashes {
@@ -934,7 +934,7 @@ and (max-width : 480px) {
         font-size: 27px;
     }
     i.fab.fa-facebook-square.center {
-        margin-left: 40px;
+        margin-left: 24px;
         margin-right: 13px;
     }
     .content-container.login-container {
@@ -962,8 +962,8 @@ and (max-width : 480px) {
         font-size: 27px;
     }
     i.fab.fa-facebook-square.center {
-        margin-left: 40px;
-        margin-right: 13px;
+        margin-left: 19px;
+        margin-right: 4px;
     }
     i.fab.fa-instagram {
         margin-left: 14px;
