@@ -1,23 +1,16 @@
-// $(document).ready(function(){
-//     $('.sidenav').sidenav();
-    
-// // cloning the ingredient html fields
-//     $("body").on("click", "#ing-btn", function() {
-//       $("#ingredients-form:last").clone().appendTo("#more_ingredients").find("input[type='text']").val("");
-//     });
-// });
+const nav = document.querySelector(".sidenav");
+const doc = document;
 
-const siteBody = document.querySelector("body");
-const button = document.querySelector("#ing-btn");
+const hi = document.querySelector("body");
+const button = document.getElementById("#ing-btn");
 const form = document.querySelector("#ingredients-form:last");
-const more = document.querySelector("#more_ingredients");
-const doc = document.querySelector(document);
-const side = document.querySelector(".sidenav");
+const more = document.getElementById("#more_ingredients");
 
-doc.ready(function(){
-  side.sidenav();
-
-  siteBody.addEventListener("click", button, function(event) {
-    form.clone().appendTo(more).find("input[type='text']").val("");
+doc.ready(function() {
+    nav.sidenav();
+    
+// cloning the ingredient html fields
+    hi.on("click", button, function() {
+      form.clone().appendTo(more).find("input[type='text']").val("");
     });
 });
