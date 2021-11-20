@@ -377,19 +377,37 @@ The site brought up all my current meal information which works well as I can se
 **User Feedback**
 
 I was able to delete my meal instantly with no problems.
+
 <br>
 
 # **TESTING - Responsivness & Devices Used**
 
 ## Devices
+**Samsung Galaxy A21s**
+- Responsiveness = ```Good.```
+- Speed = ```Good.```
+- Imagery = ```Good.```
+- Resolution = ```Good.```
+- Issues regarding overlapping text, page structure different? = ```None found.```
+## Browsers
+**Google Chrome**
+- Responsiveness = ```Good.```
+- Speed = ```Good.```
+- Imagery = ```Good.```
+- Resolution = ```Good.```
+- Issues regarding overlapping text, page structure different? = ```None found.```
 
-Site was tested on a Samsung Galaxy A21s - respnsiveness and structure is good
+**Firefox**
+- Responsiveness = ```Good.```
+- Speed = ```Excellent.```
+- Imagery = ```Good.```
+- Resolution = ```Good.```
+- Issues regarding overlapping text, page structure different? = ```None found.```
 
+## Additional Comments
+Nothing to add.
 
-
-
-
-
+<br>
 
 # **Deployment**
 
