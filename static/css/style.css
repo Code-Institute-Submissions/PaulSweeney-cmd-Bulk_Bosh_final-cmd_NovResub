@@ -17,6 +17,7 @@ body {
     margin: 30px;
     padding: 50px;
 }
+
 .col.s12.col.m6 {
     width: 50%;
 }
@@ -29,7 +30,6 @@ body {
 .row.flashes {
     background-color: #070707e3;
 }
-
 
 h2.center-align.flash-header {
     text-align: center;
@@ -79,6 +79,7 @@ i.fas.fa-bars {
 }
 
 /* side nav home icon image */
+
 img.logo-image {
     height: 200px;
     width: 200px;
@@ -105,6 +106,7 @@ p {
 }
 
 /* font icons */
+
 .fa, .fas {
     font-weight: 900;
     font-size: 20px;
@@ -118,6 +120,7 @@ i.fas.fa-arrow-alt-circle-up {
 }
 
 /*  buttons */
+
 button.submit-button {
     color: #fafafa;
     font-size: 30px;
@@ -256,6 +259,7 @@ hr.menu-header-hr {
 }
 
 /* recipe cards */
+
 .row.meal-row {
     margin-top: 15px;
 }
@@ -284,6 +288,7 @@ hr.meal-title-divider {
 }
 
 /* user hyperlink styling */
+
 a.created-by {
     font-size: 20px;
     font-weight: 600;
@@ -334,6 +339,7 @@ p.view-description {
     font-family: 'Barlow', sans-serif;
     font-size: 22px;
 }
+
 hr {
     display: block;
     height: 1px;
@@ -377,6 +383,7 @@ p.cook-prep {
 }
 
 /* ------------------------------------ Register Page */
+
 .register-form-guide {
     margin-left: 11px;
     font-size: 15px;
@@ -396,6 +403,7 @@ h3.social-link-header {
 }
 
 /* register form */
+
 .card-panel {
     padding: 24px;
     margin: .5rem 0 1rem 0;
@@ -424,10 +432,12 @@ button.submit-button {
 }
 
 /* input fields */
+
 .input-field.col label {
     left: .75rem;
     color: white;
 }
+
 input#password {
     color: #fafafa;
 }
@@ -474,10 +484,12 @@ input#instagram {
     padding: 10px;
     margin-top: 30px;
 }
+
 .content-container.creator-container {
     display: block;
     margin-top: 5%;
 }
+
 .content-container.profile-container {
     margin-top: 10%;
 }
@@ -504,6 +516,7 @@ img.profile-image.rounded-circle {
 }
 
 /* user info */
+
 p.profile-name {
     padding-bottom: 0px;
     
@@ -551,6 +564,7 @@ i.far.fa-heart {
     font-size: 40px;
     margin-right: 5px;
 }
+
 i.far.fa-thumbs-down {
     color: #5ca7e7;
     font-size: 40px;
@@ -558,6 +572,7 @@ i.far.fa-thumbs-down {
 }
 
 /* social links */
+
 i.fab.fa-instagram {
     color: #5ca7e7;
     margin-left: 5px;
@@ -571,12 +586,14 @@ i.fab.fa-facebook-square.center {
 }
 
 /* ------------------------------------ Add recipes Page */
+
 .row .col.s12 {
     width: 100%;
     margin-left: auto;
     left: auto;
     right: auto;
 }
+
 h3.form-header{
     color: #fafafa;
     font-family: 'Barlow', sans-serif;
@@ -595,6 +612,7 @@ input#servings,
 input#meal_instructions {
     color: #fafafa;
 }
+
 input[type="text"] {
     color: #fafafa;
 }
@@ -602,6 +620,7 @@ input[type="text"] {
 input[type="number"] {
     color: #fafafa;
 }
+
 .form-guide {
     margin-left: 10px;
     margin-bottom: 2rem;
@@ -729,6 +748,7 @@ h3.edit-form-header{
 }
 
 /* iPhone 5 */
+
 @media only screen and (min-width : 320px) 
 and (max-width : 480px) {
     /* general */
@@ -753,27 +773,33 @@ and (max-width : 480px) {
     }
 
     /* login page & form styling */
+
     .content-container.login-container {
         display: block;
         margin-top: 10%;
     }
+
     h3.register-header.center-align {
         font-size: 35px;
     }
+
     p.registered-text.center-align {
         font-size: 17px;
         font-weight: 800;
         margin-top: 30px;
     }
+
     h3.form-header {
         font-size: 35px;
     }
+
     h1.menu-header {
         font-size: 35px;
         margin-top: 15px;
     }
 
     /* meal card */
+
     .card .card-image img {
         display: block;
         border-radius: 2px 2px 0 0;
@@ -793,20 +819,24 @@ and (max-width : 480px) {
         font-size: 16px;
         padding: 7px;
     }
+
     .row.benefits.center-align {
         display: flex;
         flex-direction: column;
     }
+
     p.center-align {
         font-family: 'Barlow', sans-serif;
         font-size: 22px;
     }
+
     h3.home-header.center-align {
         color: #fafafa;
         font-family: 'Barlow', sans-serif;
         font-size: 45px;
     }
     /* full meal page */
+
     .container-fluid.nutrition-container {
         display: flex;
         flex-wrap: wrap;
@@ -817,6 +847,7 @@ and (max-width : 480px) {
         margin: 0;
         font-size: 20px;
     }
+
     p.calories,
     p.carbs,
     p.protein {
@@ -825,42 +856,52 @@ and (max-width : 480px) {
         font-weight: 600;
         font-size: 20px;
     }
+
     p.protein {
         margin-bottom: 10px;
     }
+
     .content-container.meal-container {
         display: block;
         margin-top: 10%;
         padding: 4px;
         border-radius: 0;
     }
+
     h2.ingredients-header, h2.directions-header {
         font-size: 32px;
         margin-bottom: 27px;
     }
+
     .ingredients-list {
         font-size: 18px;
     }
+
     p.view-description {
         font-family: 'Barlow', sans-serif;
         font-size: 20px;
     }
+
     h3.view-header {
         font-size: 30px;
     }
+
     p.cook-prep {
         font-size: 17px;
     }
+
     i.far.fa-hourglass,
     i.fas.fa-utensils {
         font-size: 18px;
     }
+
     .col-s12.image-div {
         margin-top: 1px;
         margin-bottom: 35px;
     }
 
     /* login */
+
     button.submit-button {
         font-size: 16px;
         font-weight: 100;
@@ -868,23 +909,29 @@ and (max-width : 480px) {
     }
 
     /* profile */
+
     .profile-name-header {
         font-size: 30px;
     }
+
     strong {
         font-size: 20px;
     }
+
     i.far.fa-heart,
     i.far.fa-thumbs-down {
         font-size: 30px;
     }
+
     p.about {
         font-size: 30px;
     }
+
     p.email {
         font-size: 30px;
         margin: 0;
     }
+
     .content-container.creator-container {
         display: block;
     }
@@ -898,6 +945,7 @@ and (max-width : 480px) {
     i.fab.fa-instagram {
         font-size: 27px;
     }
+
     i.fab.fa-facebook-square.center {
         margin-left: 5px;
     }
@@ -925,6 +973,7 @@ and (max-width : 480px) {
 }
 
 /* iPhone 6,7,8 */
+
 @media only screen 
   and (min-width: 375px) 
   and (max-width: 667px) 
@@ -933,30 +982,36 @@ and (max-width : 480px) {
         height: 28vh;
         width: 100%;
     }
+
     .meal-pic {
         max-width: 100%;
         height: 30vh;
     }
+
     i.fab.fa-facebook-square.center,
     i.fab.fa-instagram {
         font-size: 27px;
     }
+
     i.fab.fa-facebook-square.center {
         margin-left: 100px;
         margin-right: 13px;
     }
+
     .content-container.login-container {
         margin-top: 12%;
     }
+
     a.brand-logo.left {
         margin-left: 40px;
     }
+
     .row.contact-info {
         margin-top: 24px;
     }
 }
 
-/* iPhone 6,7,8+ */
+/* iPhone 6, 7, 8 + */
 
 @media only screen 
   and (min-width: 414px) 
@@ -967,27 +1022,34 @@ and (max-width : 480px) {
         width: 100%;
 
     }
+
     .meal-pic {
         max-width: 100%;
         height: 30vh;
     }
+
     i.fab.fa-facebook-square.center,
     i.fab.fa-instagram {
         font-size: 27px;
     }
+
     i.fab.fa-facebook-square.center {
         margin-left: 19px;
         margin-right: 4px;
     }
+
     i.fab.fa-instagram {
         margin-left: 14px;
     }
+
     .content-container.login-container {
         margin-top: 12%;
     }
+
     a.brand-logo.left {
         margin-left: 40px;
     }
+
     .row.contact-info {
         margin-top: 24px;
     }
@@ -995,6 +1057,7 @@ and (max-width : 480px) {
 }
 
 /* Monitors */
+
 @media only screen 
   and (min-width: 768px) 
   and (max-width: 1024px) 
@@ -1010,25 +1073,31 @@ and (max-width : 480px) {
 }
 
 /* iPad */
+
 @media only screen 
   and (min-width: 768px)
   and (max-width: 1024px) {
     .meal-pic {
           height: 30vh;
     }
+
     .card .card-image img {
         height: 20vh;
         width: 100%;
     }
+
     .content-container.login-container {
         margin-top: 30%;
     }
+
     .content-container.home-container {
         margin-top: 4%;
     }
+
     .content-container.about-container {
         margin-top: 5%;
     }
+    
     a.brand-logo.left {
         margin-left: 40px;
     }

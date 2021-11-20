@@ -16,8 +16,8 @@
                     Recipe name must be between 10 and 25 characters long.
                 </div>
             </div>
-             <!-- description -->
-             <div class="row">
+            <!-- description -->
+            <div class="row">
                 <div class="input-field col s12">
                     <input id="meal_description" name="meal_description" minlength="10" maxlength="300"
                         value="{{ meal.meal_description }}" type="text" class="validate" required>
@@ -30,12 +30,13 @@
             <!-- image url -->
             <div class="row">
                 <div class="input-field col s12">
-                    <input id="url" name="url" minlength="10" maxlength="600"  value="{{ meal.url }}" 
-                        type="text" class="validate" required>
+                    <input id="url" name="url" minlength="10" maxlength="600" value="{{ meal.url }}" type="text"
+                        class="validate" required>
                     <label for="url">Feel free to include and image url here</label>
                 </div>
                 <div class="form-guide">
-                    Please make sure you include the entire updated image url including https:// - images must have a height of 960 pixels and a width of 540 pixels.
+                    Please make sure you include the entire updated image url including https:// - images must have a
+                    height of 960 pixels and a width of 540 pixels.
                 </div>
             </div>
             <!-- ingredients fields -->
@@ -44,25 +45,25 @@
                 <div class="row">
                     {% for ingredient in meal.meal_ingredients %}
                     <div class="input-field col s12">
-                        <input name="ingredient_name" minlength="5" maxlength="60"
-                            value="{{ ingredient.ingredient_name }}" type="text" class="validate"required>
-                        <label for="name">Name</label>
+                        <input id="ingredient_name" name="ingredient_name" minlength="5" maxlength="60"
+                            value="{{ ingredient.ingredient_name }}" type="text" class="validate" required>
+                        <label for="ingredient_name">Name</label>
                     </div>
                     <div class="form-guide">
                         Ingredient name must be between 5 and 60 characters long.
                     </div>
                     <div class="input-field col s12">
-                        <input name="ingredient_quantity" type="number" min="1" max="100"
+                        <input id="ingredient_quantity" name="ingredient_quantity" min="1" max="100"
                             value="{{ ingredient.ingredient_quantity }}" type="number" class="validate" required>
-                        <label for="quantity">Quantity</label>
+                        <label for="ingredient_quantity">Quantity</label>
                     </div>
                     <div class="form-guide">
                         Quantity number can be from 1 to 100.
                     </div>
                     <div class="input-field col s12">
-                        <input name="ingredient_unit" minlength="1" maxlength="15"
+                        <input id="ingredient_unit" name="ingredient_unit" minlength="1" maxlength="15"
                             value="{{ ingredient.ingredient_unit }}" type="text" class="validate" required>
-                        <label for="measurement">Measurement</label>
+                        <label for="ingredient_unit">Measurement</label>
                     </div>
                     <div class="form-guide">
                         Please only use the following units of measurement: tbsp, tsp, cup, ltr, ml etc.
@@ -70,14 +71,14 @@
                     {% endfor %}
                 </div>
             </div>
-             <!-- empty ingredient div -->
-             <div id="more_ingredients">
+            <!-- empty ingredient div -->
+            <div id="more_ingredients">
             </div>
             <!-- nutrition -->
             <h3 class="edit-form-header">Nutrition</h3>
             <div class="row">
                 <div class="input-field col s12">
-                    <input id="calories" name="calories" minlength="1" maxlength="10"  value="{{ meal.calories }}"
+                    <input id="calories" name="calories" minlength="1" maxlength="10" value="{{ meal.calories }}"
                         type="text" class="validate" required>
                     <label for="calories">Calories</label>
                 </div>
@@ -87,36 +88,38 @@
             </div>
             <div class="row">
                 <div class="input-field col s12">
-                    <input id="carbs" name="carbs" minlength="1" maxlength="10"  value="{{ meal.carbs }}"
-                        type="text" class="validate" required>
+                    <input id="carbs" name="carbs" minlength="1" maxlength="10" value="{{ meal.carbs }}" type="text"
+                        class="validate" required>
                     <label for="carbs">Carbs</label>
                 </div>
             </div>
             <div class="row">
                 <div class="input-field col s12">
-                    <input id="protein" name="protein" minlength="1" maxlength="10" value="{{ meal.protein }}" 
+                    <input id="protein" name="protein" minlength="1" maxlength="10" value="{{ meal.protein }}"
                         type="text" class="validate" required>
                     <label for="protein">Protein</label>
                 </div>
                 <div class="form-guide">
-                    Please only use 'g' for your unit of measurement for the carbs and protien field. Maximum character amount is 10.
+                    Please only use 'g' for your unit of measurement for the carbs and protien field. Maximum character
+                    amount is 10.
                 </div>
             </div>
             <!-- prep time & serving -->
             <h3 class="edit-form-header">Prep</h3>
             <div class="row">
                 <div class="input-field col s12">
-                    <input id="cooking_time" name="cooking_time" minlength="1" maxlength="10" value="{{ meal.cooking_time }}" 
-                        type="text" class="validate" required>
+                    <input id="cooking_time" name="cooking_time" minlength="1" maxlength="10"
+                        value="{{ meal.cooking_time }}" type="text" class="validate" required>
                     <label for="cooking_time">Cooking Time</label>
                 </div>
                 <div class="form-guide">
-                    Cooking time must be between 1 and 10 characters long. Make sure you include the length of time i.e. hrs, mins.
+                    Cooking time must be between 1 and 10 characters long. Make sure you include the length of time i.e.
+                    hrs, mins.
                 </div>
             </div>
             <div class="row">
                 <div class="input-field col s12">
-                    <input id="servings" name="servings" minlength="1" maxlength="100" value="{{ meal.servings }}" 
+                    <input id="servings" name="servings" value="{{ meal.servings }}"
                         type="number" class="validate" required>
                     <label for="servings">Servings</label>
                 </div>
@@ -124,32 +127,31 @@
                     Servings can be from 1 to 100 using numbers only.
                 </div>
             </div>
-             <!-- directions -->
-             <h3 class="edit-form-header">Directions</h3>
-             <div class="row">
-                 <div class="input-field col s12">
-                     <input id="meal_instructions" name="meal_instructions" minlength="10"
-                            value="{{ meal.meal_instructions }}" type="text" class="validate" required>
+            <!-- directions -->
+            <h3 class="edit-form-header">Directions</h3>
+            <div class="row">
+                <div class="input-field col s12">
+                    <input id="meal_instructions" name="meal_instructions" minlength="10"
+                        value="{{ meal.meal_instructions }}" type="text" class="validate" required>
                 </div>
                 <div class="form-guide">
                     Directions must be a minumum of 10 characters long.
                 </div>
-             </div>
-                <!-- cancel button -->
-                <div class="input-field col s12 center-align">
-                    <div class="row">
-                        <a href="{{ url_for('get_meals') }}" id="ing-btn">
-                            Cancel Update
-                        </a>
-                    </div>
-                </div>
-                <!-- add meal button -->
+            </div>
+            <!-- cancel button -->
+            <div class="input-field col s12 center-align">
                 <div class="row">
-                    <div class="col s12 center-align">
-                        <button type="submit" class="add-meal-button">
-                            Update
-                        </button>
-                    </div>
+                    <a href="{{ url_for('get_meals') }}" id="ing-btn">
+                        Cancel Update
+                    </a>
+                </div>
+            </div>
+            <!-- add meal button -->
+            <div class="row">
+                <div class="col s12 center-align">
+                    <button type="submit" class="add-meal-button">
+                        Update
+                    </button>
                 </div>
             </div>
         </form>
