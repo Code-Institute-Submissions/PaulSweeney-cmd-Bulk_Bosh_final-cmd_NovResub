@@ -387,6 +387,7 @@ h3.register-header.center-align {
     color: #fafafa;
     font-family: 'Barlow', sans-serif;
     font-size: 50px;
+    margin-bottom: 0;
 }
 
 h3.social-link-header {
@@ -805,9 +806,6 @@ and (max-width : 480px) {
         font-family: 'Barlow', sans-serif;
         font-size: 45px;
     }
-    h3.register-header.center-align {
-        font-size: 35px;
-    }
     /* full meal page */
     .container-fluid.nutrition-container {
         display: flex;
@@ -914,9 +912,6 @@ and (max-width : 480px) {
 
     .card-panel {
         margin-top: 0;
-    }
-    .content-container.login-container {
-        margin-top: 6px;
     }
 
 }
