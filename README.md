@@ -381,7 +381,12 @@ I was able to delete my meal instantly with no problems.
 
 # **TESTING - Responsivness & Devices Used**
 
-Devices
+## Devices
+
+Site was tested on a Samsung Galaxy A21s - respnsiveness and structure is good
+
+
+
 
 
 
