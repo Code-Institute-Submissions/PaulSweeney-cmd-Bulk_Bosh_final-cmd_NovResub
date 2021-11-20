@@ -412,15 +412,18 @@ Nothing to add.
 ## Validators
 
 * [CSS](validator-images/CSS-Validator.png)
-* [Home](validator-images/HTML-Home.png)
-* [Who We Are](validator-images/HTML-About.png)
-* [All Meals](validator-images/HTML-Menu.png)
-* [Full Meal Page](validator-images/HTML-Meal.png)
-* [Login](validator-images/HTML-Login.png)
-* [Register](validator-images/HTML-Register.png)
-* [Profile](validator-images/HTML-Profile.png)
-* [Add Meal](validator-images/HTML-Add-meal.png)
-* [Edit Meal](validator-images/HTML-Edit-meal.png)
+* [Javascript](validator-images/JS-Validator.png)
+* [Python](validator-images/Python-Pep8-Validator.png)
+* [Html - Home](validator-images/HTML-Home.png)
+* [Html - Who We Are](validator-images/HTML-About.png)
+* [Html - All Meals](validator-images/HTML-Menu.png)
+* [Html - Full Meal Page](validator-images/HTML-Meal.png)
+* [Html - Login](validator-images/HTML-Login.png)
+* [Html - Register](validator-images/HTML-Register.png)
+* [Html - Profile](validator-images/HTML-Profile.png)
+* [Html - Add Meal](validator-images/HTML-Add-meal.png)
+* [Html - Edit Meal](validator-images/HTML-Edit-meal.png)
+
 
 <br>
 
@@ -495,13 +498,8 @@ Create a requirements.txt file type the following into your terminal: pip3 freez
 * Enter the environment variables and their values you entered in to your environment variable file in GitHub
 * Once you have completed those fields click on Automatic Deploys and select the Deploy Branch button, this will then connect to GitHub and a code window will open up below and start to build your app
 * Once it has finished select View and you'll be abkle to see any code you wrote to test your repository.
-
-
 ## <p align="center">```Happy Coding!```</p>
-# 
-## *Assessment Feedback*
-This can be found in a seperate file [Here](/Assessment_feedback.md). This file includes the issues highlighted and what I've done to improve and rectify them. 
-#
+
 <br>
 
 ## *Credits and Acknowledgements*
