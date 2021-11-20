@@ -411,14 +411,18 @@ Nothing to add.
 
 ## Validators
 
-[CSS](test-images/validators/CSS-Validator.png)
-[Home](test-images/validators/HTML-Home.png)
-[Who We Are](test-images/validators/HTML-About.png)
-[All Meals](test-images/validators/HTML-Menu.png)
-[Full Meal Page](test-images/validators/HTML-Meal.png)
-[Login](test-images/validators/HTML-Login.png)
-[Profile](test-images/validators/HTML-Profile.png)
-[Add Meal](test-images/validators/HTML-Add-meal.png)
+* [CSS](validator-images/CSS-Validator.png)
+* [Home](validator-images/HTML-Home.png)
+* [Who We Are](validator-images/HTML-About.png)
+* [All Meals](validator-images/HTML-Menu.png)
+* [Full Meal Page](validator-images/HTML-Meal.png)
+* [Login](validator-images/HTML-Login.png)
+* [Register](validator-images/HTML-Register.png)
+* [Profile](validator-images/HTML-Profile.png)
+* [Add Meal](validator-images/HTML-Add-meal.png)
+* [Edit Meal](validator-images/HTML-Edit-meal.png)
+
+<br>
 
 # **Deployment**
 
