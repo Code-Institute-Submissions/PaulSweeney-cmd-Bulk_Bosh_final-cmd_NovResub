@@ -753,8 +753,8 @@ and (max-width : 480px) {
 
     /* login page & form styling */
     .content-container.login-container {
-            display: block;
-            margin-top: 55px;
+        display: block;
+        margin-top: 10%;
     }
     h3.register-header.center-align {
         font-size: 35px;
