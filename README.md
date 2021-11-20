@@ -500,8 +500,7 @@ Create a requirements.txt file type the following into your terminal: pip3 freez
 * Once it has finished select View and you'll be abkle to see any code you wrote to test your repository.
 ## <p align="center">```Happy Coding!```</p>
 
-<br>
-
+#
 ## *Credits and Acknowledgements*
 - Recipe card bug was discussed and resolved with Scott from Tutor Support at [Code Institute](https://codeinstitute.net//)
 - Add meal function in python was discussed in depth with Sheryl from Tutor support at [Code Institute](https://codeinstitute.net//)
